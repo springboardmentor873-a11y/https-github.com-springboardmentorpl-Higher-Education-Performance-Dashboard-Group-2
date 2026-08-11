@@ -1,0 +1,1502 @@
+2026 Rank,Previous Rank,Institution Name,Country/Territory,Region,Size,Focus,Research,Status,AR SCORE
+1,1,Massachusetts Institute of Technology (MIT),United States of America,Americas,M,CO,VH,Private not for Profit,100
+2,2,Imperial College London,United Kingdom,Europe,L,FO,VH,Public,99.6
+3,6,Stanford University,United States of America,Americas,L,FC,VH,Private not for Profit,100
+4,3,University of Oxford,United Kingdom,Europe,L,FC,VH,Public,100
+5,4,Harvard University,United States of America,Americas,L,FC,VH,Private not for Profit,100
+6,5,University of Cambridge,United Kingdom,Europe,L,FC,VH,Public,100
+7,7,ETH Zurich (Swiss Federal Institute of Technology),Switzerland,Europe,L,FO,VH,Public,99.7
+8,8,National University of Singapore (NUS),Singapore,Asia,XL,FC,VH,Public,99.9
+9,9,UCL (University College London),United Kingdom,Europe,XL,FC,VH,Public,99.9
+10,10,California Institute of Technology (Caltech),United States of America,Americas,S,FO,VH,Private not for Profit,98.3
+11,17,The University of Hong Kong,"Hong Kong SAR, China",Asia,L,FC,VH,Public,99.3
+12,15,"Nanyang Technological University, Singapore (NTU Singapore)",Singapore,Asia,L,FC,VH,Public,97.1
+13,21,University of Chicago,United States of America,Americas,L,FC,VH,Private not for Profit,99.8
+14,14,Peking University,China (Mainland),Asia,XL,FC,VH,Public,99.9
+15,11,University of Pennsylvania,United States of America,Americas,L,FC,VH,Private not for Profit,98.9
+16,16,Cornell University,United States of America,Americas,L,FC,VH,Private not for Profit,99.5
+17,20,Tsinghua University,China (Mainland),Asia,XL,FC,VH,Public,99.9
+17,12,"University of California, Berkeley (UCB)",United States of America,Americas,XL,FC,VH,Public,100
+19,13,The University of Melbourne,Australia,Oceania,XL,FC,VH,Public,99.7
+20,19,The University of New South Wales,Australia,Oceania,XL,FC,VH,Public,96.3
+21,23,Yale University,United States of America,Americas,L,FC,VH,Private not for Profit,100
+22,26,École Polytechnique Fédérale de Lausanne,Switzerland,Europe,M,FO,VH,Public,92.7
+22,28,Technical University of Munich,Germany,Europe,XL,FO,VH,Public,92
+24,32,Johns Hopkins University,United States of America,Americas,L,FC,VH,Private not for Profit,93.2
+25,22,Princeton University,United States of America,Americas,M,CO,VH,Private not for Profit,100
+25,18,The University of Sydney,Australia,Oceania,XL,FC,VH,Public,98.9
+27,29,McGill University,Canada,Americas,L,FC,VH,Public,98.1
+28,24,PSL University,France,Europe,L,CO,VH,Public,82.6
+29,25,University of Toronto,Canada,Americas,XL,FC,VH,Public,100
+30,39,Fudan University,China (Mainland),Asia,XL,FC,VH,Public,93.7
+31,40,King's College London (KCL),United Kingdom,Europe,XL,FC,VH,Public,96.2
+32,30,Australian National University,Australia,Oceania,L,FC,VH,Public,97.9
+32,36,The Chinese University of Hong Kong,"Hong Kong SAR, China",Asia,L,FC,VH,Public,94.2
+34,27,University of Edinburgh,United Kingdom,Europe,XL,FC,VH,Public,99.6
+35,34,The University of Manchester,United Kingdom,Europe,XL,FC,VH,Public,98.6
+36,37,Monash University,Australia,Oceania,XL,FC,VH,Public,95.7
+36,32,The University of Tokyo,Japan,Asia,L,FC,VH,Public,100
+38,34,Columbia University,United States of America,Americas,XL,FC,VH,Private not for Profit,99.9
+38,31,Seoul National University,Republic of Korea,Asia,L,FC,VH,Public,99.7
+40,38,University of British Columbia,Canada,Americas,XL,FC,VH,Public,99.6
+41,46,Institut Polytechnique de Paris,France,Europe,M,CO,VH,Public,58.1
+42,50,Northwestern University,United States of America,Americas,L,FC,VH,Private not for Profit,92.2
+42,40,The University of Queensland,Australia,Oceania,XL,FC,VH,Public,94.3
+44,47,The Hong Kong University of Science and Technology,"Hong Kong SAR, China",Asia,M,FO,VH,Public,89.4
+45,44,University of Michigan-Ann Arbor,United States of America,Americas,XL,FC,VH,Public,99.3
+46,42,"University of California, Los Angeles (UCLA)",United States of America,Americas,XL,FC,VH,Public,100
+47,49,Delft University of Technology,Netherlands,Europe,L,CO,VH,Public,86.2
+47,45,Shanghai Jiao Tong University,China (Mainland),Asia,XL,FC,VH,Public,92.7
+49,47,Zhejiang University,China (Mainland),Asia,XL,FC,VH,Public,87
+50,56,Yonsei University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,91.6
+51,54,University of Bristol,United Kingdom,Europe,XL,FC,VH,Public,87.3
+52,58,Carnegie Mellon University,United States of America,Americas,L,FC,VH,Private not for Profit,80.1
+53,55,The University of Amsterdam,Netherlands,Europe,XL,FC,VH,Public,92.5
+54,57,The Hong Kong Polytechnic University,"Hong Kong SAR, China",Asia,L,CO,VH,Public,81.2
+55,43,New York University (NYU),United States of America,Americas,XL,FC,VH,Private not for Profit,98.6
+56,50,London School of Economics and Political Science (LSE),United Kingdom,Europe,L,FO,VH,Public,80.6
+57,50,Kyoto University,Japan,Asia,L,FC,VH,Public,99.7
+58,59,Ludwig-Maximilians-Universität München,Germany,Europe,XL,FC,VH,Public,97.1
+58,60,Universiti Malaya (UM),Malaysia,Asia,L,FC,VH,Public,92.3
+60,63,KU Leuven,Belgium,Europe,XL,FC,VH,Public,93
+61,67,Korea University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,89.2
+62,61,Duke University,United States of America,Americas,L,FC,VH,Private not for Profit,92.9
+63,62,City University of Hong Kong,"Hong Kong SAR, China",Asia,M,CO,VH,Public,75.5
+63,68,National Taiwan University (NTU),Taiwan,Asia,L,FC,VH,Public,97.7
+65,65,The University of Auckland,New Zealand,Oceania,XL,FC,VH,Public,91.7
+66,72,"University of California, San Diego (UCSD)",United States of America,Americas,XL,FC,VH,Public,94
+67,101,King Fahd University of Petroleum & Minerals,Saudi Arabia,Asia,M,FO,VH,Public,53.5
+68,66,University of Texas at Austin,United States of America,Americas,XL,FC,VH,Public,97.6
+69,79,Brown University,United States of America,Americas,M,FC,VH,Private not for Profit,72.4
+70,73,Université Paris-Saclay,France,Europe,XL,CO,VH,Public,75.3
+70,69,University of Illinois at Urbana-Champaign,United States of America,Americas,XL,FC,VH,Public,91.7
+72,75,Lund University,Sweden,Europe,L,FC,VH,Public,80.1
+72,63,Sorbonne University (merged from Paris IV & UPMC),France,Europe,XL,FC,VH,Public,93.2
+74,69,The University of Warwick,United Kingdom,Europe,L,FC,VH,Public,82.7
+75,87,"Trinity College Dublin, The University of Dublin",Ireland,Europe,L,FC,VH,Public,82.5
+76,80,University of Birmingham,United Kingdom,Europe,XL,FC,VH,Public,81.1
+77,77,The University of Western Australia,Australia,Oceania,L,FC,VH,Public,69
+78,74,KTH Royal Institute of Technology,Sweden,Europe,L,FO,VH,Public,60.2
+79,78,University of Glasgow,United Kingdom,Europe,XL,FC,VH,Public,88.3
+80,84,Ruprecht-Karls-Universität Heidelberg,Germany,Europe,L,FO,VH,Public,87.1
+81,76,University of Washington,United States of America,Americas,XL,FC,VH,Public,90.1
+82,,Adelaide University,Australia,Oceania,XL,CO,VH,,78.3
+82,89,Pennsylvania State University,United States of America,Americas,XL,FC,VH,Public,86.1
+84,71,Universidad de Buenos Aires,Argentina,Americas,XL,FC,VH,Public,98.1
+85,84,Tokyo Institute of Technology,Japan,Asia,M,FO,VH,Public,85
+86,82,University of Leeds,United Kingdom,Europe,XL,FC,VH,Public,81.8
+87,80,University of Southampton,United Kingdom,Europe,L,FC,VH,Public,62.6
+88,108,Boston University,United States of America,Americas,L,FC,VH,Private not for Profit,75.3
+88,97,Freie Universität Berlin,Germany,Europe,L,FC,VH,Public,88.3
+88,89,Purdue University,United States of America,Americas,XL,FC,VH,Public,74.3
+91,86,The University of Osaka,Japan,Asia,L,FC,VH,Public,90.5
+92,105,The University of Sheffield,United Kingdom,Europe,L,FC,VH,Public,73
+93,103,Uppsala University,Sweden,Europe,L,FC,VH,Public,74.7
+94,89,Durham University,United Kingdom,Europe,L,FC,VH,Public,74.1
+94,96,University of Alberta,Canada,Americas,XL,FC,VH,Public,70.9
+96,88,University of Technology Sydney,Australia,Oceania,L,CO,VH,Public,58.7
+97,108,The University of Nottingham,United Kingdom,Europe,XL,FC,VH,Public,75.4
+98,102,Karlsruhe Institute of Technology (KIT),Germany,Europe,L,FO,VH,Public,57.1
+98,111,Politecnico di Milano,Italy,Europe,XL,CO,VH,Public,83.4
+100,109,University of Zurich (UZH),Switzerland,Europe,L,FO,VH,Public,71
+101,100,University of Copenhagen,Denmark,Europe,XL,FC,VH,Public,85.5
+102,98,Pohang University of Science And Technology (POSTECH),Republic of Korea,Asia,S,FO,VH,Private not for Profit,61.3
+103,145,Nanjing University,China (Mainland),Asia,XL,FC,VH,Public,72.1
+103,105,Utrecht University,Netherlands,Europe,XL,FC,VH,Public,79.3
+105,94,Lomonosov Moscow State University,Russian Federation,Europe,L,FC,VH,Public,83.7
+105,99,Rheinisch-Westfälische Technische Hochschule Aachen,Germany,Europe,L,FC,VH,Public,57.7
+107,109,Technical University of Denmark,Denmark,Europe,M,FO,VH,Public,44.8
+108,92,Universidade de São Paulo (USP),Brazil,Americas,XL,FC,VH,Public,97.3
+109,107,Tohoku University,Japan,Asia,L,FC,VH,Public,84.5
+110,120,Queen Mary University of London (QMUL),United Kingdom,Europe,L,FC,VH,Public,63.6
+110,116,University of Wisconsin-Madison,United States of America,Americas,XL,FC,VH,Public,85.7
+112,122,Qatar University,Qatar,Asia,M,FC,VH,Public,43.3
+113,104,University of St Andrews,United Kingdom,Europe,M,FO,VH,Public,61.5
+114,113,Aalto University,Finland,Europe,L,FO,VH,Public,57.5
+114,130,"University of California, Davis",United States of America,Americas,XL,FC,VH,Public,72.7
+116,93,Pontificia Universidad Católica de Chile,Chile,Americas,L,FC,VH,Private not for Profit,98
+116,117,University of Helsinki,Finland,Europe,L,CO,VH,Public,74.5
+118,126,University College Dublin,Ireland,Europe,L,FC,VH,Public,66.5
+119,141,Leiden University,Netherlands,Europe,XL,FC,VH,Public,80.4
+119,141,Rice University,United States of America,Americas,M,CO,VH,Private not for Profit,50.6
+119,119,University of Oslo,Norway,Europe,L,FC,VH,Public,67.8
+119,115,University of Waterloo,Canada,Americas,XL,CO,VH,Public,53
+123,114,Georgia Institute of Technology,United States of America,Americas,XL,CO,VH,Public,76
+123,150,Indian Institute of Technology Delhi (IITD),India,Asia,M,FO,VH,Public,67.9
+125,123,RMIT University,Australia,Oceania,XL,CO,VH,Public,55.1
+126,123,Sungkyunkwan University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,68.4
+126,138,Universiti Kebangsaan Malaysia (UKM),Malaysia,Asia,L,FC,VH,Public,76.2
+128,132,Sapienza University of Rome,Italy,Europe,XL,FC,VH,Public,90.7
+129,118,Indian Institute of Technology Bombay (IITB),India,Asia,L,FO,VH,Public,73.3
+130,126,Humboldt-Universität zu Berlin,Germany,Europe,XL,FC,VH,Public,94.3
+131,144,Aarhus University,Denmark,Europe,L,FC,VH,Public,68.3
+132,150,University of Bath,United Kingdom,Europe,L,CO,VH,Public,48.9
+132,133,University of Science and Technology of China,China (Mainland),Asia,L,CO,VH,Public,57.6
+134,148,Universiti Putra Malaysia (UPM),Malaysia,Asia,L,FC,VH,Public,75.7
+134,146,Universiti Sains Malaysia (USM),Malaysia,Asia,L,FC,VH,Public,77.6
+136,94,Universidad Nacional Autónoma de México (UNAM),Mexico,Americas,XL,FC,VH,Public,99.2
+137,129,Newcastle University,United Kingdom,Europe,L,FC,VH,Public,62.9
+138,133,Alma Mater Studiorum - University of Bologna,Italy,Europe,XL,FC,VH,Public,90.6
+138,133,Macquarie University,Australia,Oceania,L,FC,VH,Public,47.7
+140,136,Eindhoven University of Technology,Netherlands,Europe,M,FO,VH,Public,40.5
+140,158,Erasmus University Rotterdam,Netherlands,Europe,L,FO,VH,Public,49.4
+140,155,"University of North Carolina, Chapel Hill",United States of America,Americas,L,FC,VH,Public,72.2
+143,200,King Saud University,Saudi Arabia,Asia,XL,FC,VH,Public,54.8
+144,154,Texas A&M University,United States of America,Americas,XL,FC,VH,Public,72.9
+145,147,Technische Universität Berlin,Germany,Europe,L,CO,VH,Public,64.6
+146,125,University of Southern California,United States of America,Americas,XL,FC,VH,Private not for Profit,61.2
+147,128,Stockholm University,Sweden,Europe,L,CO,VH,Public,65.1
+147,159,University of Groningen,Netherlands,Europe,XL,FC,VH,Public,67.2
+147,165,University of Liverpool,United Kingdom,Europe,L,FC,VH,Public,60.7
+150,171,University of Cape Town,South Africa,Africa,L,FC,VH,Public,58.2
+151,120,Western University,Canada,Americas,L,FC,VH,Public,42.3
+152,137,University of Vienna,Austria,Europe,XL,FC,VH,Public,82.3
+153,181,Universiti Teknologi Malaysia (UTM),Malaysia,Asia,L,CO,VH,Public,64
+153,155,Wageningen University & Research,Netherlands,Europe,L,CO,VH,Public,55
+155,169,University of Exeter,United Kingdom,Europe,L,FC,VH,Public,57.9
+155,155,University of Geneva,Switzerland,Europe,L,FC,VH,Public,55.3
+157,141,Lancaster University,United Kingdom,Europe,L,FC,VH,Public,51.2
+158,131,University of Basel,Switzerland,Europe,M,FC,VH,Public,34
+159,162,Hanyang University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,58.2
+160,165,University of Barcelona,Spain,Europe,XL,FC,VH,Public,84.9
+161,152,Michigan State University,United States of America,Americas,XL,FC,VH,Public,67.3
+162,169,Ghent University,Belgium,Europe,XL,FC,VH,Public,68.2
+163,149,King Abdul Aziz University (KAU),Saudi Arabia,Asia,XL,FC,VH,Public,67.5
+164,152,Nagoya University,Japan,Asia,L,FC,VH,Public,74.2
+165,139,Chalmers University of Technology,Sweden,Europe,M,FO,VH,Private not for Profit,34.6
+166,163,Al-Farabi Kazakh National University,Kazakhstan,Asia,L,FC,HI,Public,60.7
+167,171,Washington University in St. Louis,United States of America,Americas,L,FC,VH,Private not for Profit,46.5
+168,159,University of Montreal,Canada,Americas,XL,FC,VH,Public,66.1
+169,184,University of York,United Kingdom,Europe,L,FC,VH,Public,56.8
+170,173,Hokkaido University,Japan,Asia,L,FC,VH,Public,71.5
+170,167,Kyushu University,Japan,Asia,L,FC,VH,Public,71.3
+172,175,Universitat Autónoma de Barcelona,Spain,Europe,XL,FC,VH,Public,76.4
+173,200,Arizona State University,United States of America,Americas,XL,CO,VH,Public,63.9
+173,176,McMaster University,Canada,Americas,L,FC,VH,Public,52.5
+173,139,Universidad de Chile,Chile,Americas,XL,FC,VH,Public,91.9
+176,210,National Tsing Hua University,Taiwan,Asia,M,CO,VH,Public,67
+177,202,Khalifa University of Science and Technology,United Arab Emirates,Asia,S,SP,VH,Public,34.3
+177,192,Tongji University,China (Mainland),Asia,XL,FC,VH,Public,45.2
+179,178,"University of California, Santa Barbara (UCSB)",United States of America,Americas,L,CO,VH,Public,65.3
+180,227,Indian Institute of Technology Madras (IITM),India,Asia,M,CO,VH,Public,56.8
+181,186,Cardiff University,United Kingdom,Europe,L,FC,VH,Public,60.1
+182,196,Emory University,United States of America,Americas,L,FC,VH,Private not for Profit,34.5
+183,174,Curtin University,Australia,Oceania,L,CO,VH,Public,46.3
+184,161,University of Bern,Switzerland,Europe,M,FC,VH,Public,38
+184,167,University of Wollongong,Australia,Oceania,L,FC,VH,Public,41.6
+186,194,Wuhan University,China (Mainland),Asia,XL,FC,VH,Public,53.6
+187,185,Tecnológico de Monterrey (ITESM),Mexico,Americas,XL,FC,HI,Private not for Profit,69.9
+187,164,University Complutense Madrid,Spain,Europe,XL,FC,VH,Public,78.5
+189,206,UNIVERSITAS INDONESIA,Indonesia,Asia,XL,FC,VH,Public,69.9
+190,208,Ohio State University,United States of America,Americas,XL,FC,VH,Public,71.1
+191,193,"Queen's University, Ontario",Canada,Americas,L,FC,VH,Public,50.9
+191,203,Université Catholique de Louvain (UCL),Belgium,Europe,L,FC,VH,Private not for Profit,61.7
+193,191,Universität Hamburg,Germany,Europe,L,FO,VH,Public,64
+194,172,University of Reading,United Kingdom,Europe,L,CO,VH,Public,45.7
+194,221,Vrije Universiteit Amsterdam,Netherlands,Europe,L,FC,VH,Public,53.3
+196,181,Waseda University,Japan,Asia,XL,CO,VH,Private not for Profit,73.6
+197,214,University of Otago,New Zealand,Oceania,L,FC,VH,Public,60
+197,190,Vienna University of Technology,Austria,Europe,M,FO,VH,Public,47.6
+199,219,National Yang Ming Chiao Tung University,Taiwan,Asia,L,FC,VH,Public,42.1
+199,206,Queen's University Belfast,United Kingdom,Europe,L,FC,VH,Public,49.6
+201,212,Universität Freiburg,Germany,Europe,L,FC,VH,Public,56.8
+202,194,University of Gothenburg,Sweden,Europe,L,FC,VH,Public,46.4
+203,215,National Cheng Kung University (NCKU),Taiwan,Asia,L,FC,VH,Public,66.4
+203,233,University of Twente,Netherlands,Europe,M,CO,VH,Public,29.3
+205,187,Ecole Normale Supérieure de Lyon,France,Europe,S,CO,VH,Public,41.7
+206,198,Universidad Autónoma de Madrid,Spain,Europe,XL,FC,VH,Public,73.1
+207,197,Deakin University,Australia,Oceania,XL,FC,VH,Public,42.3
+207,227,Rheinische Friedrich-Wilhelms-Universität Bonn,Germany,Europe,L,FC,VH,Public,67.7
+207,218,"University of Maryland, College Park",United States of America,Americas,XL,FC,VH,Public,57.2
+210,203,University of Minnesota (System),United States of America,Americas,XL,FC,VH,Public,68.6
+211,198,University of Calgary,Canada,Americas,XL,FC,VH,Public,47.6
+212,179,Universidad de Los Andes Colombia,Colombia,Americas,L,FC,HI,Private not for Profit,81.5
+212,215,University of Florida,United States of America,Americas,XL,FC,VH,Public,58.9
+212,224,University of Lausanne,Switzerland,Europe,L,FO,VH,Public,37
+215,222,Eberhard Karls Universität Tübingen,Germany,Europe,L,FC,VH,Public,61
+215,222,Indian Institute of Technology Kharagpur (IITKGP),India,Asia,L,CO,VH,Public,42.5
+215,188,Keio University,Japan,Asia,XL,FC,VH,Private not for Profit,65.5
+218,234,Technische Universität Dresden,Germany,Europe,L,FC,VH,Public,47.2
+219,211,Indian Institute of Science (IISc) Bangalore,India,Asia,M,SP,VH,Public,56.6
+219,189,University of Ottawa,Canada,Americas,XL,FC,VH,Public,35.8
+221,229,Chulalongkorn University,Thailand,Asia,XL,FC,VH,Public,82
+222,263,Indian Institute of Technology Kanpur (IITK),India,Asia,M,FO,VH,Public,49.4
+223,209,Tel Aviv University,Israel,Asia,L,FC,VH,Public,43.6
+224,239,Universitas Gadjah Mada,Indonesia,Asia,XL,FC,VH,Public,70.2
+225,224,Loughborough University,United Kingdom,Europe,L,CO,VH,Public,42.8
+226,213,Queensland University of Technology,Australia,Oceania,XL,CO,VH,Public,51.6
+227,179,The University of Newcastle,Australia,Oceania,L,FC,VH,Public,36
+227,230,Université Libre de Bruxelles (ULB),Belgium,Europe,L,FC,VH,Public,43.3
+229,261,United Arab Emirates University,United Arab Emirates,Asia,M,FC,VH,Public,43.3
+230,239,Massey University,New Zealand,Oceania,M,CO,VH,Public,42.1
+230,260,University of Lisbon,Portugal,Europe,XL,FC,VH,Public,57.1
+232,224,Universität Erlangen-Nürnberg,Germany,Europe,L,FC,VH,Public,37.9
+233,217,La Trobe University,Australia,Oceania,L,CO,VH,Public,33.4
+233,232,Universidade Estadual de Campinas (Unicamp),Brazil,Americas,XL,FC,VH,Public,81.7
+233,236,University of Padova,Italy,Europe,XL,FC,VH,Public,73.5
+236,236,University of Rochester,United States of America,Americas,M,FC,VH,Private not for Profit,27.1
+237,250,American University of Beirut (AUB),Lebanon,Asia,M,FC,VH,Private not for Profit,41.5
+237,278,University of Porto,Portugal,Europe,XL,FC,VH,Public,52.5
+239,230,Maastricht University,Netherlands,Europe,L,FO,VH,Public,32.8
+240,281,Hebrew University of Jerusalem,Israel,Asia,L,FC,VH,Public,42.9
+240,244,Victoria University of Wellington,New Zealand,Oceania,L,CO,VH,Public,57.2
+242,241,Politecnico di Torino,Italy,Europe,XL,FO,VH,Public,50.3
+243,252,Georg-August-Universität Göttingen,Germany,Europe,L,FC,VH,Public,57.3
+244,183,Hamad Bin Khalifa University,Qatar,Asia,S,FO,VH,Public,14.3
+244,252,Hong Kong Baptist University,"Hong Kong SAR, China",Asia,M,CO,VH,Public,28.3
+246,273,University College Cork,Ireland,Europe,L,FC,VH,Public,43.4
+247,271,Beijing Normal University,China (Mainland),Asia,L,CO,VH,Public,47.6
+247,243,Dartmouth College,United States of America,Americas,M,FC,VH,Private not for Profit,30.7
+247,275,"University of Massachusetts, Amherst",United States of America,Americas,L,CO,VH,Public,48.1
+250,248,Vanderbilt University,United States of America,Americas,L,FC,VH,Private not for Profit,32.3
+251,269,Universiti Teknologi Petronas (UTP),Malaysia,Asia,S,SP,VH,Private not for Profit,29.7
+251,281,University of Strathclyde,United Kingdom,Europe,L,CO,VH,Public,37.5
+253,251,Taylor's University (Malaysia),Malaysia,Asia,M,CO,VH,Private for Profit,40.2
+253,241,Technische Universität Darmstadt,Germany,Europe,L,CO,VH,Public,28.2
+255,256,Bandung Institute of Technology (ITB),Indonesia,Asia,L,CO,VH,Public,58.5
+256,252,Harbin Institute of Technology,China (Mainland),Asia,XL,FO,VH,Public,33.3
+257,269,Tianjin University,China (Mainland),Asia,L,CO,VH,Public,26.3
+257,283,Université Paris 1 Panthéon-Sorbonne,France,Europe,XL,FO,VH,Public,78
+259,302,Beijing Institute of Technology,China (Mainland),Asia,XL,FO,VH,Public,34.3
+259,219,Universidad Nacional de Colombia,Colombia,Americas,XL,FC,HI,Public,81.1
+261,261,University of Canterbury,New Zealand,Oceania,L,CO,VH,Public,48.8
+262,236,University of Aberdeen,United Kingdom,Europe,M,FC,VH,,40.1
+262,249,University of Navarra,Spain,Europe,L,FC,HI,Private not for Profit,40.8
+262,285,University of Surrey,United Kingdom,Europe,L,CO,VH,Public,29.7
+265,246,Charles University,Czechia,Europe,XL,FC,VH,Public,58.5
+265,265,Universitat Pompeu Fabra,Spain,Europe,M,FO,VH,Public,43.7
+267,264,Norwegian University of Science And Technology,Norway,Europe,XL,FC,VH,Public,45.9
+268,255,Griffith University,Australia,Oceania,L,FC,VH,Public,37.7
+269,285,Middle East Technical University,Türkiye,Asia,L,CO,VH,Public,44.8
+269,265,UCSI University,Malaysia,Asia,M,FO,VH,Private for Profit,40.7
+271,258,University of Warsaw,Poland,Europe,XL,CO,VH,Public,61
+272,332,American University of Sharjah (AUS),United Arab Emirates,Asia,M,CO,VH,Private not for Profit,31.7
+272,311,North Carolina State University,United States of America,Americas,XL,CO,VH,Public,36.4
+272,285,Universität zu Köln,Germany,Europe,L,FO,VH,Public,45
+275,297,University of Virginia,United States of America,Americas,L,FC,VH,Public,46.5
+276,331,Sun Yat-sen University,China (Mainland),Asia,XL,FC,VH,Public,45.4
+276,285,University of Milan,Italy,Europe,XL,FC,VH,Public,65.9
+278,246,University of Sussex,United Kingdom,Europe,L,FC,VH,Public,33.8
+279,272,Radboud University Nijmegen,Netherlands,Europe,L,FC,VH,Public,38.6
+280,267,University of Antwerp,Belgium,Europe,L,FC,VH,Public,35
+281,275,University of Pittsburgh,United States of America,Americas,L,FC,VH,Public,45.4
+281,235,University of Waikato,New Zealand,Oceania,M,CO,VH,Public,28.2
+283,275,Dalhousie University,Canada,Americas,L,FC,VH,Public,27.1
+284,273,University of Galway / Ollscoil na Gaillimhe,Ireland,Europe,L,FC,VH,Public,37.3
+285,301,Georgetown University,United States of America,Americas,L,FC,VH,Private not for Profit,38.2
+285,245,University of Macau,"Macao SAR, China",Asia,L,CO,VH,Public,18.5
+287,256,Heriot-Watt University,United Kingdom,Europe,M,CO,VH,Public,25.7
+287,308,Universitas Airlangga,Indonesia,Asia,XL,FC,VH,Public,52.2
+287,293,University of Arizona,United States of America,Americas,XL,FC,VH,Public,49.3
+287,291,University of Bergen,Norway,Europe,L,FC,VH,Public,40.5
+291,267,University of The Witwatersrand,South Africa,Africa,L,FC,VH,Public,36.8
+292,298,Swansea University,United Kingdom,Europe,L,FC,VH,Public,34.7
+293,307,"University of California, Irvine",United States of America,Americas,XL,FC,VH,Public,46.6
+294,259,Case Western Reserve University,United States of America,Americas,M,FC,VH,Private not for Profit,22.4
+294,291,Swinburne University of Technology,Australia,Oceania,L,CO,VH,Public,18.8
+294,316,University of Notre Dame,United States of America,Americas,L,CO,VH,Private not for Profit,38
+294,278,Vrije Universiteit Brussel (VUB),Belgium,Europe,L,FC,VH,Public,33.3
+298,326,Istanbul Technical University,Türkiye,Asia,L,FO,VH,Public,39.6
+299,320,University of Colorado Boulder,United States of America,Americas,XL,CO,VH,Public,49
+300,302,Université Paris Cité,France,Europe,XL,FO,VH,Public,37.7
+301,285,Universidad Carlos III de Madrid,Spain,Europe,L,FO,VH,Public,45.2
+302,296,Stellenbosch University,South Africa,Africa,L,FC,VH,Public,36.7
+303,312,Jagiellonian University,Poland,Europe,XL,FO,VH,Public,49.9
+303,324,University of Southern Denmark,Denmark,Europe,L,CO,VH,Public,29.2
+305,295,Xi'an Jiaotong University,China (Mainland),Asia,XL,FC,VH,Public,28.5
+306,306,Aalborg University,Denmark,Europe,L,FC,VH,Public,26.4
+306,355,Indiana University Bloomington,United States of America,Americas,XL,FC,VH,Public,44.7
+308,319,Simon Fraser University,Canada,Americas,L,CO,VH,Public,34.9
+308,312,University of Johannesburg,South Africa,Africa,L,CO,VH,Public,25.5
+310,,"City St George’s, University of London",United Kingdom,Europe,L,FO,VH,,26.9
+310,304,Linköping University,Sweden,Europe,L,CO,VH,Public,25.4
+310,280,Ulsan National Institute of Science and Technology,Republic of Korea,Asia,S,FO,VH,Public,21.8
+310,314,Universität Stuttgart,Germany,Europe,L,FO,VH,Public,33.4
+314,324,University of Miami,United States of America,Americas,L,FC,VH,Private not for Profit,24.5
+314,293,University of Tasmania,Australia,Oceania,M,CO,VH,Public,22.5
+316,309,Goethe Universität Frankfurt am Main,Germany,Europe,L,FC,VH,Public,52.1
+317,321,L.N. Gumilyov Eurasian National University,Kazakhstan,Asia,L,FO,VH,Public,40.1
+317,304,Universidade Federal do Rio de Janeiro,Brazil,Americas,XL,FC,VH,Public,73
+319,300,Huazhong University of Science and Technology,China (Mainland),Asia,XL,FC,VH,Public,30.9
+320,298,Bauman Moscow State Technical University,Russian Federation,Europe,L,CO,VH,Public,41.1
+321,334,Université Grenoble Alpes,France,Europe,XL,FC,VH,Public,55.3
+322,368,University of Tehran,Iran (Islamic Republic of),Asia,XL,CO,VH,Public,31
+323,401,Koc University,Türkiye,Asia,M,FC,VH,Private not for Profit,36
+324,336,Sichuan University,China (Mainland),Asia,XL,FC,VH,Public,30.8
+324,368,University of Jordan,Jordan,Asia,XL,FC,HI,Public,47.9
+326,285,University of Leicester,United Kingdom,Europe,L,FC,VH,Public,29.6
+327,388,Universidade Nova de Lisboa,Portugal,Europe,L,FC,VH,Public,40.1
+328,328,Rutgers University – New Brunswick,United States of America,Americas,XL,CO,VH,Public,47.7
+328,328,University of Delhi,India,Asia,L,FO,VH,Public,46.9
+328,434,University of Sharjah,United Arab Emirates,Asia,L,CO,VH,Private not for Profit,28.5
+331,328,Kyung Hee University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,34.6
+331,405,Satbayev University (previously Kazakh Technical University named after K.I. Satpaev),Kazakhstan,Asia,M,FO,VH,Public,40.6
+333,362,York University,Canada,Americas,XL,CO,VH,Public,33.4
+334,344,Indian Institute of Technology Guwahati (IITG),India,Asia,M,CO,VH,Public,25.4
+334,362,Sultan Qaboos University,Oman,Asia,M,FC,VH,Public,28.9
+334,344,Tufts University,United States of America,Americas,L,FC,VH,Private not for Profit,23.8
+334,321,Universidad Politécnica de Madrid,Spain,Europe,XL,CO,VH,Public,43
+334,365,University of Illinois Chicago (UIC),United States of America,Americas,L,FC,VH,Public,48.8
+339,335,Indian Institute of Technology Roorkee (IITR),India,Asia,M,FO,VH,Public,26.8
+339,316,Shandong University,China (Mainland),Asia,XL,FC,VH,Public,22.8
+341,362,Xiamen University,China (Mainland),Asia,XL,FC,VH,Public,34.3
+342,344,University of Oulu,Finland,Europe,M,FC,VH,Public,23
+343,284,Southern University of Science and Technology (SUSTech),China (Mainland),Asia,M,FO,VH,Public,14.9
+343,382,University of Pisa,Italy,Europe,L,FC,VH,Public,51.6
+345,392,National Taiwan University of Science and Technology (Taiwan Tech),Taiwan,Asia,M,FO,VH,Public,36.7
+345,359,Pontificia Universidad Católica del Perú (PUCP),Peru,Americas,L,FO,VH,Private not for Profit,63.1
+347,350,Cairo University,Egypt,Africa,XL,FC,VH,Public,60.8
+347,347,Tilburg University,Netherlands,Europe,L,SP,VH,Public,20.5
+347,355,University of Coimbra,Portugal,Europe,L,FC,VH,Public,39.2
+350,416,Technion - Israel Institute of Technology,Israel,Asia,L,FO,VH,Public,32.2
+350,309,Universität Innsbruck,Austria,Europe,L,FC,VH,Public,27.7
+350,367,University of Münster,Germany,Europe,L,FC,VH,Public,42.3
+350,377,University of Tsukuba,Japan,Asia,L,FC,VH,Public,49.9
+354,315,Quaid-i-azam University,Pakistan,Asia,M,CO,VH,Public,24
+355,377,Nankai University,China (Mainland),Asia,XL,FC,VH,Public,27.1
+355,321,National Technical University of Athens,Greece,Europe,L,FO,VH,Public,28.2
+355,393,Università degli Studi di Roma - Tor Vergata,Italy,Europe,L,CO,VH,Public,40.7
+358,371,George Washington University,United States of America,Americas,L,FC,VH,Private not for Profit,31.7
+358,368,Mahidol University,Thailand,Asia,L,FC,VH,Public,59.4
+358,349,University of Victoria,Canada,Americas,L,CO,VH,Public,25.6
+358,389,Virginia Polytechnic Institute (Virginia Tech),United States of America,Americas,XL,FC,VH,Public,34.5
+362,,University of Chinese Academy of Sciences (UCAS),China (Mainland),Asia,XL,FC,VH,Public,30.9
+362,354,University of Pretoria,South Africa,Africa,XL,FC,VH,Public,32.3
+362,358,University of Tartu,Estonia,Europe,M,FC,VH,Public,28.6
+362,336,University of the Philippines,Philippines,Asia,XL,FC,HI,Public,50.6
+366,375,University of Turku,Finland,Europe,L,FC,VH,Public,36.3
+367,316,RUDN University,Russian Federation,Europe,XL,FC,VH,Public,28.4
+367,350,Sciences Po Paris,France,Europe,L,SP,VH,Public,24.6
+367,385,Universiti Brunei Darussalam (UBD),Brunei Darussalam,Asia,S,CO,VH,Public,29.9
+370,326,Daegu Gyeongbuk Institute of Science and Technology (DGIST),Republic of Korea,Asia,S,FO,VH,Public,17
+371,418,Bogazici University,Türkiye,Asia,M,CO,VH,Public,36.2
+371,353,National University of Sciences And Technology (NUST) Islamabad,Pakistan,Asia,L,FC,VH,Public,29.3
+371,377,Pontificia Universidad Javeriana,Colombia,Americas,L,FC,HI,Private not for Profit,60.5
+374,416,Oxford Brookes University,United Kingdom,Europe,L,CO,HI,Public,38.7
+375,365,Saint Petersburg State University,Russian Federation,Europe,L,FC,VH,Public,42.2
+375,342,Sharif University of Technology,Iran (Islamic Republic of),Asia,M,FO,VH,Public,17.8
+377,385,South China University of Technology,China (Mainland),Asia,XL,FO,VH,Public,18.8
+378,340,University of Saskatchewan,Canada,Americas,L,FC,VH,Public,16
+379,396,University of Liege,Belgium,Europe,L,FC,VH,Public,24.4
+379,347,University of Naples - Federico II,Italy,Europe,XL,FC,VH,Public,47.8
+381,410,The American University in Cairo,Egypt,Africa,M,CO,VH,Private not for Profit,40.8
+381,332,University of East Anglia (UEA),United Kingdom,Europe,L,FC,VH,Public,24.7
+381,355,University of Luxembourg,Luxembourg,Europe,M,FO,VH,,13.2
+384,396,Northeastern University,United States of America,Americas,XL,CO,VH,Private not for Profit,28
+385,342,Brunel University of London,United Kingdom,Europe,L,CO,VH,Public,17.6
+385,359,Gwangju Institute of Science and Technology (GIST),Republic of Korea,Asia,S,SP,VH,Public,21.3
+387,336,Flinders University,Australia,Oceania,L,FC,VH,Public,19.6
+388,452,Beihang University (former BUAA),China (Mainland),Asia,L,CO,VH,Public,18.3
+388,408,"Birkbeck College, University of London",United Kingdom,Europe,M,CO,VH,Public,15.5
+390,393,National and Kapodistrian University of Athens,Greece,Europe,XL,FC,VH,Public,34.9
+391,501,Abu Dhabi University,United Arab Emirates,Asia,S,FO,VH,Private for Profit,24.6
+392,396,Sejong University,Republic of Korea,Asia,L,CO,VH,Private not for Profit,16.3
+392,428,"Southeast University, China",China (Mainland),Asia,XL,FC,VH,Public,21.1
+392,371,Universitat Politècnica de Catalunya,Spain,Europe,L,CO,VH,Public,40.8
+395,423,Aston University,United Kingdom,Europe,L,CO,VH,Public,18.1
+395,396,Ruhr-Universität Bochum,Germany,Europe,XL,FC,VH,Public,29.1
+397,336,Lappeenranta-Lahti University of Technology LUT,Finland,Europe,M,SP,VH,Public,8.7
+397,380,University of Kent,United Kingdom,Europe,L,CO,VH,Public,20.2
+399,426,IPB University (aka Bogor Agricultural University),Indonesia,Asia,L,FO,VH,Public,35.1
+400,384,Western Sydney University,Australia,Oceania,XL,FC,VH,Public,26.3
+401,456,Umeå University,Sweden,Europe,L,FC,VH,Public,27.2
+401,431,University of Granada,Spain,Europe,XL,FC,VH,Public,59.3
+401,421,University of Limerick,Ireland,Europe,L,FC,HI,Public,27.9
+404,516,Sabanci University,Türkiye,Asia,S,CO,VH,Private not for Profit,26.5
+404,375,University of Florence,Italy,Europe,XL,FC,VH,Public,45.1
+406,405,Institut National des Sciences Appliquées de Lyon (INSA),France,Europe,M,FO,VH,Public,9.4
+407,371,Lincoln University,New Zealand,Oceania,S,SP,VH,Public,13.3
+408,371,University of Turin,Italy,Europe,XL,FC,VH,Public,48.1
+409,442,Università  Cattolica del Sacro Cuore,Italy,Europe,L,FO,VH,Private not for Profit,33.1
+410,412,Auckland University of Technology,New Zealand,Oceania,L,CO,VH,Public,29.6
+410,421,Dublin City University,Ireland,Europe,L,FC,HI,Public,29.2
+410,539,Sunway University,Malaysia,Asia,M,CO,VH,Private not for Profit,20.9
+410,466,University at Buffalo SUNY,United States of America,Americas,L,FC,VH,Public,26.3
+410,396,University of Southern Queensland,Australia,Oceania,M,CO,VH,Public,11
+415,477,Bilkent University,Türkiye,Asia,M,CO,VH,Private not for Profit,33.8
+416,420,Czech Technical University In Prague,Czechia,Europe,L,SP,VH,Public,26.8
+416,428,Julius-Maximilians-Universität Würzburg,Germany,Europe,L,FC,VH,Public,21.4
+416,487,Universität Mannheim,Germany,Europe,M,FO,VH,Public,20.3
+419,359,University of Aveiro,Portugal,Europe,L,CO,VH,Public,18.6
+420,425,National Taipei University of Technology,Taiwan,Asia,M,FO,VH,Public,18.2
+420,456,Université de Strasbourg,France,Europe,XL,FC,VH,Public,50.1
+422,436,Universitat Politecnica de Valencia,Spain,Europe,XL,CO,VH,Public,38
+423,436,Murdoch University,Australia,Oceania,M,CO,VH,Public,13
+423,462,Tampere University,Finland,Europe,L,FC,VH,Public,29.2
+423,440,Università  degli Studi di Pavia,Italy,Europe,L,FC,VH,Public,29.4
+423,466,Washington State University,United States of America,Americas,L,FC,VH,Public,28.7
+427,413,Graz University of Technology,Austria,Europe,M,FO,VH,Public,21.9
+428,481,Aix-Marseille University,France,Europe,XL,FC,VH,Public,51
+428,418,University of Dundee,United Kingdom,Europe,M,FC,VH,Public,25.5
+430,408,Masaryk University,Czechia,Europe,XL,CO,VH,Public,32.3
+430,445,Universitat de Valencia,Spain,Europe,XL,FC,VH,Public,49.7
+430,448,Université de Montpellier,France,Europe,XL,FO,VH,Public,26.7
+433,501,East China Normal University,China (Mainland),Asia,XL,CO,VH,Public,19.9
+433,426,Leibniz Universität Hannover,Germany,Europe,L,FO,VH,Public,29.6
+435,452,National Taiwan Normal University,Taiwan,Asia,M,CO,VH,Public,47.8
+436,513,Prince Mohammad Bin Fahd University,Saudi Arabia,Asia,S,SP,VH,Private not for Profit,22.5
+436,466,Universitat Ramon Llull,Spain,Europe,L,CO,HI,Private not for Profit,17.5
+438,435,IE University,Spain,Europe,M,FO,HI,Private for Profit,12.7
+439,485,National Sun Yat-sen University,Taiwan,Asia,M,CO,VH,Public,36.8
+440,477,Ajman University,United Arab Emirates,Asia,S,FO,VH,Private not for Profit,27.8
+440,445,James Cook University,Australia,Oceania,M,FC,VH,Public,21
+440,464,Macau University of Science and Technology,"Macao SAR, China",Asia,L,CO,VH,Private not for Profit,7.4
+440,410,"National Research University Higher School of Economics (HSE, Moscow)",Russian Federation,Europe,XL,CO,VH,Public,28.1
+440,466,Universität Konstanz,Germany,Europe,M,CO,VH,Public,25.5
+440,497,"University of California, Riverside",United States of America,Americas,L,FC,VH,Public,21.4
+446,439,Vilnius University,Lithuania,Europe,L,FC,HI,Public,26.9
+447,387,Belarusian State University,Belarus,Europe,L,CO,HI,Public,32.5
+448,527,Universität Bayreuth,Germany,Europe,M,CO,VH,Public,14.1
+449,470,Iowa State University,United States of America,Americas,L,CO,VH,Public,26.4
+450,401,Kazan Federal University,Russian Federation,Europe,L,FC,VH,Public,27.2
+450,489,"Universidade Estadual Paulista ""Júlio de Mesquita Filho"" (UNESP)",Brazil,Americas,XL,FC,VH,Public,53.3
+452,501,Johannes Gutenberg Universität Mainz,Germany,Europe,L,FO,VH,Public,32.5
+452,508,Shenzhen University,China (Mainland),Asia,XL,CO,VH,Public,11.9
+452,460,Stony Brook University,United States of America,Americas,L,FC,VH,Public,24.2
+452,389,University of Cyprus,Cyprus,Asia,M,CO,VH,Public,14.6
+456,403,Amirkabir University of Technology,Iran (Islamic Republic of),Asia,M,SP,VH,Public,8.5
+456,472,University of Essex,United Kingdom,Europe,L,CO,VH,Public,23.7
+458,442,Colorado State University,United States of America,Americas,L,CO,VH,Public,25.2
+458,534,Universidad Nacional de La Plata,Argentina,Americas,XL,FC,HI,Public,55.7
+458,393,"University of California, Santa Cruz",United States of America,Americas,L,CO,VH,Public,24.7
+461,554,Jordan University of Science & Technology,Jordan,Asia,L,CO,VH,Public,32
+461,442,Novosibirsk State University,Russian Federation,Europe,M,FO,VH,Public,28.8
+461,477,Royal Holloway University of London,United Kingdom,Europe,L,CO,VH,Public,22.8
+461,389,Università Vita-Salute San Raffaele,Italy,Europe,S,SP,VH,Private not for Profit,4.8
+465,383,Anna University,India,Asia,L,SP,VH,Public,15
+465,415,Concordia University,Canada,Americas,XL,CO,VH,Public,21.7
+465,489,Shanghai University,China (Mainland),Asia,XL,FO,VH,Public,29.8
+465,452,University of Kansas,United States of America,Americas,L,FC,VH,Public,17.6
+469,471,Ben Gurion University of The Negev,Israel,Asia,L,FC,VH,Public,19.5
+469,423,Laval University,Canada,Americas,L,FC,VH,Public,25.3
+469,547,Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU),Uzbekistan,Asia,M,CO,VH,Public,35.6
+469,462,Universidad de Sevilla,Spain,Europe,XL,FC,VH,Public,52.7
+473,497,Jilin University,China (Mainland),Asia,XL,FC,VH,Public,16.2
+473,472,Johannes Kepler University Linz,Austria,Europe,M,FO,VH,Public,17.5
+473,524,Pusan National University,Republic of Korea,Asia,L,FC,VH,Public,28.6
+473,405,Università della Svizzera Italiana,Switzerland,Europe,S,FO,VH,Public,9.3
+477,456,Moscow Institute of Physics and Technology State University,Russian Federation,Europe,M,FO,VH,Public,20.3
+477,474,Universität Potsdam,Germany,Europe,L,FO,VH,Public,22.3
+479,489,Chung-Ang University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,24.9
+480,474,Hiroshima University,Japan,Asia,L,FC,VH,Public,34.6
+480,430,University of Science and Technology Beijing,China (Mainland),Asia,L,CO,VH,Public,16.4
+482,448,Dalian University of Technology,China (Mainland),Asia,XL,CO,VH,Public,11.4
+482,495,Duy Tan University,Viet Nam,Asia,L,CO,VH,Private for Profit,13.7
+482,465,Kobe University,Japan,Asia,L,FC,VH,Public,36.9
+485,508,Aristotle University of Thessaloniki,Greece,Europe,XL,FC,VH,Public,38.2
+485,506,University of Trento,Italy,Europe,L,CO,VH,Public,34.8
+487,516,Edith Cowan University,Australia,Oceania,L,CO,VH,Public,13.7
+487,380,Technische Universität Bergakademie Freiberg,Germany,Europe,S,FO,VH,,7.4
+487,527,Warsaw University of Technology,Poland,Europe,L,FO,VH,Public,28.4
+490,461,Universidad de Santiago de Chile - USACH,Chile,Americas,L,FC,HI,Public,50.4
+491,431,Central South University,China (Mainland),Asia,XL,FO,VH,Public,12.1
+491,513,Imam Abdulrahman Bin Faisal University (formerly University of Dammam),Saudi Arabia,Asia,L,FC,HI,Public,16.9
+491,554,Universiti Utara Malaysia (UUM),Malaysia,Asia,M,CO,VH,Public,31.2
+494,535,Université de Bordeaux,France,Europe,XL,FO,VH,Public,43.2
+494,403,University of Canberra,Australia,Oceania,M,CO,VH,Public,18.2
+496,436,Iran University of Science and Technology,Iran (Islamic Republic of),Asia,M,FO,VH,Public,11.8
+496,445,Justus-Liebig-Universität Gießen,Germany,Europe,L,FC,VH,Public,15.4
+498,489,University of Jyväskylä,Finland,Europe,M,FO,VH,Public,23.4
+499,495,Central Queensland University Australia (CQUniversity),Australia,Oceania,S,CO,VH,Public,13.6
+499,547,Northwestern Polytechnical University,China (Mainland),Asia,XL,CO,VH,Public,9.5
+499,431,Tomsk State University,Russian Federation,Europe,M,CO,VH,Public,25.3
+499,497,Universidad de Costa Rica,Costa Rica,Americas,XL,CO,HI,Public,46.4
+503,587,Shoolini University of Biotechnology and Management Sciences,India,Asia,S,CO,VH,Private not for Profit,16.2
+504,484,China Agricultural University,China (Mainland),Asia,L,FC,VH,Public,12.3
+504,489,Chongqing University,China (Mainland),Asia,XL,SP,VH,Public,11.9
+504,511,Ewha Womans University,Republic of Korea,Asia,L,FC,HI,Private not for Profit,33.5
+504,448,Hunan University,China (Mainland),Asia,XL,FO,VH,Public,10.9
+504,456,University of Guelph,Canada,Americas,L,CO,VH,Public,19.9
+509,585,Institut Teknologi Sepuluh Nopember (ITS),Indonesia,Asia,L,CO,VH,Public,27.4
+509,516,INTI International University,Malaysia,Asia,S,CO,VH,Private for Profit,14.3
+511,516,Ateneo de Manila University,Philippines,Asia,L,FC,MD,Private not for Profit,32.2
+511,585,Singapore Management University,Singapore,Asia,M,SP,VH,Public,19.4
+511,508,SOAS University of London,United Kingdom,Europe,M,FO,VH,Public,24.7
+511,531,University of Bradford,United Kingdom,Europe,M,CO,VH,Public,14
+515,567,Lebanese University,Lebanon,Asia,XL,FC,HI,Public,32.9
+515,596,Universitas Padjadjaran (UNPAD),Indonesia,Asia,XL,FO,VH,Public,29.9
+517,481,Pontificia Universidad Católica Argentina Santa María de los Buenos Aires - UCA,Argentina,Americas,L,FC,MD,Private not for Profit,30.2
+517,452,University of Stirling,United Kingdom,Europe,M,CO,VH,Public,16.8
+519,516,Kyungpook National University,Republic of Korea,Asia,L,FC,VH,Public,18
+519,440,Singapore University of Technology and Design,Singapore,Asia,S,SP,VH,,11
+519,524,Universidad Austral - Argentina,Argentina,Americas,M,FC,MD,Private not for Profit,29.8
+519,451,University of Electronic Science and Technology of China,China (Mainland),Asia,XL,FO,VH,Public,5.8
+519,516,Ural Federal University,Russian Federation,Europe,XL,CO,VH,Public,25.8
+524,501,University of Huddersfield,United Kingdom,Europe,L,CO,VH,Public,17.9
+525,587,The University of Georgia,United States of America,Americas,XL,FC,VH,Public,27.9
+526,631-640,Boston College,United States of America,Americas,L,CO,VH,Private not for Profit,29.9
+526,567,Chiang Mai University,Thailand,Asia,XL,FC,HI,Public,48.8
+526,516,University of Hull,United Kingdom,Europe,L,FC,HI,Public,13.2
+526,539,University of Salamanca,Spain,Europe,L,FC,VH,Public,36.9
+530,,The Education University of Hong Kong,"Hong Kong SAR, China",Asia,M,FO,VH,,9.4
+530,592,Universität Bremen,Germany,Europe,L,CO,VH,Public,25.7
+530,547,University of Genoa,Italy,Europe,L,FC,VH,Public,28
+530,596,University of Iowa,United States of America,Americas,L,FC,VH,Public,25.5
+534,565,University of Connecticut,United States of America,Americas,L,FC,VH,Public,20.8
+535,601-610,King Khalid University,Saudi Arabia,Asia,L,FC,VH,Public,25.8
+535,701-710,Lebanese American University,Lebanon,Asia,M,FC,HI,Private not for Profit,20.2
+535,681-690,Prince Sultan University,Saudi Arabia,Asia,S,SP,VH,Private not for Profit,10.6
+535,527,Universität Leipzig,Germany,Europe,L,FC,VH,Public,31.5
+535,596,University of Ljubljana,Slovenia,Europe,XL,FC,VH,Public,29.7
+540,580,Jinan University (China),China (Mainland),Asia,XL,FC,VH,Public,8.6
+540,531,University of Utah,United States of America,Americas,XL,FC,VH,Public,21.8
+542,592,Ain Shams University,Egypt,Africa,XL,FC,VH,Public,35.6
+542,587,Universiti Teknologi MARA - UiTM,Malaysia,Asia,XL,FC,VH,Public,44.5
+542,513,University of Milano-Bicocca,Italy,Europe,L,FO,VH,Public,28.6
+542,570,University of the Punjab,Pakistan,Asia,XL,CO,VH,Public,22.5
+546,554,Universität Ulm,Germany,Europe,M,FO,VH,Public,10.9
+546,488,University of Hawaii at Mañoa,United States of America,Americas,L,FC,VH,Public,21.3
+546,547,University of Windsor,Canada,Americas,L,CO,VH,Public,5.1
+549,573,Florida State University,United States of America,Americas,XL,FC,VH,Public,32.7
+550,535,Northumbria University at Newcastle,United Kingdom,Europe,L,CO,VH,Public,16.6
+551,596,Thammasat University,Thailand,Asia,XL,FC,HI,Public,36.7
+551,641-650,Universiti Tenaga Nasional (UNITEN),Malaysia,Asia,S,SP,VH,Private for Profit,9.5
+553,539,Hitotsubashi University,Japan,Asia,M,SP,VH,Public,19.7
+553,506,University of Delaware,United States of America,Americas,L,CO,VH,Public,12.5
+555,535,Lahore University of Management Sciences (LUMS),Pakistan,Asia,S,CO,VH,Private not for Profit,21.4
+556,477,Indian Institute of Technology Indore,India,Asia,S,FO,VH,Public,8
+556,651-660,University of Houston,United States of America,Americas,XL,CO,VH,Public,18.7
+558,552,Al Ain University,United Arab Emirates,Asia,S,FO,VH,Private not for Profit,25.6
+558,526,Coventry University,United Kingdom,Europe,L,CO,VH,Public,16
+558,580,Jawaharlal Nehru University,India,Asia,M,CO,VH,Public,39.8
+558,576,Sogang University,Republic of Korea,Asia,M,CO,VH,Private not for Profit,27.3
+558,587,University of Kwazulu-Natal,South Africa,Africa,XL,FC,VH,Public,17.9
+563,631-640,Ajou University,Republic of Korea,Asia,M,FC,VH,Private not for Profit,19.8
+563,611-620,American University of the Middle East,Kuwait,Asia,M,SP,HI,Private for Profit,25.9
+563,574,University of Debrecen,Hungary,Europe,L,FC,HI,Public,27.3
+566,474,Bangor University,United Kingdom,Europe,M,FC,VH,Public,12.8
+566,531,Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi),India,Asia,M,FO,VH,Public,9.3
+566,621-630,Renmin (People’s) University of China,China (Mainland),Asia,L,FO,VH,Public,29.7
+566,631-640,Savitribai Phule Pune University,India,Asia,M,CO,VH,Public,11.1
+566,611-620,University of Minho,Portugal,Europe,L,FC,VH,Public,22.2
+571,501,Colorado School of Mines,United States of America,Americas,M,FO,VH,Public,11.3
+571,641-650,Hacettepe University,Türkiye,Asia,L,FC,VH,Public,33
+571,489,Isfahan University of Technology,Iran (Islamic Republic of),Asia,M,FO,VH,,7.8
+571,611-620,Pontificia Universidade Católica do Rio de Janeiro (PUC - Rio),Brazil,Americas,M,CO,VH,Private not for Profit,42.5
+575,611-620,Brno University of Technology,Czechia,Europe,L,FO,VH,Public,17.7
+575,691-700,Chandigarh University,India,Asia,XL,FC,HI,Private not for Profit,22.4
+575,526,Universität Jena,Germany,Europe,L,FC,VH,Public,23.4
+578,576,Universidad Adolfo Ibáñez,Chile,Americas,M,SP,VH,Private not for Profit,28.7
+578,562,Universiti Teknologi Brunei,Brunei Darussalam,Asia,S,FO,VH,Public,20.2
+578,552,University of Tabriz,Iran (Islamic Republic of),Asia,L,CO,VH,Public,9.7
+581,544,Universidad Pontificia Comillas,Spain,Europe,M,FO,VH,Private not for Profit,12.3
+582,574,Florida International University,United States of America,Americas,XL,FC,HI,Public,22.7
+582,547,University of Iceland,Iceland,Europe,M,CO,VH,,9.6
+584,621-630,Charles Darwin University,Australia,Oceania,M,FO,VH,Public,7.8
+584,564,Eotvos Lorand University,Hungary,Europe,XL,CO,VH,Public,31.6
+584,554,University of Dhaka,Bangladesh,Asia,XL,FC,HI,Public,30.5
+587,711-720,American University,United States of America,Americas,M,CO,VH,Private not for Profit,19.8
+587,641-650,National Central University,Taiwan,Asia,M,CO,VH,Public,28.9
+587,562,Université Claude Bernard Lyon 1,France,Europe,XL,FC,VH,Public,26.1
+587,580,Université Paul Sabatier Toulouse III,France,Europe,L,FO,VH,Public,24.6
+591,485,American University of Ras Al Khaimah ( AURAK ),United Arab Emirates,Asia,S,SP,MD,Public,8.4
+591,587,Bond University,Australia,Oceania,S,FO,VH,Private not for Profit,5.9
+591,601-610,Illinois Institute of Technology,United States of America,Americas,M,CO,VH,Private not for Profit,16.9
+591,497,National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),Russian Federation,Europe,M,FO,VH,Public,10.3
+595,671-680,Universidade Federal de Minas Gerais,Brazil,Americas,XL,FC,VH,Public,45.4
+595,621-630,Zayed University,United Arab Emirates,Asia,M,SP,VH,Public,19.8
+597,611-620,Asia Pacific University of Technology and Innovation (APU) Malaysia,Malaysia,Asia,S,SP,HI,Private for Profit,17.3
+597,554,Hasselt University,Belgium,Europe,M,FC,HI,Public,8.8
+597,580,Management and Science University - MSU Malaysia,Malaysia,Asia,S,FO,VH,Private for Profit,25.1
+597,611-620,Taipei Medical University,Taiwan,Asia,M,SP,VH,Private not for Profit,16.9
+597,631-640,Tulane University,United States of America,Americas,L,FC,HI,Private not for Profit,14.5
+597,570,University of Szeged,Hungary,Europe,L,FC,HI,Private not for Profit,26.2
+597,596,University of Texas at Dallas,United States of America,Americas,L,FC,VH,Public,19.3
+604,523,Canadian University of Dubai,United Arab Emirates,Asia,S,FO,HI,Private for Profit,22.7
+604,601-610,National Chengchi University,Taiwan,Asia,L,CO,HI,Public,28.3
+604,535,University of Eastern Finland,Finland,Europe,L,CO,VH,Public,18.9
+607,691-700,University of Siena,Italy,Europe,M,FC,VH,Public,21.4
+607,481,University of Tennessee,United States of America,Americas,XL,FC,VH,Public,14.3
+609,592,Nottingham Trent University,United Kingdom,Europe,XL,CO,VH,Public,16.4
+609,559,Peter the Great St.Petersburg Polytechnic University,Russian Federation,Europe,L,CO,VH,Public,18
+609,741-750,Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA),Malaysia,Asia,M,FO,VH,Public,17.2
+609,559,University of Ulster,United Kingdom,Europe,L,CO,VH,Public,12.6
+613,539,Applied Science University - Bahrain,Bahrain,Asia,S,FO,VH,Private not for Profit,26.6
+613,661-670,City University of New York,United States of America,Americas,XL,FC,VH,Public,25.3
+613,661-670,International Islamic University Malaysia (IIUM),Malaysia,Asia,L,FC,HI,Public,36
+613,631-640,Universidad de Concepción,Chile,Americas,L,FC,HI,Private not for Profit,36.8
+613,661-670,University of Plymouth,United Kingdom,Europe,L,FC,HI,Public,13.8
+618,611-620,Christian-Albrechts-Universität zu Kiel,Germany,Europe,L,FC,VH,Public,24.4
+618,701-710,Dongguk University,Republic of Korea,Asia,L,FC,HI,Private not for Profit,12.8
+618,711-720,Saint Joseph University of Beirut (USJ),Lebanon,Asia,M,FC,HI,Private not for Profit,13.4
+618,511,Zhengzhou University,China (Mainland),Asia,XL,FC,VH,Public,7.1
+622,559,Umm Al-Qura University,Saudi Arabia,Asia,XL,FC,HI,Public,23.6
+622,681-690,University of New Brunswick,Canada,Americas,M,CO,VH,Public,7.1
+624,721-730,Diponegoro University,Indonesia,Asia,XL,FC,HI,Public,30
+624,641-650,Oregon State University,United States of America,Americas,L,CO,VH,Public,19.7
+624,641-650,Universidad del Pais Vasco,Spain,Europe,XL,CO,VH,Public,28.6
+624,413,Yeshiva University,United States of America,Americas,M,FC,MD,Private not for Profit,3.8
+628,621-630,Istanbul University,Türkiye,Asia,XL,FC,HI,Public,33.3
+628,671-680,Kazakh National Pedagogical University Abai,Kazakhstan,Asia,L,CO,MD,Public,31.7
+628,527,Missouri University of Science and Technology,United States of America,Americas,M,CO,VH,Public,4.9
+628,661-670,National Chung Hsing University,Taiwan,Asia,L,CO,VH,Public,28.6
+628,651-660,Universidade de Santiago de Compostela,Spain,Europe,L,CO,VH,Public,33.9
+628,601-610,University of Crete,Greece,Europe,L,FC,HI,Public,19.3
+628,601-610,University of South Carolina,United States of America,Americas,L,FC,VH,Public,17.7
+635,621-630,Tallinn University of Technology,Estonia,Europe,M,FO,VH,Public,16.2
+635,601-610,Universität des Saarlandes,Germany,Europe,L,FC,VH,Public,14
+635,631-640,University of Portsmouth,United Kingdom,Europe,L,CO,VH,Public,10.9
+638,,"Lincoln University College, Malaysia",Malaysia,Asia,S,CO,HI,Private for Profit,11.1
+638,576,Southern Cross University,Australia,Oceania,M,CO,VH,Public,6
+638,544,Universidad de Zaragoza,Spain,Europe,L,FC,VH,Public,29.7
+638,570,"University of Chemistry and Technology, Prague",Czechia,Europe,S,FO,VH,Public,8.2
+642,539,University of Fribourg,Switzerland,Europe,M,CO,VH,Public,13.6
+643,621-630,Abo Akademi University,Finland,Europe,M,CO,VH,Public,9.5
+643,631-640,Inha University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,17.5
+643,661-670,Libera Universita' di Bolzano,Italy,Europe,S,FO,VH,Public,7.8
+643,601-610,Manchester Metropolitan University,United Kingdom,Europe,XL,CO,VH,Public,18.8
+643,661-670,University of Manitoba,Canada,Americas,L,FC,VH,Public,19.2
+648,761-770,King Faisal University,Saudi Arabia,Asia,L,FC,HI,Public,25.3
+648,621-630,"University of Tromso, The Arctic University of Norway",Norway,Europe,L,FC,VH,Public,15.5
+650,567,MGIMO University,Russian Federation,Europe,M,CO,HI,Public,10.7
+650,601-610,Paris Lodron University of Salzburg,Austria,Europe,M,CO,VH,Public,13.3
+650,661-670,Universidad de la República (UdelaR),Uruguay,Americas,XL,FC,HI,Public,40
+650,691-700,University of Brescia,Italy,Europe,M,FO,VH,Public,7.3
+654,681-690,China University of Mining and Technology,China (Mainland),Asia,L,FO,VH,Public,4.3
+654,641-650,De La Salle University,Philippines,Asia,L,CO,HI,Private not for Profit,32.7
+654,721-730,Konkuk University,Republic of Korea,Asia,L,FC,VH,Private not for Profit,11.6
+654,721-730,Université de Lille,France,Europe,XL,FC,VH,Public,33.9
+654,681-690,"University of Agriculture, Faisalabad",Pakistan,Asia,XL,CO,VH,Public,7.3
+654,621-630,University of South Florida,United States of America,Americas,XL,CO,VH,Public,17.4
+660,671-680,Bar-Ilan University,Israel,Asia,L,FC,VH,Public,11
+660,601-610,Ca' Foscari University of Venice,Italy,Europe,M,CO,VH,Public,27.1
+660,601-610,"Kingston University, London",United Kingdom,Europe,L,CO,HI,Public,20.7
+660,661-670,Memorial University of Newfoundland,Canada,Americas,L,FC,VH,Public,10.7
+664,711-720,COMSATS University Islamabad,Pakistan,Asia,XL,CO,VH,Public,17
+664,681-690,Indian Institute of Technology Hyderabad (IITH),India,Asia,S,CO,VH,Public,10.3
+664,711-720,University of Mumbai,India,Asia,M,FC,VH,Public,11.3
+664,701-710,University of Oklahoma,United States of America,Americas,L,FC,VH,Public,14.3
+668,801-850,Birla Institute of Technology and Science,India,Asia,L,CO,VH,Private not for Profit,18
+668,631-640,Chang Gung University,Taiwan,Asia,M,FO,VH,Private not for Profit,9.3
+668,671-680,Karl-Franzens-Universität Graz,Austria,Europe,L,FO,VH,Public,26.8
+668,641-650,Lehigh University,United States of America,Americas,M,CO,VH,Private not for Profit,7.2
+668,651-660,Palacký University in Olomouc,Czechia,Europe,L,FO,VH,Public,21.5
+673,641-650,East China University of Science and Technology,China (Mainland),Asia,XL,CO,VH,Public,9.1
+673,701-710,Stevens Institute of Technology,United States of America,Americas,M,FO,VH,Private not for Profit,4
+673,801-850,Technische Universität Dortmund,Germany,Europe,L,FO,VH,Public,18.5
+676,641-650,Beirut Arab University,Lebanon,Asia,S,FC,HI,Private not for Profit,20
+676,721-730,Jadavpur University,India,Asia,M,FO,VH,Public,23.2
+678,621-630,American University in Dubai,United Arab Emirates,Asia,S,FO,HI,Private for Profit,14.4
+678,671-680,University of Haifa,Israel,Asia,L,CO,VH,Public,17.4
+680,651-660,HUFS - Hankuk (Korea) University of Foreign Studies,Republic of Korea,Asia,L,CO,HI,Private not for Profit,17.6
+680,761-770,Nanjing University of Aeronautics and Astronautics,China (Mainland),Asia,L,FO,VH,Public,6.3
+680,641-650,Ritsumeikan University,Japan,Asia,XL,CO,HI,Private not for Profit,25.7
+680,801-850,University of Brawijaya,Indonesia,Asia,XL,FC,HI,Public,30.1
+684,661-670,Comenius University Bratislava,Slovakia,Europe,L,FC,HI,Public,16.8
+684,711-720,Ton Duc Thang University,Viet Nam,Asia,L,CO,VH,Public,6.1
+686,631-640,China University of Petroleum,China (Mainland),Asia,L,CO,VH,Public,3.1
+686,,Cyprus University of Technology,Cyprus,Asia,S,CO,VH,Public,8.1
+688,951-1000,Baku State University,Azerbaijan,Asia,L,CO,HI,Public,22
+688,576,Tomsk Polytechnic University,Russian Federation,Europe,M,FO,VH,Public,9.4
+688,731-740,Université Côte d’Azur,France,Europe,XL,FC,VH,Public,21.6
+691,611-620,Eastern Mediterranean University,Northern Cyprus,Asia,L,FC,HI,Public,9.2
+691,691-700,Universidade Federal do Rio Grande Do Sul,Brazil,Americas,XL,FC,VH,Public,36.8
+691,741-750,Universität Regensburg,Germany,Europe,L,FO,VH,Public,16
+691,791-800,"Vellore Institute of Technology (VIT), Vellore, India",India,Asia,XL,CO,VH,Private not for Profit,20.5
+695,601-610,Rensselaer Polytechnic Institute,United States of America,Americas,M,CO,VH,Private not for Profit,10.2
+696,641-650,Symbiosis International (Deemed University),India,Asia,L,CO,VH,Private not for Profit,9.2
+697,801-850,Ankara Üniversitesi,Türkiye,Asia,XL,FC,HI,Public,30.6
+697,701-710,Beijing University of Chemical Technology,China (Mainland),Asia,L,CO,VH,Public,6.1
+697,671-680,Kazakh National Agrarian University,Kazakhstan,Asia,M,SP,MD,Public,22.8
+697,661-670,Tokyo Medical and Dental University,Japan,Asia,S,FO,VH,Public,15.7
+697,621-630,Universidad de Alcalá,Spain,Europe,L,FC,VH,Public,13.8
+697,611-620,University of Klagenfurt,Austria,Europe,S,CO,VH,Public,7.2
+697,641-650,"University of Missouri, Columbia",United States of America,Americas,L,FC,VH,Public,17.2
+701-710,681-690,Jeonbuk National University (formerly known as Chonbuk National University),Republic of Korea,Asia,L,FC,VH,Public,19.9
+701-710,781-790,Kasetsart University,Thailand,Asia,XL,CO,VH,Public,37.4
+701-710,711-720,"Lingnan University, Hong Kong","Hong Kong SAR, China",Asia,S,CO,VH,Public,16
+701-710,565,Nanjing University of Science and Technology,China (Mainland),Asia,L,FO,VH,Public,7
+701-710,691-700,Shiraz University,Iran (Islamic Republic of),Asia,L,CO,VH,Public,10.2
+701-710,691-700,Universidad Panamericana (UP),Mexico,Americas,L,FO,HI,Private not for Profit,15.9
+701-710,741-750,University of Central Florida,United States of America,Americas,XL,FC,VH,Public,18.6
+701-710,651-660,University of Zagreb,Croatia,Europe,XL,FC,VH,Public,23.2
+711-720,801-850,Asia University Taiwan,Taiwan,Asia,M,CO,VH,Private for Profit,9
+711-720,721-730,Budapest University of Technology and Economics,Hungary,Europe,L,FO,VH,Public,20.8
+711-720,721-730,Drexel University,United States of America,Americas,L,FC,VH,Private not for Profit,8.9
+711-720,681-690,"Goldsmiths, University of London",United Kingdom,Europe,M,FO,VH,Public,18.3
+711-720,661-670,ISCTE - Instituto Universitario de Lisboa,Portugal,Europe,L,FO,VH,Public,8.6
+711-720,595,ITMO University,Russian Federation,Europe,L,FO,VH,Public,12.7
+711-720,751-760,Technische Universität Braunschweig,Germany,Europe,L,CO,VH,Public,14.4
+711-720,801-850,Toronto Metropolitan University (formerly Ryerson University),Canada,Americas,XL,CO,VH,Public,12.5
+711-720,601-610,Universität Hohenheim,Germany,Europe,M,SP,VH,Public,9.1
+711-720,721-730,Université de Rennes 1,France,Europe,L,FO,VH,Public,21.3
+711-720,701-710,University of Nebraska - Lincoln,United States of America,Americas,L,CO,VH,Public,14.3
+721-730,711-720,National University of Science and Technology MISiS,Russian Federation,Europe,M,FO,VH,Public,7.2
+721-730,781-790,National University of Uzbekistan,Uzbekistan,Asia,L,CO,HI,Public,29.7
+721-730,691-700,Pakistan Institute of Engineering and Applied Sciences (PIEAS),Pakistan,Asia,S,SP,HI,Public,7.4
+721-730,,Prince Sattam Bin Abdulaziz University,Saudi Arabia,Asia,L,FO,VH,Public,6.4
+721-730,701-710,Taras Shevchenko National University of Kyiv,Ukraine,Europe,L,CO,VH,Public,21.9
+721-730,681-690,Temple University,United States of America,Americas,L,FC,VH,Public,16.8
+721-730,761-770,University of Cincinnati,United States of America,Americas,XL,FC,VH,Public,15.1
+721-730,761-770,University of Patras,Greece,Europe,L,FC,VH,Public,16.8
+721-730,741-750,UWE Bristol (University of the West of England),United Kingdom,Europe,XL,CO,HI,Public,10.6
+731-740,621-630,Auezov South Kazakhstan State University (SKSU),Kazakhstan,Asia,L,CO,MD,Public,21.2
+731-740,631-640,Far Eastern Federal University,Russian Federation,Europe,L,CO,HI,Public,13.9
+731-740,701-710,National Institute of Technology Tiruchirappalli,India,Asia,M,FO,VH,Public,4.1
+731-740,681-690,Princess Nourah bint Abdulrahman University,Saudi Arabia,Asia,L,CO,VH,Public,18.3
+731-740,,SEGi University,Malaysia,Asia,M,FO,HI,Private for Profit,6.7
+731-740,661-670,"Sofia University ""St. Kliment Ohridski""",Bulgaria,Europe,L,CO,VH,Public,16
+731-740,781-790,Texas Tech University,United States of America,Americas,XL,FC,HI,Public,14.5
+731-740,691-700,Universidad Central de Venezuela - UCV,Venezuela (Bolivarian Republic of),Americas,L,FC,MD,Public,28.9
+731-740,771-780,Université de Tunis El Manar,Tunisia,Africa,L,FC,VH,Public,15.8
+731-740,851-900,Yildiz Technical University,Türkiye,Asia,L,CO,VH,Public,13.4
+741-750,661-670,Aberystwyth University,United Kingdom,Europe,M,CO,VH,Public,12.8
+741-750,761-770,Adam Mickiewicz University,Poland,Europe,L,CO,VH,Public,24.1
+741-750,721-730,Brandeis University,United States of America,Americas,M,CO,VH,Private not for Profit,12.8
+741-750,751-760,Kaunas University of Technology,Lithuania,Europe,M,FO,VH,Public,15.1
+741-750,711-720,Plekhanov Russian University of Economics,Russian Federation,Europe,L,FO,VH,Public,15.5
+741-750,851-900,Shahid Beheshti University (SBU),Iran (Islamic Republic of),Asia,L,FO,VH,Public,11.8
+741-750,801-850,Syracuse University,United States of America,Americas,L,CO,VH,Private not for Profit,17
+741-750,801-850,The Catholic University of Korea,Republic of Korea,Asia,M,FC,VH,Private not for Profit,7.9
+741-750,801-850,University of Baghdad,Iraq,Asia,XL,FC,VH,Public,18.1
+741-750,751-760,University of Malta,Malta,Europe,M,FC,VH,Public,9.3
+741-750,751-760,University of Messina,Italy,Europe,L,FC,VH,Public,12.6
+741-750,771-780,University of Pecs,Hungary,Europe,L,FC,HI,Public,20.1
+741-750,741-750,Victoria University,Australia,Oceania,L,CO,HI,Public,9.2
+741-750,741-750,Vytautas Magnus University,Lithuania,Europe,M,FO,VH,Public,14
+751-760,671-680,Martin-Luther-Universität Halle-Wittenberg,Germany,Europe,L,FC,VH,Public,15.1
+751-760,801-850,Université de Lorraine,France,Europe,XL,FO,VH,Public,19.2
+751-760,791-800,University of New Mexico,United States of America,Americas,L,FC,VH,Public,14.2
+751-760,801-850,University of Oregon,United States of America,Americas,L,CO,VH,Public,23.2
+751-760,721-730,University of Trieste,Italy,Europe,L,FC,VH,Public,16.1
+761-770,801-850,Al-Ahliyya Amman University,Jordan,Asia,M,FO,VH,Private not for Profit,17.1
+761-770,781-790,Babes-Bolyai University,Romania,Europe,XL,CO,VH,Public,21.9
+761-770,761-770,Bangladesh University of Engineering and Technology,Bangladesh,Asia,M,SP,VH,Public,21.3
+761-770,711-720,Czech University of Life Sciences in Prague,Czechia,Europe,L,FO,VH,Public,11.6
+761-770,,"Government College University, Faisalabad",Pakistan,Asia,L,CO,VH,Public,4.2
+761-770,851-900,"Jamia Millia Islamia, New Delhi",India,Asia,M,CO,VH,Public,13
+761-770,801-850,Khoja Akhmet Yassawi International Kazakh-Turkish University,Kazakhstan,Asia,M,FC,MD,Public,19.1
+761-770,791-800,New Jersey Institute of Technology (NJIT),United States of America,Americas,M,FO,VH,Public,7.5
+761-770,721-730,Riga Technical University,Latvia,Europe,M,CO,VH,Public,12.6
+761-770,731-740,University of Belgrade,Serbia,Europe,XL,FC,VH,Public,23.6
+761-770,801-850,University of Bucharest,Romania,Europe,XL,CO,VH,Public,21.1
+761-770,,University of Nizwa,Oman,Asia,S,CO,VH,Private not for Profit,11
+761-770,851-900,"Vietnam National University, Hanoi",Viet Nam,Asia,XL,CO,HI,Public,24.3
+771-780,771-780,Holy Spirit University of Kaslik,Lebanon,Asia,M,FO,HI,Private not for Profit,11.1
+771-780,801-850,Philipps-Universität Marburg,Germany,Europe,L,FC,VH,Public,16.3
+771-780,731-740,Rovira i Virgili University,Spain,Europe,L,FC,VH,Public,9.5
+771-780,801-850,Rutgers University - Newark,United States of America,Americas,M,CO,VH,Public,13.7
+771-780,851-900,Thapar Institute of Engineering & Technology,India,Asia,M,FO,VH,Public,4
+771-780,621-630,Universidad de Palermo,Argentina,Americas,S,FO,HI,Private not for Profit,15.8
+771-780,751-760,University of Calcutta,India,Asia,L,CO,VH,Public,19.7
+771-780,801-850,University of Maynooth,Ireland,Europe,L,FO,VH,Public,16.6
+781-790,801-850,Alexandria University,Egypt,Africa,XL,FC,VH,Public,32.7
+781-790,741-750,Carleton University,Canada,Americas,L,CO,VH,Public,15.6
+781-790,851-900,Georgia State University,United States of America,Americas,L,FO,VH,Public,14.8
+781-790,,Hong Kong Metropolitan University,"Hong Kong SAR, China",Asia,L,FO,HI,,26.5
+781-790,801-850,Kuwait University,Kuwait,Asia,XL,FC,HI,Public,20.9
+781-790,851-900,Technological University of Dublin,Ireland,Europe,L,CO,HI,Public,17.7
+781-790,801-850,Universidad de Alicante,Spain,Europe,L,FC,VH,Public,21.1
+781-790,791-800,Universidad de Antioquia,Colombia,Americas,XL,FO,VH,Public,39.7
+781-790,771-780,Universidad del Rosario,Colombia,Americas,M,FC,HI,Private not for Profit,23.8
+781-790,901-950,"Universidade Católica Portuguesa, UCP",Portugal,Europe,M,FO,VH,Private not for Profit,16.5
+781-790,791-800,University of Kentucky,United States of America,Americas,L,FC,VH,Public,15
+781-790,781-790,University of Mons,Belgium,Europe,M,CO,VH,Public,7
+781-790,741-750,V.N. Karazin Kharkiv National University,Ukraine,Europe,L,FC,HI,Public,14.3
+781-790,791-800,Wayne State University,United States of America,Americas,L,FC,VH,Public,9
+791-800,851-900,Applied Science Private University - Jordan,Jordan,Asia,M,CO,HI,Private for Profit,16.4
+791-800,801-850,Beijing University of Technology,China (Mainland),Asia,L,CO,VH,Public,9
+791-800,771-780,Chiba University,Japan,Asia,L,FC,VH,Public,22.5
+791-800,721-730,Lanzhou University,China (Mainland),Asia,XL,CO,VH,Public,9.4
+791-800,691-700,Norwegian University of Life Sciences (UMB),Norway,Europe,M,FO,VH,,8.2
+791-800,801-850,Pontificia Universidad Católica de Valparaíso,Chile,Americas,L,CO,VH,Private not for Profit,36.4
+791-800,801-850,Universiti Tunku Abdul Rahman (UTAR),Malaysia,Asia,M,FC,HI,Private not for Profit,19.4
+791-800,741-750,Wake Forest University,United States of America,Americas,M,FC,VH,Private not for Profit,7.4
+801-850,851-900,AGH University of Krakow,Poland,Europe,L,CO,VH,Public,13.1
+801-850,711-720,Ahlia University,Bahrain,Asia,S,SP,HI,Private not for Profit,18.1
+801-850,791-800,Alfaisal University,Saudi Arabia,Asia,S,FO,VH,Private not for Profit,7.9
+801-850,1001-1200,Azerbaijan State University of Economics,Azerbaijan,Asia,L,FO,HI,Public,21.2
+801-850,771-780,Bournemouth University,United Kingdom,Europe,L,CO,VH,Public,8
+801-850,711-720,De Montfort University,United Kingdom,Europe,L,FO,VH,Public,6.4
+801-850,851-900,Donghua University,China (Mainland),Asia,L,CO,VH,Public,4.5
+801-850,801-850,Gdansk University of Technology,Poland,Europe,L,FO,VH,Public,12
+801-850,901-950,German Jordanian University,Jordan,Asia,S,FO,VH,Public,14.6
+801-850,,IIT Gandhinagar,India,Asia,S,FO,VH,Public,7
+801-850,751-760,Instituto Tecnológico Autonomo de México (ITAM),Mexico,Americas,S,SP,MD,Private not for Profit,21.5
+801-850,791-800,Keele University,United Kingdom,Europe,M,FC,VH,Public,8.5
+801-850,721-730,Middlesex University,United Kingdom,Europe,L,CO,HI,Public,7.5
+801-850,801-850,"National Technical University of Ukraine ""Igor Sikorsky Kyiv Polytechnic Institute""",Ukraine,Europe,L,CO,VH,Public,18.4
+801-850,851-900,Northwest Agriculture and Forestry University,China (Mainland),Asia,XL,CO,VH,Public,5.2
+801-850,801-850,Ocean University of China,China (Mainland),Asia,XL,FC,VH,Public,6.3
+801-850,801-850,Perugia University,Italy,Europe,L,FC,VH,Public,12
+801-850,580,Politecnico di Bari,Italy,Europe,M,SP,VH,Public,9.8
+801-850,781-790,Qassim University,Saudi Arabia,Asia,L,FC,VH,Public,15.5
+801-850,641-650,Soochow University,China (Mainland),Asia,XL,CO,VH,Public,9.2
+801-850,781-790,"The New School, New York City and Paris",United States of America,Americas,M,FO,VH,Private not for Profit,20.4
+801-850,751-760,Tokyo University of Science (RIKADAI),Japan,Asia,L,FO,VH,Private not for Profit,11.5
+801-850,691-700,Universidad de la Habana,Cuba,Americas,L,FO,HI,Public,19.9
+801-850,741-750,Universidad de Montevideo,Uruguay,Americas,S,FC,MD,Private not for Profit,24.9
+801-850,801-850,Universidad de San Francisco de Quito,Ecuador,Americas,M,FC,HI,Private not for Profit,25
+801-850,751-760,Universidade de Brasilia (UnB),Brazil,Americas,XL,FC,VH,Public,34.8
+801-850,781-790,Universidade Federal de Santa Catarina,Brazil,Americas,L,FC,VH,Public,26.1
+801-850,691-700,Universidade Federal de São Paulo (UNIFESP),Brazil,Americas,L,FC,VH,Public,14.1
+801-850,801-850,Universita' degli studi di Salerno,Italy,Europe,L,FC,VH,Public,12.3
+801-850,751-760,Universita' Politecnica delle Marche - UNIVPM,Italy,Europe,M,FO,VH,Public,8
+801-850,851-900,Università  degli Studi di Palermo,Italy,Europe,L,CO,VH,Public,17.8
+801-850,801-850,Universität Duisburg-Essen,Germany,Europe,XL,FC,VH,Public,16.1
+801-850,1001-1200,Universiti Malaysia Terengganu (UMT),Malaysia,Asia,M,CO,VH,Public,16.7
+801-850,801-850,University of Bari,Italy,Europe,XL,FO,VH,Public,16.8
+801-850,801-850,University of Brighton,United Kingdom,Europe,L,FO,VH,Public,9.6
+801-850,751-760,University of Engineering & Technology (UET) Lahore,Pakistan,Asia,L,SP,VH,Public,11.1
+801-850,691-700,University of Greenwich,United Kingdom,Europe,L,CO,HI,Public,6.2
+801-850,801-850,University of Hyderabad,India,Asia,M,FC,VH,Public,17.7
+801-850,781-790,University of Latvia,Latvia,Europe,M,FC,VH,Public,14.5
+801-850,851-900,University of Lincoln,United Kingdom,Europe,L,CO,VH,Public,8
+801-850,,"University of Maryland, Baltimore",United States of America,Americas,M,FC,VH,Public,7.6
+801-850,771-780,"University of Maryland, Baltimore County",United States of America,Americas,L,FC,HI,Public,13.6
+801-850,721-730,University of Modena and Reggio Emilia,Italy,Europe,L,FC,VH,Public,12.3
+801-850,,University of Namur,Belgium,Europe,M,FO,VH,,6.4
+801-850,801-850,University of Ulsan,Republic of Korea,Asia,L,FC,VH,Private not for Profit,6
+801-850,741-750,University of Westminster,United Kingdom,Europe,L,CO,HI,Public,12.3
+801-850,851-900,University of Wroclaw,Poland,Europe,L,CO,VH,Public,20.6
+801-850,901-950,Vietnam National University - Ho Chi Minh City (VNU-HCM),Viet Nam,Asia,XL,CO,VH,Public,29.1
+801-850,781-790,Zurich University of Applied Sciences (ZHAW),Switzerland,Europe,M,CO,VH,,7.2
+851-900,771-780,Addis Ababa University,Ethiopia,Africa,XL,FO,VH,,7.8
+851-900,741-750,Altai State University,Russian Federation,Europe,M,CO,VH,Public,12.9
+851-900,951-1000,Auburn University,United States of America,Americas,XL,CO,VH,Public,11.6
+851-900,901-950,Australian Catholic University,Australia,Oceania,L,CO,HI,Public,12
+851-900,1001-1200,Azerbaijan State Oil and Industry University,Azerbaijan,Asia,L,FO,HI,Public,13.1
+851-900,,Azerbaijan Technical University,Azerbaijan,Asia,M,SP,MD,,19.1
+851-900,901-950,Beijing Jiaotong University,China (Mainland),Asia,L,FO,VH,Public,12.3
+851-900,801-850,Belarusian National Technical University,Belarus,Europe,L,SP,LO,Public,16.6
+851-900,951-1000,BINUS UNIVERSITY (Bina Nusantara University),Indonesia,Asia,L,CO,VH,Private for Profit,20.1
+851-900,901-950,Catania University,Italy,Europe,L,FC,VH,Public,17.5
+851-900,771-780,China University of Geosciences,China (Mainland),Asia,L,FO,VH,Public,6.6
+851-900,851-900,Chungnam National University,Republic of Korea,Asia,L,FC,VH,Public,11.7
+851-900,,Dhofar University,Oman,Asia,S,FO,VH,Private not for Profit,10
+851-900,801-850,Edinburgh Napier University,United Kingdom,Europe,L,CO,HI,Public,7.9
+851-900,721-730,Effat University,Saudi Arabia,Asia,S,FO,VH,Private not for Profit,4.9
+851-900,,European University of Lefke (EUL),Northern Cyprus,Asia,M,FO,HI,Public,6.7
+851-900,791-800,I.M. Sechenov First Moscow State Medical University,Russian Federation,Europe,L,SP,VH,Public,5
+851-900,901-950,Imam Muhammad Ibn Saud Islamic University - IMSIU,Saudi Arabia,Asia,XL,FC,HI,Public,16.7
+851-900,801-850,Instituto Politécnico Nacional (IPN),Mexico,Americas,XL,FO,VH,Public,26.6
+851-900,1001-1200,Jiangnan University,China (Mainland),Asia,L,FC,VH,Public,5.8
+851-900,801-850,Liverpool John Moores University,United Kingdom,Europe,L,CO,VH,Public,13.5
+851-900,901-950,Louisiana State University,United States of America,Americas,XL,CO,VH,Public,14.1
+851-900,901-950,Manipal Academy of Higher Education - Manipal University (MAHE),India,Asia,L,FC,VH,Private not for Profit,14.7
+851-900,851-900,Mendel University in Brno,Czechia,Europe,M,FO,VH,Public,9.8
+851-900,1001-1200,Multimedia University (MMU),Malaysia,Asia,M,FO,VH,Private for Profit,18.9
+851-900,851-900,Nantes University,France,Europe,XL,CO,VH,Public,14.8
+851-900,1001-1200,O. P. Jindal Global University (JGU),India,Asia,M,SP,VH,Private not for Profit,15.9
+851-900,851-900,Oklahoma State University,United States of America,Americas,L,FC,HI,Public,10.6
+851-900,951-1000,Prince of Songkla University,Thailand,Asia,XL,FC,HI,Public,32.4
+851-900,851-900,Tokyo University of Agriculture and Technology,Japan,Asia,M,FO,VH,Public,15.6
+851-900,801-850,Universidad Anahuac,Mexico,Americas,L,CO,MD,Private not for Profit,18
+851-900,901-950,Universidad Nacional de Córdoba,Argentina,Americas,XL,FC,HI,Public,39
+851-900,901-950,Universidade de Vigo,Spain,Europe,L,CO,VH,Public,14
+851-900,901-950,Universita' degli Studi della Tuscia,Italy,Europe,M,FO,VH,Public,4
+851-900,851-900,Universität Düsseldorf,Germany,Europe,L,FC,VH,Public,16.2
+851-900,801-850,Universität Rostock,Germany,Europe,L,FC,HI,Public,9.6
+851-900,711-720,Université de Franche-Comté,France,Europe,S,CO,VH,Public,7.6
+851-900,851-900,Université du Québec,Canada,Americas,XL,FC,HI,Public,20.5
+851-900,951-1000,Universiti Pendidikan Sultan Idris (UPSI),Malaysia,Asia,M,FO,VH,Public,17
+851-900,761-770,"University of Colorado, Denver",United States of America,Americas,L,FC,HI,Public,10.5
+851-900,851-900,University of Dubai,United Arab Emirates,Asia,S,SP,MD,Private not for Profit,6
+851-900,851-900,University of Gdansk,Poland,Europe,L,CO,VH,Public,17.4
+851-900,851-900,University of Ghana,Ghana,Africa,XL,FC,HI,Public,17.8
+851-900,851-900,University of Santo Tomas,Philippines,Asia,XL,FC,MD,Private not for Profit,20.3
+851-900,1001-1200,University of Seoul,Republic of Korea,Asia,M,CO,VH,Public,17.6
+851-900,801-850,University of Stavanger,Norway,Europe,M,CO,VH,,10.4
+851-900,771-780,Verona University,Italy,Europe,L,FO,VH,Public,13.1
+851-900,851-900,Vilnius Gediminas Technical University,Lithuania,Europe,M,SP,VH,Public,13.8
+851-900,901-950,Worcester Polytechnic Institute,United States of America,Americas,M,FO,VH,Private not for Profit,3.7
+851-900,901-950,Wroclaw University of Science and Technology (WUST),Poland,Europe,L,SP,VH,Public,15
+851-900,951-1000,Yarmouk University,Jordan,Asia,L,FC,HI,Public,23.4
+901-950,801-850,Al Jouf University,Saudi Arabia,Asia,M,FC,VH,Public,12.6
+901-950,,American University of Central Asia,Kyrgyzstan,Asia,S,FO,MD,Private not for Profit,12.7
+901-950,,Baku Engineering University,Azerbaijan,Asia,M,FO,MD,Public,24.9
+901-950,851-900,Chonnam National University,Republic of Korea,Asia,L,FC,VH,Public,12.2
+901-950,771-780,Colegio de México,Mexico,Americas,S,SP,VH,Public,19.5
+901-950,901-950,Future University in Egypt,Egypt,Africa,M,FO,VH,Private not for Profit,7.1
+901-950,901-950,Gazi Üniversitesi,Türkiye,Asia,XL,FC,HI,Public,23.7
+901-950,851-900,Gulf University for Science and Technology (GUST),Kuwait,Asia,S,FO,VH,Private for Profit,15.9
+901-950,801-850,Huazhong Agricultural University,China (Mainland),Asia,XL,CO,VH,Public,5.2
+901-950,901-950,Kanazawa University,Japan,Asia,M,FC,VH,Public,13.2
+901-950,851-900,Kansas State University,United States of America,Americas,L,CO,VH,Public,9.1
+901-950,901-950,Karaganda Buketov University,Kazakhstan,Asia,L,CO,MD,Private not for Profit,17.6
+901-950,951-1000,Khon Kaen University,Thailand,Asia,XL,FC,HI,Public,26.6
+901-950,951-1000,King Mongkut's University of Technology Thonburi,Thailand,Asia,L,CO,VH,Public,20.8
+901-950,801-850,London South Bank University,United Kingdom,Europe,L,FO,VH,Public,4.9
+901-950,,Lovely Professional University (LPU),India,Asia,XL,CO,VH,Private not for Profit,20
+901-950,,Macao Polytechnic University,"Macao SAR, China",Asia,M,FO,HI,,5.6
+901-950,901-950,Michigan Technological University,United States of America,Americas,M,CO,VH,Public,6.2
+901-950,851-900,Nagasaki University,Japan,Asia,M,FC,VH,Public,9
+901-950,901-950,Osaka Metropolitan University,Japan,Asia,L,FC,VH,,18.1
+901-950,1001-1200,Panjab University,India,Asia,L,CO,VH,Public,9.4
+901-950,901-950,Princess Sumaya University for Technology,Jordan,Asia,S,SP,HI,Private not for Profit,11
+901-950,951-1000,Saveetha Institute of Medical And Technical Sciences (SIMATS),India,Asia,L,FO,VH,Private not for Profit,8.9
+901-950,,Taif University,Saudi Arabia,Asia,XL,FC,VH,Public,7
+901-950,1001-1200,Tallinn University,Estonia,Europe,M,FO,VH,Public,11.1
+901-950,,Tashkent State Technical University,Uzbekistan,Asia,L,CO,HI,Public,30.6
+901-950,741-750,Universidad Católica Andrés Bello - UCAB,Venezuela (Bolivarian Republic of),Americas,M,FO,MD,Private not for Profit,33.6
+901-950,901-950,Universidad Católica del Uruguay (UCU),Uruguay,Americas,S,CO,MD,Private not for Profit,18.2
+901-950,951-1000,Universidad de los Andes Chile,Chile,Americas,M,FC,HI,Private not for Profit,25.3
+901-950,1001-1200,Universidad de Oviedo,Spain,Europe,L,CO,VH,Public,18.2
+901-950,851-900,Universidad de Valladolid,Spain,Europe,L,CO,VH,,16.1
+901-950,,Universidad Europea de Madrid,Spain,Europe,L,FC,MD,,7.7
+901-950,801-850,Universidad Iberoamericana (UIA),Mexico,Americas,M,FC,MD,Private not for Profit,24.2
+901-950,901-950,Università degli Studi Roma Tre,Italy,Europe,XL,CO,VH,Public,24.7
+901-950,851-900,Université de Sherbrooke,Canada,Americas,L,FC,HI,Public,8.2
+901-950,851-900,University at Albany SUNY,United States of America,Americas,L,CO,VH,Public,10.1
+901-950,951-1000,University of Alabama,United States of America,Americas,XL,CO,VH,Public,12.1
+901-950,801-850,University of Alaska Fairbanks,United States of America,Americas,S,CO,VH,Public,3.4
+901-950,851-900,University of Hertfordshire,United Kingdom,Europe,L,CO,HI,Public,5.8
+901-950,901-950,University of Maribor,Slovenia,Europe,L,FC,HI,Public,10.8
+901-950,1001-1200,University of North Texas,United States of America,Americas,XL,FC,HI,Public,10.1
+901-950,901-950,University of Peshawar,Pakistan,Asia,L,FO,VH,Public,9.4
+901-950,801-850,University of Petroleum and Energy Studies (UPES),India,Asia,M,FO,VH,Private for Profit,23.4
+901-950,901-950,University of Salford,United Kingdom,Europe,L,CO,HI,Public,10.8
+901-950,851-900,University of South Africa,South Africa,Africa,XL,CO,VH,Public,13.8
+901-950,851-900,Virginia Commonwealth University,United States of America,Americas,L,FC,VH,Public,9.5
+901-950,951-1000,Yeungnam University,Republic of Korea,Asia,L,FC,VH,Private for Profit,5.1
+951-1000,851-900,Abylkas Saginov Karaganda Technical University,Kazakhstan,Asia,M,FO,HI,Public,10.3
+951-1000,,Al Nahrain University,Iraq,Asia,M,FO,VH,Public,8.2
+951-1000,851-900,Al-Quds University,Palestine,Asia,M,FC,MD,Public,10.1
+951-1000,1001-1200,Amity University,India,Asia,L,CO,VH,Private not for Profit,10.5
+951-1000,951-1000,Athens University of Economics And Business,Greece,Europe,M,SP,HI,Public,10.1
+951-1000,851-900,Charles Sturt University,Australia,Oceania,L,CO,VH,Public,6.4
+951-1000,851-900,Clarkson University,United States of America,Americas,S,CO,VH,Private not for Profit,1
+951-1000,951-1000,Clemson University,United States of America,Americas,L,CO,VH,Public,9.6
+951-1000,851-900,CY Cergy Paris University,France,Europe,M,FO,VH,Public,5.2
+951-1000,1001-1200,Escuela Superior Politécnica del Litoral - ESPOL,Ecuador,Americas,M,CO,VH,Public,22.7
+951-1000,951-1000,Ferdowsi University of Mashhad,Iran (Islamic Republic of),Asia,L,CO,VH,Public,11.1
+951-1000,1001-1200,George Mason University,United States of America,Americas,L,CO,VH,Public,12
+951-1000,1001-1200,Guru Gobind Singh Indraprastha University,India,Asia,S,CO,VH,Public,5.8
+951-1000,1001-1200,Hasanuddin University,Indonesia,Asia,XL,FC,HI,Public,23.5
+951-1000,801-850,Immanuel Kant Baltic Federal University,Russian Federation,Europe,M,CO,VH,Public,7.7
+951-1000,951-1000,Indian Institute of Technology Bhubaneswar (IIT BBS),India,Asia,S,FO,VH,Public,5
+951-1000,791-800,Ivane Javakhishvili Tbilisi State University,Georgia,Asia,L,FC,MD,Public,11.9
+951-1000,,Khazar University,Azerbaijan,Asia,M,CO,MD,Private not for Profit,7.8
+951-1000,951-1000,Kumamoto University,Japan,Asia,M,FC,VH,Public,9.2
+951-1000,901-950,Kyrgyz-Turkish Manas University,Kyrgyzstan,Asia,S,CO,HI,Public,19.2
+951-1000,901-950,Lodz University,Poland,Europe,L,CO,VH,Public,15.4
+951-1000,711-720,Nanjing Agricultural University,China (Mainland),Asia,L,CO,VH,Public,6.1
+951-1000,1001-1200,Nanjing Normal University,China (Mainland),Asia,XL,SP,VH,Public,6.4
+951-1000,1001-1200,National Chung Cheng University,Taiwan,Asia,M,CO,VH,Public,18.9
+951-1000,901-950,North South University,Bangladesh,Asia,L,FO,HI,Private not for Profit,16.9
+951-1000,851-900,North-West University,South Africa,Africa,XL,CO,VH,Public,8.4
+951-1000,851-900,Okayama University,Japan,Asia,L,FC,VH,Public,11.5
+951-1000,1001-1200,Rochester Institute of Technology (RIT),United States of America,Americas,L,CO,VH,Private not for Profit,10
+951-1000,951-1000,Saint Louis University,United States of America,Americas,L,CO,VH,Private not for Profit,5.7
+951-1000,1001-1200,Sohar University,Oman,Asia,S,FO,VH,Private not for Profit,8.1
+951-1000,951-1000,Sophia University,Japan,Asia,L,CO,HI,Private not for Profit,18.7
+951-1000,901-950,South Ural State University,Russian Federation,Europe,L,CO,VH,Public,8.6
+951-1000,901-950,The Robert Gordon University,United Kingdom,Europe,L,CO,HI,Public,4
+951-1000,951-1000,Universidad Autónoma Metropolitana (UAM),Mexico,Americas,XL,FC,HI,Public,32.5
+951-1000,781-790,Universidad de Belgrano,Argentina,Americas,M,FO,MD,Private not for Profit,11.2
+951-1000,951-1000,Universidad de Córdoba - España,Spain,Europe,L,CO,VH,,15.5
+951-1000,951-1000,Universidad de La Sabana,Colombia,Americas,M,FC,HI,Private not for Profit,30.1
+951-1000,901-950,Universidad EAFIT,Colombia,Americas,L,CO,HI,Private not for Profit,19.4
+951-1000,,Universidad Espíritu Santo (UEES),Ecuador,Americas,S,FO,VH,Private not for Profit,6.1
+951-1000,901-950,Universidad Externado de Colombia,Colombia,Americas,L,FO,MD,Private not for Profit,15.8
+951-1000,901-950,Universidad Nacional Mayor de San Marcos,Peru,Americas,XL,FC,HI,Public,28.9
+951-1000,951-1000,Universidad Torcuato Di Tella,Argentina,Americas,S,SP,HI,Private not for Profit,18.4
+951-1000,851-900,Universita' degli Studi di Ferrara,Italy,Europe,L,FC,HI,Public,9.3
+951-1000,901-950,Università della Calabria,Italy,Europe,M,CO,VH,Public,11.1
+951-1000,951-1000,University of Bahrain,Bahrain,Asia,L,CO,HI,Public,14.3
+951-1000,,University of Cyberjaya,Malaysia,Asia,S,FO,HI,,22.5
+951-1000,901-950,University of Ha'il,Saudi Arabia,Asia,L,FC,HI,Public,8.7
+951-1000,951-1000,University of Lahore,Pakistan,Asia,L,CO,VH,Private not for Profit,17.8
+951-1000,1001-1200,University of Massachusetts - Boston,United States of America,Americas,L,FC,HI,Public,13.8
+951-1000,951-1000,University of the Western Cape,South Africa,Africa,L,CO,VH,Public,12
+951-1000,801-850,Wuhan University of Technology,China (Mainland),Asia,XL,CO,VH,Public,7.2
+1001-1200,,Adamson University,Philippines,Asia,M,CO,MD,Private for Profit,39.3
+1001-1200,,Aga Khan University,Pakistan,Asia,S,FO,VH,Private not for Profit,6.4
+1001-1200,1001-1200,Al Azhar University,Egypt,Africa,XL,CO,VH,Public,21.5
+1001-1200,1201-1400,Alexandru Ioan Cuza University,Romania,Europe,L,CO,HI,Public,11.7
+1001-1200,1001-1200,"Aligarh Muslim University (AMU), Aligarh",India,Asia,L,CO,VH,Public,15.4
+1001-1200,951-1000,Almaty Technological University,Kazakhstan,Asia,M,CO,MD,Public,5.9
+1001-1200,1001-1200,Amrita Vishwa Vidyapeetham,India,Asia,L,FC,VH,Private not for Profit,6.9
+1001-1200,1001-1200,An-Najah National University,Palestine,Asia,L,FC,MD,Public,13.5
+1001-1200,1001-1200,"Arab Academy for Science, Technology and Maritime Transport",Egypt,Africa,L,FO,VH,Public,7.5
+1001-1200,951-1000,Asfendiyarov Kazakh National Medical University,Kazakhstan,Asia,M,FO,HI,Public,7.3
+1001-1200,1001-1200,Assiut University,Egypt,Africa,XL,FC,HI,Public,16.3
+1001-1200,,Azerbaijan University of Architecture and Construction,Azerbaijan,Asia,M,FO,MD,Public,25.7
+1001-1200,1001-1200,Banaras Hindu University,India,Asia,L,FC,VH,Public,18.9
+1001-1200,1001-1200,Baylor University,United States of America,Americas,L,CO,VH,Private not for Profit,8.7
+1001-1200,901-950,Beijing University of Posts and Telecommunications,China (Mainland),Asia,L,FO,VH,Public,4.3
+1001-1200,1001-1200,Binghamton University SUNY,United States of America,Americas,L,CO,VH,Public,10.1
+1001-1200,1001-1200,Birmingham City University,United Kingdom,Europe,XL,FO,HI,Public,8.2
+1001-1200,1001-1200,Brigham Young University,United States of America,Americas,XL,CO,VH,Private not for Profit,7.7
+1001-1200,1201-1400,CEU University,Spain,Europe,L,FO,VH,,7.3
+1001-1200,1001-1200,Chung Yuan Christian University,Taiwan,Asia,L,CO,HI,Public,9.9
+1001-1200,1001-1200,Chungbuk National University,Republic of Korea,Asia,M,FC,VH,Public,6.5
+1001-1200,951-1000,Clark University,United States of America,Americas,S,CO,VH,Private not for Profit,2.5
+1001-1200,1001-1200,Cracow University of Technology of Tadeusz Kościuszko,Poland,Europe,L,SP,VH,Public,12.6
+1001-1200,951-1000,D. Serikbayev East Kazakhstan Technical University,Kazakhstan,Asia,M,FO,HI,Public,14.6
+1001-1200,1201-1400,Daffodil International University,Bangladesh,Asia,L,FO,VH,Private not for Profit,15.6
+1001-1200,1001-1200,Dankook University,Republic of Korea,Asia,L,FC,HI,Private not for Profit,10
+1001-1200,1001-1200,Ege Üniversitesi,Türkiye,Asia,XL,FC,HI,Public,14.5
+1001-1200,951-1000,Financial University under the Government of the Russian Federation,Russian Federation,Europe,L,FO,VH,Public,4.9
+1001-1200,1201-1400,Florida Atlantic University - Boca Raton,United States of America,Americas,L,FC,HI,Public,6.6
+1001-1200,1001-1200,Fordham University,United States of America,Americas,L,CO,HI,Private not for Profit,9.1
+1001-1200,1001-1200,Gebze Technical University,Türkiye,Asia,M,CO,VH,Public,7
+1001-1200,901-950,Georgian Technical University,Georgia,Asia,L,FO,HI,Public,7.1
+1001-1200,,German University of Technology in Oman  (GUTECH),Oman,Asia,S,FO,HI,Private for Profit,9.1
+1001-1200,1001-1200,Gifu University,Japan,Asia,M,FO,VH,Public,6.4
+1001-1200,1001-1200,Glasgow Caledonian University,United Kingdom,Europe,L,FO,VH,Public,7.2
+1001-1200,951-1000,Hallym University,Republic of Korea,Asia,M,FC,VH,Private not for Profit,3.4
+1001-1200,1001-1200,Harbin Engineering University,China (Mainland),Asia,L,FO,VH,Public,5.2
+1001-1200,1001-1200,Hohai University,China (Mainland),Asia,XL,FO,VH,Public,3.2
+1001-1200,1001-1200,Howard University,United States of America,Americas,M,FC,HI,Private not for Profit,8.3
+1001-1200,,Islamic University of Lebanon,Lebanon,Asia,M,FO,MD,Private for Profit,10.6
+1001-1200,1001-1200,IU Indianapolis,United States of America,Americas,L,FC,HI,Public,8.9
+1001-1200,,Kalinga Institute of Industrial Technology,India,Asia,L,CO,VH,Private not for Profit,6.4
+1001-1200,1001-1200,Kangwon National University,Republic of Korea,Asia,L,FC,HI,Public,8
+1001-1200,1001-1200,Kazakh-British Technical University,Kazakhstan,Asia,M,FO,HI,Public,15.9
+1001-1200,1001-1200,Kent State University,United States of America,Americas,L,FO,VH,Public,7
+1001-1200,1201-1400,Kookmin University,Republic of Korea,Asia,L,CO,HI,Private for Profit,5.3
+1001-1200,851-900,Kyrgyz Russian Slavic University,Kyrgyzstan,Asia,M,CO,MD,Public,10.9
+1001-1200,1001-1200,Kyushu Institute of Technology,Japan,Asia,M,SP,VH,Public,5
+1001-1200,1001-1200,Leeds Beckett University,United Kingdom,Europe,L,CO,HI,Public,5.1
+1001-1200,1001-1200,Lobachevsky State University of Nizhni Novgorod,Russian Federation,Europe,L,FO,VH,Public,10
+1001-1200,1001-1200,Lodz University of Technology,Poland,Europe,M,SP,VH,Public,6
+1001-1200,1001-1200,London Metropolitan University,United Kingdom,Europe,L,CO,MD,Public,5.9
+1001-1200,1001-1200,Loyola University Chicago,United States of America,Americas,L,FC,HI,Private not for Profit,12.2
+1001-1200,901-950,Makerere University,Uganda,Africa,XL,FC,HI,Public,13.4
+1001-1200,951-1000,Mansoura University,Egypt,Africa,XL,FC,VH,Public,18.8
+1001-1200,1001-1200,Marmara University,Türkiye,Asia,XL,FO,VH,Public,11.8
+1001-1200,1001-1200,MATE Hungarian University of Agriculture and Life Sciences,Hungary,Europe,M,FO,VH,Private not for Profit,7.1
+1001-1200,,Middle East University Jordan,Jordan,Asia,S,FO,VH,Private not for Profit,9.1
+1001-1200,1001-1200,Mississippi State University,United States of America,Americas,L,CO,VH,Public,7.2
+1001-1200,1001-1200,Mustansiriyah University,Iraq,Asia,XL,FC,HI,Public,8.3
+1001-1200,1001-1200,Mutah University,Jordan,Asia,L,FC,MD,Public,15.6
+1001-1200,1001-1200,Mykolas Romeris University,Lithuania,Europe,S,FO,VH,Public,6
+1001-1200,1001-1200,Narxoz University,Kazakhstan,Asia,M,FO,MD,Private not for Profit,15.7
+1001-1200,901-950,National Research Saratov State University,Russian Federation,Europe,M,FO,VH,Public,5
+1001-1200,1001-1200,"National Technical University ""Kharkiv Polytechnic Institute""",Ukraine,Europe,M,CO,VH,Public,7.6
+1001-1200,1001-1200,National University Lviv Polytechnic,Ukraine,Europe,L,CO,VH,Public,9.6
+1001-1200,901-950,Nicolaus Copernicus University,Poland,Europe,L,FC,HI,Public,10.3
+1001-1200,951-1000,Niigata University,Japan,Asia,L,FC,HI,Public,6.6
+1001-1200,1001-1200,Northern Arizona University,United States of America,Americas,L,CO,VH,Public,9.5
+1001-1200,951-1000,Northern Borders University,Saudi Arabia,Asia,M,FC,HI,Public,13.4
+1001-1200,1001-1200,Northwest University (China),China (Mainland),Asia,L,CO,VH,Public,5.8
+1001-1200,,Notre Dame University-Louaize (NDU),Lebanon,Asia,S,CO,HI,Private not for Profit,6.5
+1001-1200,1201-1400,Obuda University,Hungary,Europe,M,FO,VH,Public,7.9
+1001-1200,1001-1200,Ohio University,United States of America,Americas,L,FC,HI,Public,10.9
+1001-1200,851-900,Pavol Josef Safarik University,Slovakia,Europe,M,FC,HI,Public,6.4
+1001-1200,951-1000,Pontificia Universidad Catolica del Ecuador,Ecuador,Americas,L,FO,HI,Private not for Profit,24.4
+1001-1200,1001-1200,Pontificia Universidade Católica de São Paulo (PUC -SP),Brazil,Americas,M,FC,MD,Private not for Profit,13.2
+1001-1200,851-900,Poznan University of Life Sciences,Poland,Europe,M,FO,VH,Public,6.6
+1001-1200,1001-1200,Poznan University of Technology,Poland,Europe,L,FO,VH,Public,10.9
+1001-1200,951-1000,Rhodes University,South Africa,Africa,M,FO,VH,Public,8
+1001-1200,951-1000,Riga Stradins University,Latvia,Europe,M,SP,HI,Public,7.4
+1001-1200,901-950,Ritsumeikan Asia Pacific University,Japan,Asia,M,SP,LO,Private for Profit,8.3
+1001-1200,1001-1200,Saint-Petersburg Mining University,Russian Federation,Europe,M,FO,VH,Public,3.1
+1001-1200,,Samarkand State University,Uzbekistan,Asia,L,CO,MD,Public,23.7
+1001-1200,1001-1200,San Diego State University,United States of America,Americas,XL,CO,VH,Public,7.9
+1001-1200,1001-1200,Sebelas Maret University,Indonesia,Asia,XL,FC,HI,Public,21.2
+1001-1200,1201-1400,Seoul National University of Science and Technology,Republic of Korea,Asia,M,FO,VH,Public,10.5
+1001-1200,1001-1200,Sheffield Hallam University,United Kingdom,Europe,XL,CO,HI,Public,9.8
+1001-1200,1001-1200,Siberian Federal University,Russian Federation,Europe,M,CO,VH,Public,7.8
+1001-1200,1001-1200,Silesian University of Technology in Gliwice,Poland,Europe,L,FO,VH,Public,8.7
+1001-1200,1001-1200,Slovak University of Technology in Bratislava,Slovakia,Europe,M,FO,VH,Public,10.8
+1001-1200,1001-1200,Soonchunhyang University,Republic of Korea,Asia,M,FC,VH,Private not for Profit,7.7
+1001-1200,951-1000,Southern Federal University,Russian Federation,Europe,L,CO,VH,Public,7
+1001-1200,1001-1200,Southern Methodist University,United States of America,Americas,M,CO,VH,Private not for Profit,6.4
+1001-1200,1001-1200,Southwest University,China (Mainland),Asia,XL,CO,VH,Public,3.2
+1001-1200,1001-1200,SRM Institute of Science and Technology (f.k.a SRM University),India,Asia,XL,CO,VH,Private not for Profit,14.1
+1001-1200,,Sumgait State University,Azerbaijan,Asia,M,CO,MD,Public,14.1
+1001-1200,1001-1200,Sumy State University,Ukraine,Europe,M,FC,HI,Public,6.3
+1001-1200,1001-1200,Sungshin Women's University,Republic of Korea,Asia,M,CO,MD,Private not for Profit,9.1
+1001-1200,1001-1200,Széchenyi István University,Hungary,Europe,M,FO,VH,Private for Profit,12.2
+1001-1200,,Tashkent State University of Economics,Uzbekistan,Asia,L,SP,MD,Public,15.7
+1001-1200,1001-1200,Technical University of Kosice,Slovakia,Europe,M,FO,VH,Public,8.2
+1001-1200,1001-1200,Technical University of Ostrava,Czechia,Europe,M,FO,VH,Public,7.7
+1001-1200,1001-1200,Telkom University (aka Telkom Institute of Technology),Indonesia,Asia,L,SP,VH,Private for Profit,13.6
+1001-1200,1201-1400,The City College of New York,United States of America,Americas,L,FC,HI,Public,11.8
+1001-1200,1001-1200,"The Federal University of Sao Carlos, UFSCar",Brazil,Americas,L,FC,VH,Public,15
+1001-1200,1001-1200,The Hashemite University,Jordan,Asia,L,FC,HI,Public,15.6
+1001-1200,1001-1200,Tokyo Metropolitan University,Japan,Asia,M,CO,VH,Public,17.5
+1001-1200,1001-1200,Universidad Andrés Bello - UNAB,Chile,Americas,XL,FC,HI,Private not for Profit,19.5
+1001-1200,,Universidad Argentina de la Empresa -UADE,Argentina,Americas,L,FO,MD,Private not for Profit,6.4
+1001-1200,1001-1200,Universidad Austral de Chile,Chile,Americas,L,FC,HI,Private not for Profit,19.3
+1001-1200,1001-1200,Universidad de Castilla-La Mancha,Spain,Europe,L,FC,VH,Public,10.7
+1001-1200,1001-1200,Universidad de Guadalajara (UDG),Mexico,Americas,XL,FC,HI,Public,26.5
+1001-1200,1001-1200,Universidad de las Américas Puebla (UDLAP),Mexico,Americas,M,FC,MD,Private not for Profit,11.7
+1001-1200,951-1000,Universidad de León,Spain,Europe,M,CO,VH,,10.4
+1001-1200,1001-1200,Universidad de Puerto Rico,Puerto Rico,Americas,XL,FC,HI,Public,14.8
+1001-1200,951-1000,Universidad de San Andrés,Argentina,Americas,S,SP,HI,Private not for Profit,11.7
+1001-1200,1001-1200,Universidad de Talca,Chile,Americas,M,FO,VH,Public,14.4
+1001-1200,1001-1200,Universidad del Valle,Colombia,Americas,XL,FC,MD,Public,24.1
+1001-1200,1001-1200,Universidad Diego Portales,Chile,Americas,L,FO,VH,Private not for Profit,19
+1001-1200,1001-1200,Universidad ICESI,Colombia,Americas,M,FO,HI,Private not for Profit,7.8
+1001-1200,951-1000,Universidad Nacional de Rosario,Argentina,Americas,XL,FC,MD,Public,27.4
+1001-1200,851-900,Universidad ORT Uruguay,Uruguay,Americas,M,FO,MD,Private not for Profit,13.2
+1001-1200,1001-1200,Universidad Peruana Cayetano Heredia,Peru,Americas,M,FO,VH,Private not for Profit,15.2
+1001-1200,901-950,Universidad Pontificia Bolivariana,Colombia,Americas,M,FO,VH,Private not for Profit,10.7
+1001-1200,1001-1200,Universidad Rey Juan Carlos,Spain,Europe,XL,CO,VH,Public,12.5
+1001-1200,1001-1200,Universidad Simón Bolívar Venezuela,Venezuela (Bolivarian Republic of),Americas,S,FO,VH,Public,19.5
+1001-1200,951-1000,Universidad Técnica Federico Santa María,Chile,Americas,L,FO,VH,Private not for Profit,13.3
+1001-1200,1001-1200,Universidade da Coruña,Spain,Europe,L,CO,VH,Public,8.5
+1001-1200,1001-1200,Universidade Federal do Paraná (UFPR),Brazil,Americas,XL,FC,VH,Public,19.4
+1001-1200,1001-1200,"Universita' degli Studi di Napoli ""Parthenope""",Italy,Europe,M,FO,VH,Public,5.6
+1001-1200,1001-1200,Università degli Studi di Udine,Italy,Europe,M,CO,VH,Public,9.5
+1001-1200,1001-1200,"Universita degli Studi ""G. D'Annunzio"" Chieti-Pescara",Italy,Europe,L,FO,VH,Public,4.9
+1001-1200,1201-1400,Universitas Sumatera Utara,Indonesia,Asia,XL,FC,HI,Public,14.4
+1001-1200,1001-1200,Universität Bielefeld,Germany,Europe,L,FO,VH,Public,19.9
+1001-1200,1001-1200,Universitat de Lleida,Spain,Europe,M,CO,VH,,7.4
+1001-1200,,Universitat Jaume I,Spain,Europe,L,CO,VH,Public,7.7
+1001-1200,,Université de Bretagne Occidentale (UBO),France,Europe,L,FO,VH,,6.2
+1001-1200,1001-1200,Université de Sfax,Tunisia,Africa,XL,CO,VH,Public,11.4
+1001-1200,1001-1200,Université Lumière Lyon 2,France,Europe,L,SP,VH,Public,14.3
+1001-1200,901-950,Université Paris 2 Panthéon-Assas,France,Europe,L,SP,VH,Public,8.5
+1001-1200,951-1000,Université Sorbonne Paris Nord,France,Europe,L,FO,VH,,14
+1001-1200,951-1000,"Université Toulouse 1, Capitole",France,Europe,L,FO,VH,Public,18.3
+1001-1200,1201-1400,Universiti Malaysia Perlis (UniMAP),Malaysia,Asia,M,FO,VH,Public,10.7
+1001-1200,1001-1200,Universiti Malaysia Sarawak (UNIMAS),Malaysia,Asia,M,FC,HI,Public,20.1
+1001-1200,1001-1200,Universiti Tun Hussein Onn University of Malaysia (UTHM),Malaysia,Asia,L,CO,VH,Public,14.5
+1001-1200,901-950,"University of Alabama, Birmingham",United States of America,Americas,L,FC,VH,Public,7.3
+1001-1200,,University of Anbar,Iraq,Asia,L,CO,HI,Public,25.3
+1001-1200,1001-1200,University of Arkansas Fayetteville,United States of America,Americas,L,CO,VH,Public,8.4
+1001-1200,,University of Balamand,Lebanon,Asia,M,CO,HI,Private not for Profit,8
+1001-1200,951-1000,University of Central Lancashire,United Kingdom,Europe,L,CO,HI,Public,6.5
+1001-1200,951-1000,University of Colombo,Sri Lanka,Asia,L,CO,HI,Public,15.1
+1001-1200,951-1000,University of Denver,United States of America,Americas,M,CO,VH,Private not for Profit,7.8
+1001-1200,1001-1200,University of Deusto,Spain,Europe,M,FO,VH,,8.9
+1001-1200,901-950,University of East London,United Kingdom,Europe,L,FO,HI,Public,3.9
+1001-1200,1001-1200,University of Hradec Kralove,Czechia,Europe,M,FO,VH,Public,5.8
+1001-1200,1001-1200,University of Ibadan,Nigeria,Africa,XL,CO,VH,,11.6
+1001-1200,1001-1200,University of Idaho,United States of America,Americas,M,CO,VH,Public,3.5
+1001-1200,1001-1200,University of Ioannina,Greece,Europe,XL,FC,HI,,9.4
+1001-1200,,University of Isfahan,Iran (Islamic Republic of),Asia,L,CO,VH,Public,7.7
+1001-1200,1001-1200,University of Karachi,Pakistan,Asia,XL,CO,HI,Public,14.5
+1001-1200,1001-1200,University of Lagos,Nigeria,Africa,XL,CO,HI,,9.4
+1001-1200,1001-1200,University of Louisville,United States of America,Americas,L,FC,HI,Public,3.9
+1001-1200,1001-1200,University of Malaysia Sabah (UMS),Malaysia,Asia,L,FC,HI,Public,22
+1001-1200,851-900,University of Mississippi,United States of America,Americas,L,CO,VH,Public,4.6
+1001-1200,1001-1200,"University of Missouri, Kansas City",United States of America,Americas,M,CO,VH,Public,5.1
+1001-1200,901-950,University of Murcia,Spain,Europe,L,FC,VH,Public,15.3
+1001-1200,901-950,University of Nairobi,Kenya,Africa,XL,FC,HI,Public,12.8
+1001-1200,,University of Nevada - Reno,United States of America,Americas,L,FC,HI,Public,6.4
+1001-1200,1001-1200,University of New England,Australia,Oceania,L,CO,VH,Public,12.5
+1001-1200,1001-1200,University of New Hampshire,United States of America,Americas,L,CO,VH,Public,6
+1001-1200,1001-1200,University of North Carolina at Charlotte,United States of America,Americas,L,CO,VH,Public,6.7
+1001-1200,951-1000,University of Parma,Italy,Europe,XL,FC,HI,Public,13.6
+1001-1200,951-1000,University of Regina,Canada,Americas,L,CO,HI,Public,4.7
+1001-1200,1001-1200,University of Rhode Island,United States of America,Americas,L,CO,VH,Public,7.2
+1001-1200,1001-1200,University of Salento,Italy,Europe,L,CO,VH,Public,6.8
+1001-1200,951-1000,University of South Bohemia,Czechia,Europe,M,CO,VH,Public,7.1
+1001-1200,1001-1200,University of Tabuk,Saudi Arabia,Asia,L,FC,HI,Public,8.8
+1001-1200,1001-1200,University of Texas Arlington,United States of America,Americas,XL,CO,VH,Public,7
+1001-1200,1001-1200,University of Texas at San Antonio,United States of America,Americas,L,FC,HI,Public,6.7
+1001-1200,,University of the Algarve,Portugal,Europe,M,CO,VH,,7.2
+1001-1200,1001-1200,University of the Free State,South Africa,Africa,L,FO,VH,Public,7.2
+1001-1200,1001-1200,University of Toledo,United States of America,Americas,L,FC,HI,Public,4.2
+1001-1200,1001-1200,University of Tulsa,United States of America,Americas,S,CO,VH,Private not for Profit,2.8
+1001-1200,1001-1200,University of Vermont,United States of America,Americas,L,FC,HI,Public,3.7
+1001-1200,1001-1200,University of Warmia and Mazury in Olsztyn,Poland,Europe,L,FC,HI,Public,10.8
+1001-1200,1001-1200,University of Wolverhampton,United Kingdom,Europe,L,CO,HI,Public,3.1
+1001-1200,1001-1200,University of Wyoming,United States of America,Americas,M,CO,VH,Public,3.6
+1001-1200,1001-1200,University of Zilina,Slovakia,Europe,M,FO,VH,Public,6.3
+1001-1200,1001-1200,Utah State University,United States of America,Americas,L,CO,VH,Public,7.4
+1001-1200,,Van Lang University,Viet Nam,Asia,L,FO,HI,Private for Profit,31.4
+1001-1200,1001-1200,Warsaw University of Life Sciences,Poland,Europe,L,FO,VH,Public,8
+1001-1200,1001-1200,West Virginia University,United States of America,Americas,L,FC,VH,Public,6.4
+1001-1200,1001-1200,William & Mary,United States of America,Americas,M,CO,VH,Public,10
+1001-1200,1001-1200,Xi'an Jiaotong-Liverpool University,China (Mainland),Asia,L,CO,HI,Private not for Profit,5.9
+1001-1200,901-950,Yerevan State University,Armenia,Asia,M,CO,HI,Public,8.7
+1001-1200,901-950,Yokohama City University,Japan,Asia,M,FO,VH,Public,3.3
+1001-1200,1001-1200,Yokohama National University,Japan,Asia,M,CO,VH,Public,11.6
+1001-1200,1201-1400,Yuan Ze University,Taiwan,Asia,M,CO,VH,Private for Profit,8.6
+1201-1400,,ADA University,Azerbaijan,Asia,S,SP,LO,Public,8.4
+1201-1400,,"Ahmadu Bello University, Zaria",Nigeria,Africa,XL,CO,HI,,6.3
+1201-1400,,Al Zaytoonah University,Jordan,Asia,M,CO,HI,Private not for Profit,5.9
+1201-1400,1201-1400,Al-Balqa Applied University,Jordan,Asia,L,FC,HI,Public,10.2
+1201-1400,,Amman Arab University,Jordan,Asia,S,FO,VH,Private not for Profit,8.4
+1201-1400,,Ashoka University,India,Asia,S,SP,VH,Private for Profit,10.1
+1201-1400,1201-1400,Ataturk University,Türkiye,Asia,XL,CO,VH,Public,8.1
+1201-1400,1201-1400,Bahauddin Zakariya University,Pakistan,Asia,L,CO,VH,Public,8.5
+1201-1400,1201-1400,Beijing Foreign Studies University,China (Mainland),Asia,M,SP,VH,Public,8.4
+1201-1400,1201-1400,Beijing University of Chinese Medicine,China (Mainland),Asia,L,FO,VH,Public,5.7
+1201-1400,1201-1400,Benemérita Universidad Autónoma de Puebla,Mexico,Americas,XL,FC,HI,Public,19.9
+1201-1400,,Beni-Suef University,Egypt,Africa,XL,FC,HI,Public,8.7
+1201-1400,1201-1400,Birzeit university,Palestine,Asia,M,CO,HI,Private not for Profit,12.5
+1201-1400,1001-1200,BRAC University,Bangladesh,Asia,L,CO,HI,Private not for Profit,14.9
+1201-1400,1201-1400,British University in Egypt,Egypt,Africa,M,FO,VH,Private for Profit,8.4
+1201-1400,1201-1400,Brock University,Canada,Americas,L,CO,HI,Public,6.7
+1201-1400,1401+,California Polytechnic State University,United States of America,Americas,L,CO,HI,Public,5.6
+1201-1400,,Can Tho University,Viet Nam,Asia,XL,CO,HI,Public,10.2
+1201-1400,1001-1200,Canterbury Christ Church University,United Kingdom,Europe,XL,CO,MD,Public,6.8
+1201-1400,1001-1200,Chang Jung Christian University,Taiwan,Asia,M,CO,HI,Private not for Profit,8.5
+1201-1400,1201-1400,China University of Political Science and Law,China (Mainland),Asia,L,FO,MD,Public,3.5
+1201-1400,1201-1400,Chitkara University,India,Asia,L,CO,VH,Private not for Profit,10
+1201-1400,1201-1400,Cukurova University,Türkiye,Asia,XL,FC,HI,Public,6.7
+1201-1400,1201-1400,Damascus University,Syrian Arab Republic,Asia,XL,FC,MD,Public,8
+1201-1400,,Delta University for Science & Technology,Egypt,Africa,L,FO,HI,Private not for Profit,26.2
+1201-1400,1201-1400,Dokuz Eylül Üniversitesi,Türkiye,Asia,XL,FC,HI,Public,9.5
+1201-1400,1201-1400,Doshisha University,Japan,Asia,L,CO,HI,Private not for Profit,11.1
+1201-1400,1201-1400,Erciyes Üniversitesi,Türkiye,Asia,XL,FC,HI,Public,6.8
+1201-1400,1201-1400,Feng Chia University,Taiwan,Asia,L,FO,VH,Private for Profit,12.3
+1201-1400,1201-1400,Fu Jen Catholic University,Taiwan,Asia,L,FC,HI,Private not for Profit,10.6
+1201-1400,,Galgotias University,India,Asia,L,CO,HI,Private not for Profit,16.6
+1201-1400,1201-1400,German university in Cairo,Egypt,Africa,L,CO,HI,Private not for Profit,11.6
+1201-1400,1001-1200,Gunma University,Japan,Asia,M,FO,VH,Public,3.8
+1201-1400,1201-1400,Hanoi University of Science and Technology,Viet Nam,Asia,XL,FO,VH,Public,12.3
+1201-1400,1201-1400,Helwan University,Egypt,Africa,XL,CO,HI,Public,11
+1201-1400,,Industrial University of Ho Chi Minh City,Viet Nam,Asia,L,CO,HI,Public,22.6
+1201-1400,,Institut Teknologi Nasional Bandung (ITENAS Bandung),Indonesia,Asia,M,SP,LO,Private not for Profit,22.4
+1201-1400,1201-1400,Instituto Tecnológico de Santo Domingo (INTEC),Dominican Republic,Americas,M,FO,MD,Public,1.9
+1201-1400,1001-1200,International Christian University,Japan,Asia,S,FO,HI,Private for Profit,6.3
+1201-1400,1001-1200,International Islamic University Islamabad (IIU),Pakistan,Asia,L,CO,HI,Public,9.3
+1201-1400,,Islamic Azad University,Iran (Islamic Republic of),Asia,,CO,,,6.1
+1201-1400,1001-1200,Islamic University of Madinah,Saudi Arabia,Asia,L,FO,HI,Public,8.1
+1201-1400,,Islamic University of Technology,Bangladesh,Asia,S,FO,VH,Public,6.5
+1201-1400,1201-1400,Istanbul Aydin University,Türkiye,Asia,L,FO,HI,Private not for Profit,8.6
+1201-1400,1201-1400,Ivan Franko National University of Lviv,Ukraine,Europe,L,CO,HI,Public,9.6
+1201-1400,1201-1400,Izmir Yüksek Teknoloji Enstitüsü (IYTE),Türkiye,Asia,S,CO,VH,Public,11
+1201-1400,1201-1400,Jahangirnagar University,Bangladesh,Asia,L,CO,HI,,12.2
+1201-1400,1201-1400,Jeju National University,Republic of Korea,Asia,M,FC,VH,Public,5.1
+1201-1400,1001-1200,Kagoshima University,Japan,Asia,M,FC,VH,Public,7.8
+1201-1400,1201-1400,Kazakh Ablai khan University of International Relations and World Languages,Kazakhstan,Asia,M,SP,LO,Public,10.4
+1201-1400,1201-1400,Kharkiv National University of Radio Electronics,Ukraine,Europe,M,SP,HI,Public,3.2
+1201-1400,1201-1400,King Mongkut's Institute of Technology Ladkrabang,Thailand,Asia,L,CO,VH,Public,13.5
+1201-1400,1201-1400,King Mongkut's University of Technology North Bangkok,Thailand,Asia,L,FO,VH,Public,13.4
+1201-1400,1201-1400,Kwame Nkrumah University of Science and Technology,Ghana,Africa,XL,CO,HI,,10.2
+1201-1400,1201-1400,Kyoto Institute of Technology,Japan,Asia,S,FO,VH,Public,8
+1201-1400,,Kyrgyz National University,Kyrgyzstan,Asia,L,CO,LO,Public,14.3
+1201-1400,1201-1400,Kyrgyz State Technical University named after I. Razzakov,Kyrgyzstan,Asia,L,SP,LO,Public,16.1
+1201-1400,,Latvia University of Life Sciences and Technologies,Latvia,Europe,S,FO,VH,Public,7.5
+1201-1400,1201-1400,Marquette University,United States of America,Americas,M,CO,VH,Private not for Profit,3.6
+1201-1400,1201-1400,Meiji University,Japan,Asia,XL,FO,HI,Private for Profit,9.4
+1201-1400,1201-1400,Miami University,United States of America,Americas,L,CO,HI,Public,3.4
+1201-1400,1201-1400,Nagoya Institute of Technology (NIT),Japan,Asia,M,FO,VH,Public,9.5
+1201-1400,,National Chin-Yi University of Technology,Taiwan,Asia,M,FO,VH,Public,13
+1201-1400,1201-1400,National Dong Hwa University,Taiwan,Asia,M,CO,HI,Public,16.3
+1201-1400,1201-1400,National Research University Moscow Power Engineering Institute (MPEI),Russian Federation,Europe,M,FO,VH,Public,6.6
+1201-1400,1201-1400,National Taiwan Ocean University,Taiwan,Asia,M,FO,VH,Public,7.7
+1201-1400,1001-1200,National University of Kyiv-Mohyla Academy (NaUKMA),Ukraine,Europe,S,FO,VH,Public,5.6
+1201-1400,,New Mexico State University,United States of America,Americas,L,CO,VH,,6.6
+1201-1400,1201-1400,Novosibirsk State Technical University,Russian Federation,Europe,L,FO,VH,Public,5.7
+1201-1400,1201-1400,Odessa I.I.Mechnikov National University,Ukraine,Europe,M,FO,HI,Public,3.9
+1201-1400,1201-1400,"Osmania University, Hyderabad",India,Asia,M,CO,VH,Public,6
+1201-1400,,Ozyegin University,Türkiye,Asia,M,FO,VH,Private not for Profit,6.6
+1201-1400,,Palestine Technical University - Kadoorie,Palestine,Asia,S,CO,HI,Public,9.4
+1201-1400,1201-1400,Pondicherry University,India,Asia,M,CO,VH,Public,5.1
+1201-1400,1201-1400,Pontificia Universidade Católica do Rio Grande do Sul,Brazil,Americas,M,FC,HI,Private not for Profit,8.7
+1201-1400,1201-1400,Portland State University,United States of America,Americas,L,CO,VH,Public,4.9
+1201-1400,,Pratt Institute,United States of America,Americas,M,FO,HI,Private not for Profit,6.9
+1201-1400,1201-1400,Pukyong National University,Republic of Korea,Asia,L,CO,VH,Public,9.4
+1201-1400,951-1000,"Queen Margaret University , Edinburgh",United Kingdom,Europe,M,FO,HI,Public,4.3
+1201-1400,,Riphah International University,Pakistan,Asia,L,CO,HI,Private not for Profit,13.8
+1201-1400,1001-1200,Saint-Petersburg Electrotechnical University LETI,Russian Federation,Europe,M,FO,VH,Public,4.8
+1201-1400,1201-1400,Saken Seifullin Kazakh Agrotechnical University,Kazakhstan,Asia,M,FO,HI,Private not for Profit,10.2
+1201-1400,1001-1200,Samara National Research University (Samara University),Russian Federation,Europe,M,CO,VH,Public,4
+1201-1400,1201-1400,Sathyabama Institute of Science and Technology,India,Asia,L,CO,VH,Private not for Profit,11
+1201-1400,1201-1400,Seattle University,United States of America,Americas,M,CO,HI,Private not for Profit,6.6
+1201-1400,,Selcuk University,Türkiye,Asia,L,CO,VH,Public,7.5
+1201-1400,1201-1400,Shanghai International Studies University,China (Mainland),Asia,L,SP,VH,Public,7.2
+1201-1400,1201-1400,Shanghai University of Finance and Economics,China (Mainland),Asia,L,SP,VH,Public,5.8
+1201-1400,1001-1200,Shinshu University,Japan,Asia,M,FC,VH,Public,4.7
+1201-1400,,Shiv Nadar University,India,Asia,S,CO,VH,Private for Profit,7.5
+1201-1400,1201-1400,"Siksha ‘O’ Anusandhan (Deemed to be University), SOA",India,Asia,L,FO,VH,Private not for Profit,8.2
+1201-1400,1001-1200,Slovak University of Agriculture in Nitra,Slovakia,Europe,S,SP,HI,Public,8.9
+1201-1400,1201-1400,Sookmyung Women's University,Republic of Korea,Asia,M,CO,HI,Private for Profit,6.9
+1201-1400,1201-1400,Suranaree University of Technology,Thailand,Asia,L,FC,HI,Public,10.2
+1201-1400,1001-1200,Taibah University,Saudi Arabia,Asia,XL,FC,HI,Public,9.2
+1201-1400,1201-1400,Tamkang University,Taiwan,Asia,L,CO,HI,Private for Profit,7.8
+1201-1400,1201-1400,Tanta University,Egypt,Africa,XL,FC,HI,Public,7.7
+1201-1400,,Tashkent State Transport University,Uzbekistan,Asia,L,FO,HI,Public,19.3
+1201-1400,1201-1400,Technical University of Cluj-Napoca,Romania,Europe,L,SP,VH,Public,5.8
+1201-1400,1201-1400,Technical University of Liberec,Czechia,Europe,M,CO,VH,Public,5.6
+1201-1400,1201-1400,Technische Universität Kaiserslautern,Germany,Europe,L,CO,VH,,8.6
+1201-1400,1001-1200,Tecnológico de Costa Rica (TEC),Costa Rica,Americas,M,FO,HI,Public,11.2
+1201-1400,1201-1400,"The ""Gheorghe Asachi"" Technical University of Iasi",Romania,Europe,L,SP,VH,Public,6.5
+1201-1400,1001-1200,The Russian Presidential Academy of National Economy and Public Administration,Russian Federation,Europe,XL,FO,VH,Public,5.6
+1201-1400,1001-1200,The University of Northampton,United Kingdom,Europe,L,CO,MD,Public,3.4
+1201-1400,1401+,"The University of Notre Dame, Australia",Australia,Oceania,M,FC,HI,Private not for Profit,3.4
+1201-1400,,Tishk International University,Iraq,Asia,M,CO,HI,Private for Profit,13.4
+1201-1400,1201-1400,Tokai University,Japan,Asia,L,FC,HI,Private not for Profit,12.8
+1201-1400,1001-1200,Tokushima University,Japan,Asia,M,SP,VH,Public,5.4
+1201-1400,1201-1400,Tomas Bata University in Zlin,Czechia,Europe,M,CO,HI,Public,6.1
+1201-1400,1201-1400,Transilvania University of Brasov,Romania,Europe,L,FC,HI,Public,9
+1201-1400,1201-1400,Tunghai University,Taiwan,Asia,L,FO,VH,Private for Profit,10.1
+1201-1400,,UCAM Universidad Católica San Antonio de Murcia,Spain,Europe,L,FO,VH,,9.6
+1201-1400,1001-1200,Universidad Autónoma Chapingo,Mexico,Americas,M,FO,VH,Public,4.1
+1201-1400,1201-1400,Universidad Autónoma de Guadalajara,Mexico,Americas,M,FC,MD,Private for Profit,10.3
+1201-1400,1001-1200,Universidad Autónoma de Nuevo León (UANL),Mexico,Americas,XL,FC,HI,Public,20.9
+1201-1400,1201-1400,Universidad Autónoma del Estado de Hidalgo,Mexico,Americas,XL,FC,MD,Public,3.6
+1201-1400,1001-1200,Universidad Autónoma del Estado de México,Mexico,Americas,XL,FC,MD,Public,23
+1201-1400,1201-1400,Universidad Católica del Norte,Chile,Americas,M,FC,HI,Private not for Profit,5.7
+1201-1400,901-950,Universidad Central Marta Abreu de Las Villas,Cuba,Americas,M,CO,HI,Public,4.8
+1201-1400,,Universidad Cientifica del Sur,Peru,Americas,L,FC,MD,Private for Profit,6.1
+1201-1400,1001-1200,Universidad de la Frontera (UFRO),Chile,Americas,M,CO,VH,Public,14.4
+1201-1400,1201-1400,Universidad de Las Américas (UDLA) Ecuador,Ecuador,Americas,L,CO,HI,Private not for Profit,14.4
+1201-1400,1001-1200,Universidad de Lima,Peru,Americas,L,SP,HI,Private not for Profit,14.1
+1201-1400,1001-1200,Universidad de los Andes Mérida,Venezuela (Bolivarian Republic of),Americas,L,FC,MD,Public,20.2
+1201-1400,1201-1400,Universidad de Monterrey,Mexico,Americas,M,FO,HI,Private not for Profit,19.8
+1201-1400,1201-1400,Universidad de Valparaíso,Chile,Americas,L,FC,HI,Public,15.5
+1201-1400,1201-1400,Universidad del Desarrollo,Chile,Americas,L,CO,HI,Private not for Profit,11.8
+1201-1400,1001-1200,Universidad del Norte,Colombia,Americas,M,FC,HI,Private not for Profit,13.2
+1201-1400,,Universidad del Valle de Guatemala (UVG),Guatemala,Americas,M,CO,MD,Private not for Profit,6.5
+1201-1400,1201-1400,Universidad Industrial de Santander,Colombia,Americas,L,FC,MD,Public,12.7
+1201-1400,1001-1200,Universidad Jesuita de Guadalajara - ITESO,Mexico,Americas,M,FO,MD,Private not for Profit,9.3
+1201-1400,1201-1400,Universidad Nacional Costa Rica,Costa Rica,Americas,L,CO,MD,Public,13.5
+1201-1400,1001-1200,Universidad Nacional de Asunción,Paraguay,Americas,XL,FC,MD,Public,7.6
+1201-1400,1001-1200,Universidad Nacional de Cuyo,Argentina,Americas,XL,FC,HI,Public,17.8
+1201-1400,1201-1400,Universidad Nacional de Ingeniería Peru,Peru,Americas,L,FO,HI,,11.2
+1201-1400,1001-1200,Universidad Nacional de San Luis,Argentina,Americas,L,FO,HI,Public,3.9
+1201-1400,1001-1200,Universidad Nacional del Centro de la Provincia de Buenos Aires,Argentina,Americas,L,FC,MD,Public,6.3
+1201-1400,1201-1400,Universidad Nacional del Litoral,Argentina,Americas,XL,CO,HI,Public,18.1
+1201-1400,1201-1400,Universidad Peruana de Ciencias Aplicadas (UPC),Peru,Americas,XL,FO,HI,Private not for Profit,17.8
+1201-1400,1001-1200,Universidad Tecnológica de Panamá (UTP),Panama,Americas,L,CO,MD,Public,9.5
+1201-1400,1001-1200,Universidad Tecnológica Nacional (UTN),Argentina,Americas,XL,SP,HI,Public,5.2
+1201-1400,1201-1400,Universidade do Estado do Rio de Janeiro (UERJ),Brazil,Americas,XL,FC,HI,Public,13.2
+1201-1400,1201-1400,Universidade Federal da Bahia,Brazil,Americas,XL,FC,HI,Public,13.5
+1201-1400,1001-1200,Universidade Federal de Pernambuco (UFPE),Brazil,Americas,XL,FC,HI,Public,16
+1201-1400,1201-1400,Universidade Federal de Santa Maria,Brazil,Americas,L,FC,HI,Public,7
+1201-1400,1201-1400,Universidade Federal de Viçosa,Brazil,Americas,L,FC,HI,Public,6.8
+1201-1400,1201-1400,Universidade Federal do Ceará (UFC),Brazil,Americas,XL,FC,HI,Public,11.3
+1201-1400,1001-1200,Universidade Federal Fluminense,Brazil,Americas,XL,FC,HI,Public,12.5
+1201-1400,1201-1400,Universidade Presbiteriana Mackenzie,Brazil,Americas,M,CO,HI,Private not for Profit,5.8
+1201-1400,,Universita' degli Studi di Urbino Carlo Bo,Italy,Europe,L,FO,VH,Public,6.8
+1201-1400,1201-1400,Universitas Muhammadiyah Yogyakarta (UMY),Indonesia,Asia,L,FO,HI,Private not for Profit,10.9
+1201-1400,1201-1400,Universitas Negeri Yogyakarta,Indonesia,Asia,L,CO,HI,Public,17.4
+1201-1400,1201-1400,Universitas Pendidikan Indonesia,Indonesia,Asia,XL,CO,HI,Public,17.4
+1201-1400,,Universitas Trisakti,Indonesia,Asia,M,FO,VH,Private not for Profit,14.3
+1201-1400,1001-1200,Universität Siegen,Germany,Europe,L,CO,HI,Public,5.4
+1201-1400,1001-1200,Université de Caen Normandie,France,Europe,L,FC,HI,Public,11.3
+1201-1400,1201-1400,Université de Limoges,France,Europe,M,SP,VH,,8.9
+1201-1400,1001-1200,Université de Poitiers,France,Europe,L,CO,VH,Public,11.1
+1201-1400,1001-1200,Université de Sousse,Tunisia,Africa,L,FC,HI,Public,6.4
+1201-1400,1001-1200,Université de Tunis,Tunisia,Africa,L,FO,VH,Public,11.3
+1201-1400,,Université Ibn Tofail,Morocco,Africa,XL,CO,HI,Public,14.6
+1201-1400,1201-1400,Université Jean Moulin Lyon 3,France,Europe,L,SP,VH,Public,11.2
+1201-1400,1001-1200,Université Mohammed V de Rabat,Morocco,Africa,XL,CO,VH,Public,4.8
+1201-1400,1001-1200,Université Paris-Nanterre,France,Europe,XL,FO,VH,Public,14.6
+1201-1400,1001-1200,Université Paul-Valéry Montpellier 3,France,Europe,L,FO,VH,Public,14.9
+1201-1400,1201-1400,Universiti Kuala Lumpur (UniKL),Malaysia,Asia,L,FC,HI,Private for Profit,9.9
+1201-1400,,Universiti Malaysia Kelantan,Malaysia,Asia,M,CO,VH,Public,9.5
+1201-1400,1201-1400,Universiti Teknikal Malaysia Melaka (UTeM),Malaysia,Asia,M,SP,VH,Public,10.3
+1201-1400,1201-1400,University of Babylon,Iraq,Asia,L,FC,HI,Public,7.7
+1201-1400,1201-1400,University of Basrah,Iraq,Asia,XL,FC,HI,Public,9.1
+1201-1400,1001-1200,University of Derby,United Kingdom,Europe,L,CO,HI,Public,5.4
+1201-1400,1201-1400,University of International Business and Economics,China (Mainland),Asia,L,SP,VH,Public,3.3
+1201-1400,,University of Kerbala,Iraq,Asia,L,FC,HI,Public,12.8
+1201-1400,1001-1200,University of Khartoum,Sudan,Africa,L,FO,HI,Public,8.9
+1201-1400,1201-1400,University of Kufa,Iraq,Asia,XL,FC,HI,Public,7.4
+1201-1400,,"University of Management and Technology (UMT), Pakistan",Pakistan,Asia,L,CO,HI,Private not for Profit,7.2
+1201-1400,1201-1400,University of Memphis,United States of America,Americas,L,CO,VH,Public,4.1
+1201-1400,1201-1400,University of Miskolc,Hungary,Europe,M,FO,VH,Private not for Profit,9
+1201-1400,,University of Mosul,Iraq,Asia,XL,FC,HI,Public,7.3
+1201-1400,1201-1400,University of North Carolina at Greensboro,United States of America,Americas,L,FO,VH,Public,3.6
+1201-1400,1001-1200,University of Novi Sad,Serbia,Europe,XL,FC,HI,Public,12.5
+1201-1400,1201-1400,University of Ostrava,Czechia,Europe,M,FC,HI,Public,8
+1201-1400,1201-1400,University of Pannonia,Hungary,Europe,S,FO,VH,Public,6.1
+1201-1400,1201-1400,University of Pardubice,Czechia,Europe,M,CO,VH,Public,5.2
+1201-1400,1201-1400,University of Peradeniya,Sri Lanka,Asia,L,CO,HI,Public,10.4
+1201-1400,,University of Petra,Jordan,Asia,M,CO,HI,Private for Profit,8.8
+1201-1400,1201-1400,University of Primorska,Slovenia,Europe,M,CO,HI,Public,3.6
+1201-1400,1201-1400,University of Rajshahi,Bangladesh,Asia,L,CO,HI,,13.2
+1201-1400,1201-1400,University of Rijeka,Croatia,Europe,L,CO,VH,Public,7.3
+1201-1400,1201-1400,University of San Diego,United States of America,Americas,M,CO,HI,Private not for Profit,9
+1201-1400,1201-1400,University of San Francisco,United States of America,Americas,M,CO,HI,Private not for Profit,6.9
+1201-1400,1001-1200,University of Sarajevo,Bosnia and Herzegovina,Europe,L,CO,HI,Public,5
+1201-1400,1201-1400,University of Silesia in Katowice,Poland,Europe,L,CO,VH,Public,8.6
+1201-1400,1201-1400,University of South Alabama (USA),United States of America,Americas,L,CO,HI,Public,5.6
+1201-1400,1201-1400,University of Split,Croatia,Europe,L,FC,HI,Public,7.6
+1201-1400,1001-1200,University of Texas El Paso,United States of America,Americas,L,CO,VH,Public,6.8
+1201-1400,1201-1400,University of Tyumen,Russian Federation,Europe,M,CO,VH,Public,2.7
+1201-1400,1201-1400,University of Wisconsin Milwaukee,United States of America,Americas,L,CO,VH,Public,9
+1201-1400,1201-1400,University POLITEHNICA of Bucharest,Romania,Europe,L,FO,VH,Public,6.3
+1201-1400,1001-1200,University Toulouse – Jean Jaurès,France,Europe,L,FO,VH,Public,13.1
+1201-1400,1201-1400,West University of Timisoara,Romania,Europe,L,CO,HI,Public,13.7
+1201-1400,1201-1400,Western Michigan University,United States of America,Americas,L,FC,HI,Public,5
+1201-1400,,Yessenov University,Kazakhstan,Asia,M,CO,MD,Public,16.7
+1201-1400,1201-1400,Zagazig University,Egypt,Africa,XL,FC,VH,Public,11.3
+1201-1400,,Zarqa University,Jordan,Asia,M,FC,HI,Private not for Profit,7.9
+1401+,1401+,Akdeniz Üniversitesi,Türkiye,Asia,XL,FC,HI,Public,8.3
+1401+,,American International University-Bangladesh (AIUB),Bangladesh,Asia,M,FO,VH,Private not for Profit,8.3
+1401+,1201-1400,Anadolu University,Türkiye,Asia,L,SP,VH,Public,6.2
+1401+,1201-1400,Aoyama Gakuin University,Japan,Asia,L,FO,HI,Private not for Profit,7.1
+1401+,,Aswan University,Egypt,Africa,L,FC,HI,Public,7.1
+1401+,1201-1400,Atma Jaya Catholic University Indonesia,Indonesia,Asia,M,FO,HI,Private for Profit,11.1
+1401+,1201-1400,Belarusian State University of Informatics and Radioelectronics,Belarus,Europe,M,CO,HI,Public,6.7
+1401+,1201-1400,Belgorod State University,Russian Federation,Europe,L,FC,HI,Public,3.1
+1401+,,Benha University,Egypt,Africa,XL,FC,HI,Public,6.2
+1401+,1201-1400,Central Michigan University,United States of America,Americas,L,FC,HI,Public,3.6
+1401+,1201-1400,Chaoyang University of Technology,Taiwan,Asia,L,FO,VH,Private for Profit,5
+1401+,1201-1400,Chittagong University of Engineering and Technology,Bangladesh,Asia,M,SP,HI,Public,10
+1401+,,"CHRIST (Deemed to be University), Bengaluru",India,Asia,XL,CO,HI,Private not for Profit,7
+1401+,1201-1400,Cleveland State University,United States of America,Americas,M,FO,VH,Public,4.5
+1401+,1401+,East West University,Bangladesh,Asia,L,FO,HI,Private not for Profit,8.8
+1401+,1201-1400,Escuela Politécnica Nacional,Ecuador,Americas,M,FO,VH,Public,10.2
+1401+,1201-1400,Harper Adams University,United Kingdom,Europe,M,FO,HI,Public,4
+1401+,1201-1400,Herzen State Pedagogical University of Russia,Russian Federation,Europe,L,FO,HI,Public,3.8
+1401+,1201-1400,Hongik University,Republic of Korea,Asia,L,FO,VH,Private for Profit,6.3
+1401+,1201-1400,Hue University,Viet Nam,Asia,XL,CO,HI,Public,7.6
+1401+,,"Independent University,Bangladesh",Bangladesh,Asia,M,CO,HI,Private not for Profit,8.8
+1401+,1401+,Indian Institute of Information Technology - Allahabad,India,Asia,S,FO,VH,Public,4.2
+1401+,1201-1400,Islamic University of Indonesia (Universitas Islam Indonesia),Indonesia,Asia,L,CO,HI,Private not for Profit,17.5
+1401+,1201-1400,Istanbul Bilgi Üniversitesi,Türkiye,Asia,M,FO,HI,Private not for Profit,5.6
+1401+,,Jadara University,Jordan,Asia,M,CO,MD,Private not for Profit,9.9
+1401+,1201-1400,"Jamia Hamdard, New Delhi",India,Asia,M,FO,VH,Public,6.3
+1401+,1201-1400,Kazan National Research Technological University,Russian Federation,Europe,L,CO,HI,Public,5.3
+1401+,1201-1400,Khulna University,Bangladesh,Asia,M,CO,HI,,8.6
+1401+,1201-1400,Khulna University of Engineering and Technology,Bangladesh,Asia,M,SP,HI,Public,7.3
+1401+,1201-1400,Kindai University (previously Kinki University),Japan,Asia,XL,FC,HI,Private for Profit,5.3
+1401+,1201-1400,Lublin University of Technology,Poland,Europe,M,FO,VH,Public,6.9
+1401+,,M. Kozybayev North Kazakhstan University,Kazakhstan,Asia,M,CO,MD,Public,6.8
+1401+,,Mahasarakham University,Thailand,Asia,XL,FC,MD,Public,18.5
+1401+,,Manav Rachna International Institute of Research and Studies (MRIIRS),India,Asia,M,CO,HI,Private for Profit,5.9
+1401+,,Mapua University,Philippines,Asia,M,FO,VH,Private for Profit,9.7
+1401+,1201-1400,Mendeleev University of Chemical Technology of Russia,Russian Federation,Europe,M,FO,VH,Public,4.7
+1401+,1401+,Naresuan University,Thailand,Asia,L,FC,MD,Public,10.9
+1401+,1201-1400,National Taipei University,Taiwan,Asia,M,FO,HI,Public,12.4
+1401+,,Nile University,Egypt,Africa,S,SP,HI,Private not for Profit,8.6
+1401+,1201-1400,Pavlodar State University named after Toraighyrov,Kazakhstan,Asia,M,CO,MD,Public,8.9
+1401+,1201-1400,Perm State University,Russian Federation,Europe,M,CO,VH,Public,4
+1401+,1401+,Petra Christian University,Indonesia,Asia,M,FO,HI,Private for Profit,11.7
+1401+,1201-1400,Pontificia Universidad Catolica Madre y Maestra (PUCMM),Dominican Republic,Americas,L,FC,LO,Private not for Profit,6
+1401+,,Rajshahi University of Engineering and Technology,Bangladesh,Asia,M,SP,HI,,6.9
+1401+,1201-1400,Rikkyo University,Japan,Asia,L,FO,HI,Private for Profit,5.5
+1401+,1401+,Sakarya University,Türkiye,Asia,XL,FC,HI,Public,5.9
+1401+,1201-1400,San Francisco State University,United States of America,Americas,L,CO,HI,,5.2
+1401+,,"Shakarim University of the City of Semey, Kazakhstan",Kazakhstan,Asia,M,CO,MD,Public,10.4
+1401+,1401+,Shanghai Normal University,China (Mainland),Asia,XL,CO,HI,Public,4.4
+1401+,1401+,Silpakorn University,Thailand,Asia,L,CO,HI,Public,10.4
+1401+,,Soka University,Japan,Asia,M,CO,MD,Private not for Profit,5.9
+1401+,1401+,Soongsil University,Republic of Korea,Asia,L,FO,VH,Private for Profit,3.4
+1401+,1401+,State University Malang (Universitas Negeri Malang),Indonesia,Asia,XL,FO,VH,Public,10.5
+1401+,1401+,Stefan cel Mare University of Suceava,Romania,Europe,M,CO,HI,Public,5.5
+1401+,1201-1400,Suez Canal University,Egypt,Africa,XL,FC,HI,Public,6.1
+1401+,,Tashkent University of Information Technologies,Uzbekistan,Asia,L,SP,HI,Public,10.7
+1401+,,"The Islamia University of Bahawalpur,Pakistan",Pakistan,Asia,XL,CO,HI,Public,6.2
+1401+,,Tongmyong University,Republic of Korea,Asia,M,FO,HI,,6.3
+1401+,1401+,Universidad Autónoma de Baja California,Mexico,Americas,XL,CO,HI,Public,10.5
+1401+,1401+,Universidad Autónoma de Chile,Chile,Americas,XL,FO,VH,Private not for Profit,7.9
+1401+,1401+,Universidad Católica de Temuco,Chile,Americas,M,CO,HI,Private not for Profit,5.4
+1401+,1401+,Universidad de Cuenca,Ecuador,Americas,L,FC,MD,Public,11.1
+1401+,1401+,Universidad de Guanajuato,Mexico,Americas,XL,CO,HI,Public,11.4
+1401+,1201-1400,Universidad de Panama,Panama,Americas,XL,FO,MD,Public,8.5
+1401+,1201-1400,Universidad de Piura,Peru,Americas,M,FO,HI,Private not for Profit,11.8
+1401+,1201-1400,Universidad de Tarapaca,Chile,Americas,M,CO,VH,Public,4.1
+1401+,1201-1400,Universidad del Bio-Bio,Chile,Americas,M,CO,VH,Public,11.6
+1401+,1201-1400,Universidad del Zulia,Venezuela (Bolivarian Republic of),Americas,L,FC,MD,Public,14.7
+1401+,1201-1400,Universidad La Salle (ULSA),Mexico,Americas,M,FO,MD,Private for Profit,6.2
+1401+,1201-1400,Universidad Latinoamericana de Ciencia y Tecnología Costa Rica (ULACIT),Costa Rica,Americas,S,CO,LO,Private not for Profit,7.8
+1401+,1201-1400,Universidad Metropolitana,Venezuela (Bolivarian Republic of),Americas,M,CO,LO,Private not for Profit,9.8
+1401+,1201-1400,Universidad Nacional Agraria la Molina,Peru,Americas,M,FO,VH,Public,9.3
+1401+,1201-1400,Universidad Nacional de San Martín (UNSAM),Argentina,Americas,L,CO,HI,Public,15.7
+1401+,1201-1400,Universidad Nacional del Sur,Argentina,Americas,L,FC,HI,Public,8.1
+1401+,,Universidad Tecnológica Centroamericana (UNITEC) - Honduras,Honduras,Americas,M,FO,HI,Private not for Profit,7.9
+1401+,1401+,Universidade Federal de Uberlândia,Brazil,Americas,L,FC,HI,Public,5.4
+1401+,1201-1400,Universidade Federal do Rio Grande Do Norte,Brazil,Americas,XL,FC,HI,Public,6.7
+1401+,1201-1400,Università degli studi di Bergamo,Italy,Europe,L,FO,VH,Public,7.2
+1401+,1401+,Universitas Andalas,Indonesia,Asia,XL,CO,HI,Public,13.4
+1401+,,Universitas Negeri Padang,Indonesia,Asia,XL,FO,HI,Public,10.5
+1401+,,Universitas Syiah Kuala,Indonesia,Asia,L,FC,HI,Public,8.6
+1401+,,Universiti Sultan Zainal Abidin,Malaysia,Asia,M,CO,VH,Public,8
+1401+,,University of Da Nang,Viet Nam,Asia,XL,CO,HI,Public,8.1
+1401+,,University of Hawaii at Hilo,United States of America,Americas,S,CO,HI,,2.8
+1401+,1201-1400,University of Missouri Saint Louis,United States of America,Americas,M,CO,HI,Public,5.1
+1401+,,University of Moratuwa,Sri Lanka,Asia,M,SP,VH,Public,6
+1401+,1401+,University of Oradea,Romania,Europe,L,FC,MD,Public,7.5
+1401+,1201-1400,University of Sri Jayewardenepura,Sri Lanka,Asia,L,CO,HI,Public,8
+1401+,1201-1400,University of the Pacific,United States of America,Americas,M,CO,HI,Private not for Profit,1.8
+1401+,,University of Tripoli,Libya,Africa,XL,FC,MD,Public,6.8
+1401+,1201-1400,University of West Bohemia,Czechia,Europe,M,CO,VH,Public,7.2
+1401+,1201-1400,Voronezh State University,Russian Federation,Europe,L,CO,HI,Public,5.7
+1401+,,Walailak University,Thailand,Asia,L,FC,MD,Public,8.3
+1401+,1201-1400,Yamaguchi University,Japan,Asia,M,FC,HI,Public,4.4
+1401+,1201-1400,Youngsan University,Republic of Korea,Asia,M,SP,MD,Private for Profit,6.5
