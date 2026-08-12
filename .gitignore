@@ -1,0 +1,52 @@
+@"
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.log
+.pytest_cache/
+
+# ==============================
+# Intermediate output files
+# ==============================
+output/*
+
+# ==============================
+# Official Milestone 1 deliverables
+# ==============================
+!output/university_raw_data.csv
+!output/university_cleaned.csv
+!output/university_cleaned_merged_data.csv
+!output/university_raw_merged_data.csv
+!output/data_quality_audit_report.txt
+"@ | Set-Content .gitignore
