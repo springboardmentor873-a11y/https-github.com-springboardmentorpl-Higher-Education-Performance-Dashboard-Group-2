@@ -1,0 +1,345 @@
+MODULE 1: UNIVERSITY DATA COLLECTION
+
+Project:
+Higher Education Performance Dashboard
+
+Milestone:
+Milestone 1 - Data Collection and Preparation
+
+Timeline:
+Weeks 1-2
+
+
+OBJECTIVE
+
+The objective of Module 1 is to collect the required university ranking
+datasets, identify important university performance indicators,
+standardize both datasets into a common structure, combine the datasets,
+and perform initial data-quality validation.
+
+
+DATASETS USED
+
+Two datasets provided by the mentor were used.
+
+1. QS World University Rankings 2026
+
+File:
+2026_QS_World University_Rankings.csv
+
+2. THE World University Rankings 2026
+
+File:
+THE World University Rankings 2026.xlsx
+
+
+QS DATASET
+
+Initial number of records:
+1504
+
+Initial number of columns:
+30
+
+Important fields identified:
+
+University name:
+Name
+
+Country:
+Country/Territory
+
+Ranking:
+Rank
+
+Overall performance:
+Overall SCORE
+
+
+THE DATASET
+
+Initial number of records:
+2191
+
+Initial number of columns:
+14
+
+Important fields identified:
+
+University name:
+Name
+
+Country:
+Country
+
+Ranking:
+Rank
+
+Overall performance:
+Overall Score
+
+Ranking year:
+2026
+
+
+DATA COLLECTION PROCESS
+
+The following steps were completed:
+
+1. Loaded the QS World University Rankings 2026 CSV dataset.
+
+2. Loaded the THE World University Rankings 2026 Excel dataset.
+
+3. Inspected the number of records and columns in both datasets.
+
+4. Identified the university name, country, ranking and overall score
+   fields from both ranking systems.
+
+5. Standardized the column names used by both datasets.
+
+6. Selected the required university performance indicators.
+
+7. Added the ranking year as 2026.
+
+8. Added a ranking_source field to identify the source of each record.
+
+9. Standardized both datasets into the same common structure.
+
+10. Combined the QS and THE records into one raw dataset.
+
+11. Removed exact duplicate records.
+
+12. Checked missing values in all required fields.
+
+13. Calculated dataset completeness.
+
+14. Saved the final raw integrated dataset as
+    university_raw_data.csv.
+
+
+COMMON DATA STRUCTURE
+
+The final raw dataset contains the following fields:
+
+university_name
+country
+year
+ranking_source
+rank
+score
+
+
+FIELD DESCRIPTIONS
+
+university_name:
+
+The name of the university.
+
+
+country:
+
+The country or territory associated with the university.
+
+
+year:
+
+The ranking year.
+
+The current datasets represent the 2026 rankings.
+
+
+ranking_source:
+
+Identifies the ranking system from which the record was collected.
+
+Possible values:
+
+QS
+THE
+
+
+rank:
+
+The ranking position of the university in the corresponding ranking
+system.
+
+
+score:
+
+The overall performance score provided by the corresponding ranking
+system.
+
+
+DATA INTEGRATION APPROACH
+
+QS and THE use different column names and have different university
+coverage.
+
+Instead of forcing the two datasets into a side-by-side structure,
+both datasets were converted into a common long-format structure.
+
+Example:
+
+University A | Country X | 2026 | QS  | Rank | Score
+
+University A | Country X | 2026 | THE | Rank | Score
+
+This approach preserves the original ranking source and prevents
+artificial missing values.
+
+
+FINAL DATASET
+
+Output file:
+
+university_raw_data.csv
+
+Location:
+
+Data/Processed Data/university_raw_data.csv
+
+
+FINAL DATASET RESULTS
+
+QS records:
+1504
+
+THE records:
+2191
+
+Total records:
+3695
+
+Required fields:
+6
+
+Dataset completeness:
+100%
+
+Duplicate records:
+0
+
+
+DATA QUALITY VALIDATION
+
+The following validation checks were completed:
+
+1. Dataset files successfully loaded.
+
+2. Required university performance indicators identified.
+
+3. Common structure successfully created.
+
+4. Both ranking sources successfully integrated.
+
+5. Required fields contain no missing values.
+
+6. Duplicate records:
+   0
+
+7. Dataset completeness:
+   100%
+
+
+MODULE 1 EVALUATION
+
+Mentor requirement:
+
+Successful dataset integration.
+
+Result:
+PASSED
+
+
+Mentor requirement:
+
+Dataset completeness above 95%.
+
+Result:
+PASSED
+
+Actual completeness:
+100%
+
+
+DELIVERABLES
+
+1. data_collection.py
+
+Purpose:
+Loads the mentor-provided datasets, extracts the required performance
+indicators, standardizes the data structure, combines the ranking
+records, validates the result and creates the raw dataset.
+
+
+2. university_raw_data.csv
+
+Purpose:
+Contains the integrated raw university ranking data from QS and THE
+using a common structure.
+
+
+MODULE 1 STATUS
+
+University data collection:
+COMPLETED
+
+QS dataset:
+COMPLETED
+
+THE dataset:
+COMPLETED
+
+Performance indicators:
+COMPLETED
+
+Common data structure:
+COMPLETED
+
+Data integration:
+COMPLETED
+
+Duplicate validation:
+COMPLETED
+
+Missing-value validation:
+COMPLETED
+
+Dataset completeness:
+100%
+
+Module 1:
+COMPLETED
+
+
+NEXT MODULE
+
+MODULE 2: DATA CLEANING & TRANSFORMATION
+
+Tasks:
+
+1. Remove duplicates.
+
+2. Standardize university names.
+
+3. Standardize country names.
+
+4. Normalize ranking metrics.
+
+5. Handle missing values.
+
+6. Create Tableau-ready datasets.
+
+
+Expected Module 2 deliverables:
+
+university_cleaned.csv
+
+education_cleaning.ipynb
+
+
+Module 2 evaluation target:
+
+Less than 2% missing values.
+
+Three consistent ranking indicators.
