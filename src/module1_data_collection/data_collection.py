@@ -1,8 +1,8 @@
 import pandas as pd
 
 # 1. Data Ingestion
-qs = pd.read_csv('2026 QS World University Rankings.csv')
-the = pd.read_csv('THE World University Rankings 2016-2026.csv')
+qs = pd.read_csv('data/raw/2026 QS World University Rankings.csv')
+the = pd.read_csv('data/raw/THE World University Rankings 2016-2026.csv')
 
 # 2. Year Pre-filtering
 the = the[the['Year'] == 2026]
@@ -64,8 +64,8 @@ the['Name'] = the['Name'].str.lower().str.strip()
 # 5. Dataset Integration (Merge)
 merged_data = pd.merge(qs, the, on='Name', how='inner')
 
-# 6. Export to CSV 
-merged_data.to_csv('university_raw_data.csv', index=False)
+# 6. Export to CSV (Retain all raw attributes)
+merged_data.to_csv('data/interim/university_raw_data.csv', index=False)
 
 # 7. Completeness Check
 completeness = (merged_data.notnull().sum().sum() / merged_data.size) * 100
