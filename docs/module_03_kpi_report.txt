@@ -1,0 +1,89 @@
+
+MODULE 3 - EDUCATION KPI ENGINEERING
+=====================================
+
+INPUT DATASETS
+--------------
+QS World University Rankings 2026
+Universities: 1504
+
+THE World University Rankings 2026
+Universities: 2191
+
+FINAL DATASET
+-------------
+Total records: 3695
+
+QS records: 1504
+THE records: 2191
+
+KPI DEFINITIONS
+---------------
+
+1. Global Ranking Score
+Combines the ranking position score and the published overall
+ranking score to create a common 0-100 ranking indicator.
+
+2. Research Impact Score
+QS:
+Uses Citations per Faculty Score.
+
+THE:
+Uses Research Quality.
+
+3. Faculty-to-Student Ratio
+QS:
+Uses the Faculty Student Ratio Score provided by QS.
+
+THE:
+Uses Students to Staff Ratio and converts it into a
+0-100 score where a lower students-to-staff ratio receives
+a higher score.
+
+4. International Student Percentage
+QS:
+The supplied QS dataset provides an International Student SCORE
+rather than a direct percentage. Therefore the 0-100 QS score is
+used as a standardized international student indicator.
+
+Missing QS values are replaced using the median QS indicator.
+
+THE:
+Uses the International Students percentage provided by THE.
+
+Missing THE values are replaced using the median THE percentage.
+
+5. Academic Reputation Score
+QS:
+Uses Academic Reputation Score.
+
+THE:
+Uses Teaching performance as the available academic
+performance indicator in the supplied THE dataset.
+
+6. Research Productivity Index
+QS:
+Average of Research Impact Score and Academic Reputation Score.
+
+THE:
+Average of Research Quality and Research Environment.
+
+QUALITY CHECK
+-------------
+KPI missing values are reported during execution.
+
+MISSING VALUE HANDLING
+----------------------
+Global Ranking Score:
+QS records without an Overall Score use the ranking-position score
+as the fallback KPI.
+
+International Student Percentage:
+Missing source values are filled using the median value of the
+corresponding ranking source.
+
+All final KPI fields are validated after calculation.
+
+OUTPUT
+------
+C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Processed Data\university_final_dataset.xlsx
