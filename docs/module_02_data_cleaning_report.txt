@@ -1,0 +1,47 @@
+
+Module 2 - Data Cleaning and Transformation
+
+Input:
+C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Processed Data\university_raw_data.csv
+
+Output:
+C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Cleaned Data\university_cleaned.csv
+
+Original rows:
+3695
+
+Final rows:
+3151
+
+Original columns:
+6
+
+Final columns:
+10
+
+Exact duplicates removed:
+0
+
+Duplicate university records removed:
+544
+
+Overall missing-cell percentage:
+9.54%
+
+Detected university column:
+university_name
+
+Detected country column:
+country
+
+Cleaning operations:
+1. Column names standardized
+2. Text values cleaned
+3. University names standardized
+4. Country names standardized
+5. Numeric fields converted where appropriate
+6. Exact duplicates removed
+7. Duplicate university-country records removed
+8. Ranking metrics normalized
+9. Missing values analyzed
+10. Cleaned dataset exported
