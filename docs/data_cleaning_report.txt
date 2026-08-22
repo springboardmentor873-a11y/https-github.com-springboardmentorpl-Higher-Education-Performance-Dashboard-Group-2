@@ -1,0 +1,27 @@
+MODULE 2 - DATA CLEANING AND TRANSFORMATION
+============================================
+
+Original rows: 3695
+Rows after cleaning: 3695
+Exact duplicates removed: 0
+Duplicate university-source records removed: 0
+
+Transformations performed:
+- Standardized university names
+- Standardized country names
+- Converted ranking ranges to numeric midpoint values
+- Converted ranking scores to numeric values
+- Created normalized ranking scores
+- Created normalized overall scores
+- Preserved original ranking and score fields
+- Removed duplicate university-source records
+- Created Tableau-ready complete-case dataset
+
+Missing score handling:
+QS records containing '-' for Overall Score were treated as unavailable rather than assigning artificial values.
+
+Tableau-ready rows: 2896
+Tableau-ready missing percentage: 0.00%
+
+Cleaned dataset: C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Cleaned Data\university_cleaned.csv
+Tableau-ready dataset: C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Cleaned Data\university_tableau_ready.csv

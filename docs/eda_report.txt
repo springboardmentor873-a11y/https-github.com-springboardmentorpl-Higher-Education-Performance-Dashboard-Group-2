@@ -1,0 +1,21 @@
+MODULE 3 - EXPLORATORY DATA ANALYSIS
+====================================
+
+QS DATASET
+Universities: 1504
+Average Rank: 476.48
+Median Rank: 400.50
+Best Rank: 1.00
+Average Overall Score: 46.70
+
+THE DATASET
+Universities: 2191
+Average Rank: 1095.99
+Median Rank: 1096.00
+Best Rank: 1.00
+Average Overall Score: 36.44
+
+OUTPUT FILES
+QS summary: C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Processed Data\qs_eda_summary.csv
+THE summary: C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Processed Data\the_eda_summary.csv
+Country summary: C:\Users\kesin\Downloads\Infosys SpringBoard Internship\EduVision\Data\Processed Data\country_ranking_summary.csv
