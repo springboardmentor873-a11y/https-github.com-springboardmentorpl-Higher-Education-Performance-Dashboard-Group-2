@@ -26,6 +26,10 @@ The project is modularized into a standard Data Science folder structure for max
 │   └── module3_kpi_generation/           # KPI Engineering
 │       └── generate_education_kpis.py
 ├── requirements.txt                      # Python dependencies
+├── eduvision_dashboard_v1.twb            # Tableau Dashboard File
+├── EduVision_DV.twbx                     # Tableau Packaged Workbook
+├── dashboard_storyboard.pdf              # Dashboard Storyboard Presentation
+├── data_collection.py                    # Data collection script
 └── README.md                             # Project documentation
 ```
 
@@ -54,6 +58,12 @@ Generates actionable metrics for dashboard visualization.
 - **Academic Reputation Score**: Normalized Academic Reputation.
 - **Research Productivity Index**: Average of Research Environment and Citations per Faculty.
 - Exports the final metrics to `data/final/university_final_dataset.xlsx`.
+
+### Dashboard & Visualization
+The root directory includes the visualization deliverables built on top of the final dataset:
+- **`eduvision_dashboard_v1.twb`**: Tableau Workbook containing the dashboard layout and sheets.
+- **`EduVision_DV.twbx`**: Tableau Packaged Workbook containing the dashboard along with the extracted dataset.
+- **`dashboard_storyboard.pdf`**: Exported PDF of the dashboard storyboard for presentations and quick viewing.
 
 ## 🛠️ Setup & Installation
 
