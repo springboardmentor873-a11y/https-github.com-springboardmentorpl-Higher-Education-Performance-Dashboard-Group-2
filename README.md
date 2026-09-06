@@ -1,85 +1,254 @@
-# 🎓 Higher Education Performance Dashboard
+# 🎓 EduVision – Global University Analytics Dashboard
 
-A comprehensive Data Analytics and Business Intelligence project focused on analyzing global university performance, rankings, research impact, student diversity, academic reputation, and country-level education performance.
+EduVision is an interactive **Global University Analytics Dashboard** developed using Tableau to analyze university rankings, research performance, student analytics, and country-level education performance.
 
-Developed as part of the **Infosys Springboard Internship**.
+The project transforms university ranking data into meaningful visual insights through interactive dashboards, KPIs, charts, maps, filters, and dashboard actions.
 
 ---
 
 ## 📌 Project Overview
 
-This project transforms raw higher-education ranking datasets into a structured, analysis-ready dataset and presents meaningful insights through interactive Tableau dashboards.
+EduVision provides a centralized platform for analyzing global university data across multiple dimensions:
 
-### Key Areas Analyzed
+- University rankings
+- Academic reputation
+- Research impact
+- Research productivity
+- Student analytics
+- Faculty-to-student ratio
+- International students
+- Country-wise university distribution
+- Country ranking and education performance
 
-- 🌍 Global University Distribution
-- 🏆 University Rankings and Overall Scores
-- 🎓 Academic Reputation
-- 🔬 Research Impact and Productivity
-- 👨‍🎓 International Student Representation
-- 👨‍🏫 Faculty-to-Student Ratio
-- 🌎 Country-Level Education Performance
-- 📊 Relationships Between Education KPIs
-
----
-
-## 🎯 Project Objectives
-
-1. Collect and integrate higher-education ranking datasets.
-2. Clean and prepare raw university data for analysis.
-3. Perform Exploratory Data Analysis.
-4. Generate meaningful education KPIs.
-5. Build interactive dashboards using Tableau.
-6. Enable university and country-level comparisons.
-7. Present complex education data through clear visualizations.
+The final project contains **four interactive dashboards** connected through navigation and dashboard actions.
 
 ---
 
-## 🛠️ Technology Stack
+# 🗂️ Project Modules
 
-| Technology | Purpose |
-|---|---|
-| Python | Data processing and analysis |
-| Pandas | Data cleaning and transformation |
-| NumPy | Numerical analysis |
-| Jupyter Notebook | Exploratory Data Analysis |
-| Tableau | Interactive dashboards |
-| Git & GitHub | Version control |
-| CSV / Excel | Data storage and processing |
+## Module 1 – Python
+
+Covered fundamental Python programming concepts required for data analysis.
+
+### Topics Covered
+
+- Python fundamentals
+- Variables
+- Data Types
+- Input and Output
+- Type Casting
+- Conditional Statements
+- Loops
+- Functions
+- Basic Problem Solving
+- Data Handling
 
 ---
 
-## 📂 Project Structure
+## Module 2 – SQL
+
+Developed database querying and data analysis skills using SQL.
+
+### Topics Covered
+
+- SQL Fundamentals
+- SELECT Statements
+- WHERE Clause
+- ORDER BY
+- GROUP BY
+- HAVING
+- Aggregate Functions
+- JOIN Operations
+- Filtering and Sorting
+- Data Analysis using SQL
+
+---
+
+## Module 3 – Excel
+
+Used Excel for organizing, cleaning, and analyzing structured data.
+
+### Topics Covered
+
+- Data Organization
+- Data Cleaning
+- Sorting
+- Filtering
+- Excel Formulas
+- Pivot Tables
+- Data Analysis
+- Basic Data Visualization
+
+---
+
+## Module 4 – Data Analysis
+
+Applied data analysis techniques to prepare datasets for visualization.
+
+### Topics Covered
+
+- Data Preprocessing
+- Data Cleaning
+- Missing Value Handling
+- Data Transformation
+- Data Aggregation
+- Exploratory Data Analysis
+- Data Visualization
+- Analytical Insights
+
+---
+
+## Module 5 – Data Visualization & Analytics
+
+Focused on converting analyzed data into meaningful business and analytical insights.
+
+### Topics Covered
+
+- KPI Development
+- Data Visualization
+- Analytical Metrics
+- Data Storytelling
+- Dashboard Design
+- Interactive Visualizations
+- Business-Oriented Analysis
+
+---
+
+# 🚀 Module 6 – EduVision Tableau Dashboard
+
+Module 6 focuses on developing the final **EduVision Interactive Tableau Dashboard**.
+
+The dashboard contains four major analytical sections:
+
+1. University Overview
+2. Research Analytics
+3. Student Analytics
+4. Country Comparison
+
+---
+
+# 📊 Dashboard 1 – University Overview
+
+The University Overview dashboard provides a global view of university performance.
+
+### KPI Metrics
+
+- Top University
+- Total Universities
+- Total Countries
+- Average Overall Score
+- Faculty-to-Student Ratio
+
+### Visualizations
+
+- Global University Distribution
+- Top University Rankings
+- University Count by Country
+- Institutional Comparison
+- University Performance Trends
+- Top Universities by Academic Reputation
+
+### Features
+
+- Interactive country filtering
+- University ranking analysis
+- Global map visualization
+- KPI cards
+- Cross-sheet interactions
+
+---
+
+# 🔬 Dashboard 2 – Research Analytics
+
+The Research Analytics dashboard focuses on university research performance.
+
+### KPI Metrics
+
+- Research Impact
+- Research Productivity
+- Global Ranking
+- Overall Score
+
+### Visualizations
+
+- Research Impact Analysis
+- Research Productivity
+- Research Productivity vs Overall Score
+- Research Impact vs Global Ranking
+
+### Features
+
+- Interactive country filter
+- Research performance comparison
+- University-level analysis
+- Interactive visual analytics
+
+---
+
+# 🎓 Dashboard 3 – Student Analytics
+
+The Student Analytics dashboard focuses on student-related university indicators.
+
+### KPI Metrics
+
+- International Students
+- Faculty-to-Student Ratio
+- Student Global Ranking
+- Student Overall Score
+
+### Visualizations
+
+- International Student Analysis
+- Faculty-to-Student Ratio
+- International Students vs Overall Score
+- Faculty Ratio vs Overall Score
+
+### Features
+
+- Interactive country filter
+- Student performance analysis
+- University comparison
+- Interactive charts
+
+---
+
+# 🌍 Dashboard 4 – Country Comparison
+
+The Country Comparison dashboard provides country-level education analysis.
+
+### KPI Metrics
+
+- Total Countries
+- Total Universities
+- Average Overall Score
+- Country Global Ranking
+
+### Visualizations
+
+- University Count by Country
+- Country Ranking Comparison
+- Education Performance Benchmarking
+- Regional Education Trends
+- Top Performing Countries
+
+### Features
+
+- Country-level comparison
+- Interactive filtering
+- Ranking analysis
+- Regional performance analysis
+
+---
+
+# 🧭 Dashboard Navigation
+
+EduVision contains interactive navigation between all four dashboards.
 
 ```text
-Higher-Education-Performance-Dashboard-Group-2/
-│
-├── Data/
-│   ├── Raw Data/
-│   │   ├── 2026_QS_World_University_Rankings.csv
-│   │   └── THE World University Rankings 2026...
-│   │
-│   └── Cleaned Data/
-│       ├── university_cleaned.csv
-│       └── university_final_dataset.xlsx
-│
-├── Dashboard/
-│   └── EduVision_Module_4.twbx
-│
-├── docs/
-│   ├── module_1_data_collection.txt
-│   ├── data_collection.txt
-│   ├── data_cleaning_report.txt
-│   ├── eda_report.txt
-│   └── module_03_kpi_report.txt
-│
-├── notebooks/
-│   └── education_cleaning.ipynb
-│
-├── scripts/
-│   ├── data_collection.py
-│   ├── clean_data.py
-│   ├── exploratory_analysis.py
-│   └── generate_education_kpis.py
-│
-└── README.md
+University Overview
+        ↓
+Research Analytics
+        ↓
+Student Analytics
+        ↓
+Country Comparison
