@@ -1,32 +1,28 @@
-# EduVision — Education Analytics Methodology
+# Education Analytics Methodology
 
-## 1. Objective
+## 1. Overview
 
-The objective of EduVision is to transform higher education data into interactive visual insights that help users understand university and country-level educational performance.
+EduVision follows an end-to-end data analytics methodology to transform university education data into interactive dashboards.
 
----
-
-## 2. Analytics Workflow
-
-The project follows the following workflow:
+## 2. Methodology
 
 ```text
-Raw Dataset
-     ↓
 Data Collection
-     ↓
+      ↓
 Data Cleaning
-     ↓
-Data Validation
-     ↓
+      ↓
+Data Transformation
+      ↓
 Exploratory Data Analysis
-     ↓
-KPI Development
-     ↓
-Tableau Visualization
-     ↓
+      ↓
+KPI Engineering
+      ↓
 Dashboard Development
-     ↓
+      ↓
+Dashboard Integration
+      ↓
 Testing & Validation
-     ↓
+      ↓
+Documentation
+      ↓
 Final Delivery

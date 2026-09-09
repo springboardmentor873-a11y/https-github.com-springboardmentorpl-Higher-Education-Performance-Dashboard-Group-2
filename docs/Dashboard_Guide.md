@@ -1,150 +1,151 @@
-# EduVision — Dashboard User Guide
+# EduVision Dashboard Guide
 
-## 1. Introduction
+## 1. Home Dashboard
 
-EduVision is an interactive Tableau dashboard suite designed to analyze higher education performance.
+The Home dashboard provides a summary of the EduVision project.
 
-The dashboard provides university, research, student, and country-level insights.
+### Main KPIs
 
----
-
-## 2. Dashboard Navigation
-
-The project contains four primary dashboards:
-
-### University Overview
-
-Provides an overall view of university performance.
-
-Main components:
-
+- Top University
 - Total Universities
-- Average Overall Score
-- Average Global Ranking
-- Average Research Impact
-- Global University Distribution
-- Top University Rankings
-- Institutional Comparison
-- University Performance Trends
-
----
-
-### Research Analytics
-
-Focuses on research-related performance.
-
-Main components:
-
-- Research Impact
-- Research Productivity
-- Global Ranking
-- Overall Score
-- Research Impact Analysis
-- Research Productivity Analysis
-- Research Productivity vs Overall Score
-- Research Impact vs Global Ranking
-
----
-
-### Student Analytics
-
-Focuses on student-related metrics.
-
-Main components:
-
-- International Students
-- Faculty-to-Student Ratio
-- Student Global Ranking
-- Student Overall Score
-- International Student Analysis
-- Faculty-to-Student Ratio Analysis
-- International Students vs Overall Score
-- Faculty Ratio vs Overall Score
-
----
-
-### Country Comparison
-
-Focuses on country-level educational performance.
-
-Main components:
-
 - Total Countries
-- Total Universities
 - Average Overall Score
-- Country Global Ranking
+- Faculty-to-Student Ratio
+
+### Main Visualizations
+
+- Top University Rankings
 - University Count by Country
+- Global University Distribution
+- Institutional Comparison
+- Research Impact vs Global Ranking
 - Country Ranking Comparison
-- Education Performance Benchmarking
-- Regional Education Trends
-- Top Performing Countries
 
----
+### Navigation
 
-## 3. Using Filters
-
-The Country filter can be used to select:
-
-- All countries
-- A specific country
-
-Selecting a country updates the relevant dashboard visualizations.
-
----
-
-## 4. Navigation Buttons
-
-The navigation buttons allow users to move between:
+Users can navigate to:
 
 - University Overview
 - Research Analytics
 - Student Analytics
 - Country Comparison
 
-Click the required dashboard button to navigate.
+---
+
+# 2. University Overview
+
+## Purpose
+
+Provides a high-level overview of global university performance.
+
+## KPIs
+
+- Total Universities
+- Average Overall Score
+- Average Global Ranking
+- Average Research Impact
+
+## Visualizations
+
+- Global University Distribution
+- Top University Rankings
+- Top Universities by Academic Reputation
+- University Performance Trends
+- Institutional Comparison
 
 ---
 
-## 5. Interacting With Charts
+# 3. Research Analytics
 
-Users can interact with charts by:
+## Purpose
 
-- Selecting data points
-- Hovering over marks
-- Viewing tooltips
-- Applying filters
-- Comparing universities
-- Comparing countries
+Analyzes research performance across universities.
 
----
+## KPIs
 
-## 6. Recommended Usage
+- Research Impact
+- Research Productivity
+- Global Ranking
+- Overall Score
 
-For an overall understanding of the dataset:
+## Visualizations
 
-**Start → University Overview**
-
-For research-related analysis:
-
-**Research Analytics**
-
-For student-related analysis:
-
-**Student Analytics**
-
-For country comparisons:
-
-**Country Comparison**
+- Research Impact Analysis
+- Research Productivity
+- Research Productivity vs Overall Score
+- Research Impact vs Global Ranking
 
 ---
 
-## 7. Dashboard Design
+# 4. Student Analytics
 
-The dashboards were designed to provide:
+## Purpose
 
-- Simple navigation
-- Clear KPIs
-- Interactive visualizations
-- Consistent formatting
-- Easy comparison
-- Educational performance insights
+Analyzes student-related education indicators.
+
+## KPIs
+
+- International Students
+- Faculty-to-Student Ratio
+- Student Global Ranking
+- Student Overall Score
+
+## Visualizations
+
+- International Student Analysis
+- Faculty-to-Student Ratio
+- International Students vs Overall Score
+- Faculty Ratio vs Overall Score
+
+---
+
+# 5. Country Comparison
+
+## Purpose
+
+Compares education performance between countries and regions.
+
+## KPIs
+
+- Total Countries
+- Total Universities
+- Average Overall Score
+- Country Global Ranking
+
+## Visualizations
+
+- University Count by Country
+- Regional Education Trends
+- Country Ranking Comparison
+- Education Performance Benchmarking
+- Top Performing Countries
+
+---
+
+# 6. Filters
+
+A Country filter is available across the dashboards.
+
+Users can select:
+
+- All countries
+- Individual countries
+
+The dashboard updates according to the selected filter.
+
+---
+
+# 7. Navigation
+
+The final dashboard suite uses a consistent navigation structure:
+
+```text
+Home
+ ↓
+University Overview
+ ↓
+Research Analytics
+ ↓
+Student Analytics
+ ↓
+Country Comparison

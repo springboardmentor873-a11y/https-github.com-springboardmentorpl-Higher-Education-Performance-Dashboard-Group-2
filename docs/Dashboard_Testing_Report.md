@@ -1,158 +1,128 @@
-# EduVision — Dashboard Testing Report
+# Module 7: Dashboard Testing and Validation Report
 
 ## 1. Introduction
 
-This report documents the testing and validation performed on the EduVision Higher Education Performance Dashboard.
+Module 7 focuses on testing and validating the final EduVision dashboard suite before project delivery.
 
-The objective of testing was to ensure that the Tableau dashboards provide accurate KPIs, correct rankings, reliable educational metrics, functional interactions, and a consistent user experience.
-
----
-
-## 2. Dashboards Tested
-
-The following four dashboards were tested:
-
-1. University Overview
-2. Research Analytics
-3. Student Analytics
-4. Country Comparison
+The purpose of this testing phase is to verify KPI values, dashboard interactions, navigation, filters, visualizations and overall dashboard usability.
 
 ---
 
-## 3. KPI Testing
+# 2. Dashboards Tested
 
-The KPI calculations were reviewed against the underlying dataset and dashboard aggregations.
+The following dashboards were tested:
 
-### Tested KPIs
+1. EduVision Home
+2. University Overview
+3. Research Analytics
+4. Student Analytics
+5. Country Comparison
+
+---
+
+# 3. KPI Validation
+
+The following KPIs were reviewed:
 
 - Total Universities
 - Total Countries
 - Average Overall Score
-- Average Global Ranking
-- Average Research Impact
-- Research Productivity
-- International Students
-- Faculty-to-Student Ratio
-
-### Result
-
-All displayed KPI values were reviewed and found to be consistent with the dashboard calculations.
-
-**Result: PASS**
-
----
-
-## 4. Ranking Validation
-
-University and country ranking visualizations were reviewed.
-
-### University Rankings
-
-The following were validated:
-
-- Top University Rankings
-- Top Universities by Academic Reputation
-- Research Impact rankings
-- Research Productivity rankings
-- Faculty-to-Student rankings
-
-### Country Rankings
-
-The following were validated:
-
-- Country Ranking Comparison
-- Country Global Ranking
-- Top Performing Countries
-
-**Result: PASS**
-
----
-
-## 5. Educational Metrics Validation
-
-The following educational metrics were reviewed:
-
-- Overall Score
-- Academic Reputation
 - Global Ranking
 - Research Impact
 - Research Productivity
-- International Student Percentage
+- Academic Reputation
 - Faculty-to-Student Ratio
+- International Student Percentage
+- Country Global Ranking
 
-The metrics were checked for correct display, aggregation, and visualization.
-
-**Result: PASS**
+The KPI values were checked for consistency with the prepared dataset and dashboard calculations.
 
 ---
 
-## 6. Interaction Testing
+# 4. Dashboard Interaction Testing
 
-Dashboard interactions were tested across all four dashboards.
+The following interactions were tested:
 
-### Tested Interactions
-
-- Country filter
-- Dashboard navigation
-- Interactive charts
+- Navigation buttons
+- Country filters
 - Dashboard actions
-- Tooltip interactions
-- Selection/filter behavior
-
-All major interactions worked as expected.
-
-**Result: PASS**
+- Interactive charts
+- KPI updates
+- Cross-dashboard navigation
 
 ---
 
-## 7. Visual and Layout Testing
+# 5. University Overview Testing
 
-The dashboards were reviewed for:
+The following components were reviewed:
 
-- Consistent formatting
-- Clear titles
-- KPI visibility
-- Chart readability
-- Proper alignment
-- Navigation placement
-- Icon placement
-- Spacing
-- Overall dashboard usability
-
-**Result: PASS**
+- Total Universities KPI
+- Average Overall Score KPI
+- Average Global Ranking KPI
+- Average Research Impact KPI
+- Global University Distribution
+- Top University Rankings
+- Academic Reputation
+- University Performance Trends
+- Institutional Comparison
 
 ---
 
-## 8. Issues Identified
+# 6. Research Analytics Testing
 
-During final testing, no major functional dashboard issues were identified.
+The following components were reviewed:
 
-Minor visual adjustments were reviewed and corrected during dashboard development.
-
----
-
-## 9. Final Testing Summary
-
-| Testing Area | Result |
-|---|---|
-| KPI Calculations | PASS |
-| Ranking Calculations | PASS |
-| Educational Metrics | PASS |
-| Filters | PASS |
-| Dashboard Actions | PASS |
-| Navigation | PASS |
-| Formatting | PASS |
-| Visual Layout | PASS |
-| Overall Dashboard Functionality | PASS |
+- Research Impact KPI
+- Research Productivity KPI
+- Global Ranking KPI
+- Overall Score KPI
+- Research Impact Analysis
+- Research Productivity
+- Research Productivity vs Overall Score
+- Research Impact vs Global Ranking
 
 ---
 
-## 10. Conclusion
+# 7. Student Analytics Testing
 
-The EduVision dashboard suite successfully completed the testing and validation stage.
+The following components were reviewed:
 
-The dashboards provide interactive analysis of university performance, research, students, and country-level educational metrics.
+- International Students KPI
+- Faculty-to-Student Ratio KPI
+- Student Global Ranking KPI
+- Student Overall Score KPI
+- International Student Analysis
+- Faculty-to-Student Ratio
+- International Students vs Overall Score
+- Faculty Ratio vs Overall Score
 
-**Final Testing Status: PASSED**
+---
 
-**Dashboard Status: Ready for Delivery**
+# 8. Country Comparison Testing
+
+The following components were reviewed:
+
+- Total Countries KPI
+- Total Universities KPI
+- Average Overall Score KPI
+- Country Global Ranking KPI
+- University Count by Country
+- Regional Education Trends
+- Country Ranking Comparison
+- Education Performance Benchmarking
+- Top Performing Countries
+
+---
+
+# 9. Navigation Validation
+
+Navigation buttons were reviewed across all dashboards.
+
+The final navigation provides access to:
+
+```text
+Home
+University Overview
+Research Analytics
+Student Analytics
+Country Comparison
