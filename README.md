@@ -9,55 +9,52 @@ This repository contains the complete data pipeline designed to integrate multip
 The project is modularized into a standard Data Science folder structure for maximum readability and maintainability.
 
 ```text
-├── data/                                 # Datasets
-│   ├── raw/                              # Original, immutable data dumps
-│   │   ├── 2026 QS World University Rankings.csv
-│   │   └── THE World University Rankings 2016-2026.csv
-│   ├── interim/                          # Intermediate data that has been transformed
-│   │   ├── university_raw_data.csv       # Merged dataset
-│   │   └── university_cleaned.csv        # Cleaned dataset (missing values handled, standardized)
-│   └── final/                            # Final dataset ready for visualization
-│       └── university_final_dataset.xlsx # Contains generated KPIs
-├── src/                                  # Source Code Modules
-│   ├── module1_data_collection/          # Data Ingestion & Merging
-│   │   └── data_collection.py
-│   ├── module2_data_cleaning/            # Data Cleaning & Standardization
-│   │   └── education_cleaning.ipynb
-│   └── module3_kpi_generation/           # KPI Engineering
-│       └── generate_education_kpis.py
+├── module_01/                            # Data Ingestion & Merging
+│   ├── 2026 QS World University Rankings.csv
+│   ├── THE World University Rankings 2016-2026.csv
+│   ├── data_collection.py
+│   └── university_raw_data.csv
+├── module_02/                            # Data Cleaning & Standardization
+│   ├── education_cleaning.ipynb
+│   └── university_cleaned.csv
+├── module_03/                            # KPI Engineering
+│   ├── generate_education_kpis.py
+│   └── university_final_dataset.xlsx
+├── module_04/                            # Storyboard
+│   └── dashboard_storyboard.pdf
+├── module_05/                            # Tableau Dashboard File
+│   └── eduvision_dashboard_v1.twb
+├── module_06/                            # Tableau Packaged Workbook
+│   └── EduVision_DV.twbx
 ├── requirements.txt                      # Python dependencies
-├── eduvision_dashboard_v1.twb            # Tableau Dashboard File
-├── EduVision_DV.twbx                     # Tableau Packaged Workbook
-├── dashboard_storyboard.pdf              # Dashboard Storyboard Presentation
-├── data_collection.py                    # Data collection script
 └── README.md                             # Project documentation
 ```
 
 ## 🚀 Modules Breakdown
 
-### Module 1: Data Collection (`src/module1_data_collection`)
+### Module 1: Data Collection (`module_01`)
 Handles the initial data ingestion.
 - Reads the raw QS and THE ranking datasets.
 - Renames columns to align with a target schema.
 - Standardizes university names.
-- Merges the datasets on the university name and exports the result to `data/interim/university_raw_data.csv`.
+- Merges the datasets on the university name and exports the result to `module_01/university_raw_data.csv`.
 
-### Module 2: Data Cleaning (`src/module2_data_cleaning`)
+### Module 2: Data Cleaning (`module_02`)
 Handles data quality issues (implemented in a Jupyter Notebook for interactive exploration).
 - Removes duplicate rows.
 - Standardizes string columns (Names, Countries).
 - Cleans and converts ranking metrics to proper numeric types.
 - Imputes missing values (medians for numerical, 'Unknown' for categorical).
 - Filters and aligns the dataset for dashboard consumption.
-- Exports the cleaned dataset to `data/interim/university_cleaned.csv`.
+- Exports the cleaned dataset to `module_02/university_cleaned.csv`.
 
-### Module 3: KPI Generation (`src/module3_kpi_generation`)
+### Module 3: KPI Generation (`module_03`)
 Generates actionable metrics for dashboard visualization.
 - **Global Ranking Score**: Average of QS and THE overall scores.
 - **Research Impact Score**: Average of Citations and Research Quality.
 - **Academic Reputation Score**: Normalized Academic Reputation.
 - **Research Productivity Index**: Average of Research Environment and Citations per Faculty.
-- Exports the final metrics to `data/final/university_final_dataset.xlsx`.
+- Exports the final metrics to `module_03/university_final_dataset.xlsx`.
 
 ### Dashboard & Visualization
 The root directory includes the visualization deliverables built on top of the final dataset:
@@ -84,13 +81,13 @@ To run the pipeline from scratch, execute the modules in sequence from the proje
 
 1. **Run Data Collection**:
    ```bash
-   python src/module1_data_collection/data_collection.py
+   python module_01/data_collection.py
    ```
 2. **Run Data Cleaning**:
-   Open and execute all cells in `src/module2_data_cleaning/education_cleaning.ipynb` using Jupyter Notebook or your preferred IDE.
+   Open and execute all cells in `module_02/education_cleaning.ipynb` using Jupyter Notebook or your preferred IDE.
 3. **Generate KPIs**:
    ```bash
-   python src/module3_kpi_generation/generate_education_kpis.py
+   python module_03/generate_education_kpis.py
    ```
 
 ---
