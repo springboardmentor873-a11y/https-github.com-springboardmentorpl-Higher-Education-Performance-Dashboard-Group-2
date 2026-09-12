@@ -1,0 +1,51 @@
+University,Country,QS_Rank,Overall_Score,Academic_Reputation,Employer_Reputation,Citations_per_Faculty,Faculty_Student_Ratio,International_Students
+MIT,USA,1,100,100,99,98,97,96
+University of Oxford,UK,2,99.2,99,98,97,96,95
+Stanford University,USA,3,98.4,99,98,97,96,95
+Harvard University,USA,4,97.6,98,97,96,95,94
+University of Cambridge,UK,5,96.8,98,97,96,95,94
+Caltech,USA,6,96,97,96,95,94,93
+Imperial College London,UK,7,95.2,97,96,95,94,93
+ETH Zurich,Switzerland,8,94.4,96,95,94,93,92
+National University of Singapore,Singapore,9,93.6,96,95,94,93,92
+UCL,UK,10,92.8,95,94,93,92,91
+UC Berkeley,USA,11,92,95,94,93,92,91
+University of Chicago,USA,12,91.2,94,93,92,91,90
+University of Pennsylvania,USA,13,90.4,94,93,92,91,90
+Yale University,USA,14,89.6,93,92,91,90,89
+Cornell University,USA,15,88.8,93,92,91,90,89
+Princeton University,USA,16,88,92,91,90,89,88
+Columbia University,USA,17,87.2,92,91,90,89,88
+Tsinghua University,China,18,86.4,91,90,89,88,87
+Peking University,China,19,85.6,91,90,89,88,87
+University of Toronto,Canada,20,84.8,90,89,88,87,86
+University of Melbourne,Australia,21,84,90,89,88,87,86
+University of Edinburgh,UK,22,83.2,89,88,87,86,85
+University of Michigan,USA,23,82.4,89,88,87,86,85
+Johns Hopkins University,USA,24,81.6,88,87,86,85,84
+Duke University,USA,25,80.8,88,87,86,85,84
+Northwestern University,USA,26,80,87,86,85,84,83
+King's College London,UK,27,79.2,87,86,85,84,83
+University of Manchester,UK,28,78.4,86,85,84,83,82
+Monash University,Australia,29,77.6,86,85,84,83,82
+University of Sydney,Australia,30,76.8,85,84,83,82,81
+UNSW Sydney,Australia,31,76,85,84,83,82,81
+Kyoto University,Japan,32,75.2,84,83,82,81,80
+University of Tokyo,Japan,33,74.4,84,83,82,81,80
+Seoul National University,South Korea,34,73.6,83,82,81,80,79
+KAIST,South Korea,35,72.8,83,82,81,80,79
+NTU Singapore,Singapore,36,72,82,81,80,79,78
+University of Hong Kong,Hong Kong,37,71.2,82,81,80,79,78
+CUHK,Hong Kong,38,70.4,81,80,79,78,77
+McGill University,Canada,39,69.6,81,80,79,78,77
+UBC,Canada,40,68.8,80,79,78,77,76
+TU Delft,Netherlands,41,68,80,79,78,77,76
+EPFL,Switzerland,42,67.2,79,78,77,76,75
+University of Amsterdam,Netherlands,43,66.4,79,78,77,76,75
+University of Copenhagen,Denmark,44,65.6,78,77,76,75,74
+Heidelberg University,Germany,45,64.8,78,77,76,75,74
+LMU Munich,Germany,46,64,77,76,75,74,73
+Technical University of Munich,Germany,47,63.2,77,76,75,74,73
+University of Bristol,UK,48,62.4,76,75,74,73,72
+University of Warwick,UK,49,61.6,76,75,74,73,72
+Brown University,USA,50,60.8,75,74,73,72,71
