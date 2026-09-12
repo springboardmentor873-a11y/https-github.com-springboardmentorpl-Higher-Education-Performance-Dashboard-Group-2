@@ -23,6 +23,7 @@ Benchmark countries based on university performance, academic reputation, resear
 Develop visually attractive Tableau dashboards that allow users to explore higher-education data through filters and comparisons.
 
 ✨ Key Features
+
 🏫 University Analysis
 
 EduVision provides a detailed view of university performance by combining ranking scores and academic indicators. Users can compare institutions and identify top-performing universities.
