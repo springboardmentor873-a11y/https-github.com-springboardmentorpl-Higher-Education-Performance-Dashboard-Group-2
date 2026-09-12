@@ -124,17 +124,8 @@ tableau/
 
 This workbook contains the integrated dashboard suite developed for the project.
 
-10. Repository Structure
-06_Module_6_Dashboard_Integration/
-│
-├── README.md
-│
-├── tableau/
-│   └── EduVision_DV.twbx
-│
-└── screenshots/
-    └── [final dashboard screenshots]
-11. Expected Evaluation
+
+10. Expected Evaluation
 
 According to the project requirements, Module 6 is evaluated based on:
 
