@@ -26,6 +26,9 @@ The project is modularized into a standard Data Science folder structure for max
 │   └── eduvision_dashboard_v1.twb
 ├── module_06/                            # Tableau Packaged Workbook
 │   └── EduVision_DV.twbx
+├── module_07/                            # QA & Testing
+│   ├── Dashboard_Testing_Report.md
+│   └── QA_Checklist.md
 ├── requirements.txt                      # Python dependencies
 └── README.md                             # Project documentation
 ```
@@ -61,6 +64,11 @@ The root directory includes the visualization deliverables built on top of the f
 - **`eduvision_dashboard_v1.twb`**: Tableau Workbook containing the dashboard layout and sheets.
 - **`EduVision_DV.twbx`**: Tableau Packaged Workbook containing the dashboard along with the extracted dataset.
 - **`dashboard_storyboard.pdf`**: Exported PDF of the dashboard storyboard for presentations and quick viewing.
+
+### Module 7: QA & Testing (`module_07`)
+Contains quality assurance documents for testing the dashboard.
+- **`QA_Checklist.md`**: A comprehensive checklist for verifying data accuracy, UI elements, interactivity, and accessibility.
+- **`Dashboard_Testing_Report.md`**: A structured reporting template for executing test cases, logging bugs, and signing off on the dashboard's release readiness.
 
 ## 🛠️ Setup & Installation
 
