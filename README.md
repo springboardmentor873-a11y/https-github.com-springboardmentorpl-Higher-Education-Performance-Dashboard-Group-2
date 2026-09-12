@@ -44,7 +44,9 @@ The Country Comparison dashboard enables benchmarking of countries based on univ
 
 Several education KPIs are calculated to convert raw ranking data into meaningful measures that can be easily analyzed and visualized in Tableau.
 
+
 📊 Key Performance Indicators
+
 
 🏆 Global Ranking Score
 Represents the overall performance of a university based on ranking information.
@@ -65,6 +67,7 @@ Represents the academic reputation of a university based on the available rankin
 Provides an indicator for comparing research productivity between institutions.
 
 📊 Tableau Dashboards
+
 🎓 University Overview
 
 The University Overview dashboard presents the overall performance of universities through ranking comparisons, academic reputation analysis, regional distribution, and institutional performance.
@@ -81,7 +84,9 @@ The Student Analytics dashboard focuses on international student representation,
 
 The Country Comparison dashboard compares countries using university ranking performance, academic indicators, research impact, and regional education performance.
 
+
 🔄 Project Workflow
+
 
 📥 Data Collection
 University ranking datasets are collected from available higher-education ranking sources.
@@ -108,13 +113,19 @@ The four dashboards are connected using navigation, filters, and interactive das
 
 ⬇️
 
+
 ✅ Testing & Validation
+
 KPIs, rankings, filters, charts, and dashboard navigation are checked for accuracy and functionality.
 
 🛠️ Technologies Used
 
 🐍 Python – Data processing and KPI calculation
+
 🐼 Pandas – Data cleaning and transformation
+
 🔢 NumPy – Numerical calculations
+
 📊 Tableau – Interactive dashboard development
+
 📁 CSV / Excel – Data storage and Tableau-ready datasets
