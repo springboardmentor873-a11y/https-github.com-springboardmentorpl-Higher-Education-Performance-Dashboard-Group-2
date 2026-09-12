@@ -119,8 +119,7 @@ These features allow users to interact with the dashboard and explore related in
 
 The integrated EduVision_DV Tableau workbook is stored in:
 
-tableau/
-└── EduVision_DV.twbx
+tableau/EduVision_DV.twbx
 
 This workbook contains the integrated dashboard suite developed for the project.
 
