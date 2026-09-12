@@ -1,0 +1,287 @@
+test_id,requirement_id,module,category,scenario,expected_result,actual_result,execution_method,priority,status,severity_if_failed,evidence
+M4-TC-001,M7-P01,Module 7,Packaging,Approved dashboard ZIP exists,present,True,Automated,Critical,PASS,Critical,EduVision_PowerBI_Modules_4_to_6_Advanced_5_Dashboards_Standard_Maps_No_SignIn.zip
+M4-TC-002,M7-P02,Module 7,Packaging,Approved dashboard ZIP checksum,98dd2ed7bdae98fabe661d68af729c3cdb8c3f1d5ae097d94492813ba1593a12,98dd2ed7bdae98fabe661d68af729c3cdb8c3f1d5ae097d94492813ba1593a12,Automated,Critical,PASS,Critical,SHA-256
+M4-TC-003,M7-P03,Module 7,Packaging,ZIP compression integrity,no corrupt member,none,Automated,Critical,PASS,Critical,ZipFile.testzip
+M4-TC-004,M7-P04,Module 7,Packaging,PBIP entry present in archive,EduVision.pbip,True,Automated,Critical,PASS,Critical,ZIP directory
+M4-TC-005,M7-P05,Module 7,Packaging,Semantic model present in archive,Universities.tmdl,True,Automated,Critical,PASS,Critical,ZIP directory
+M4-TC-006,M7-P06,Module 7,Packaging,Report definition present in archive,pages.json,True,Automated,Critical,PASS,Critical,ZIP directory
+M4-TC-007,M7-P07,Module 7,Packaging,Source workbook included for audit,one Excel workbook,1,Automated,High,PASS,Major,ZIP directory
+M4-TC-008,M7-P08,Module 7,Packaging,Storyboard included,dashboard_storyboard.pdf,True,Automated,High,PASS,Major,ZIP directory
+M4-TC-009,M7-P09,Module 7,Packaging,Beginner opening script included,START_HERE_OPEN_EDUVISION.cmd,True,Automated,High,PASS,Major,ZIP directory
+M4-TC-010,M7-Q01,Module 7,Data quality,Raw university records,1120,1120,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-011,M7-Q02,Module 7,Data quality,Raw source fields,42,42,Automated,High,PASS,Major,REFERENCE_DATA CSV and audit JSON
+M4-TC-012,M7-Q03,Module 7,Data quality,Country coverage,93,93,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-013,M7-Q04,Module 7,Data quality,Regional coverage,5,5,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-014,M7-Q05,Module 7,Data quality,Reporting-year scope,2026 only,[2026],Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-015,M7-Q06,Module 7,Data quality,Source completeness,>95%,98.176%,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-016,M7-Q07,Module 7,Data quality,Raw-audit completeness reconciliation,98.176,98.176,Automated,High,PASS,Major,REFERENCE_DATA CSV and audit JSON
+M4-TC-017,M7-Q08,Module 7,Data quality,Cleaned record preservation,1120,1120,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-018,M7-Q09,Module 7,Data quality,Cleaned field count,44,44,Automated,High,PASS,Major,REFERENCE_DATA CSV and audit JSON
+M4-TC-019,M7-Q10,Module 7,Data quality,Post-cleaning missingness,<2%,1.5686%,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-020,M7-Q11,Module 7,Data quality,Cleaning-audit reconciliation,1.5686,1.5686,Automated,High,PASS,Major,REFERENCE_DATA CSV and audit JSON
+M4-TC-021,M7-Q12,Module 7,Data quality,Duplicate institution-country-year keys,0,0,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-022,M7-Q13,Module 7,Data quality,Final record count,1120,1120,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-023,M7-Q14,Module 7,Data quality,Final field count,50,50,Automated,High,PASS,Major,REFERENCE_DATA CSV and audit JSON
+M4-TC-024,M7-Q15,Module 7,Data quality,Required KPI fields,6,6,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-025,M7-Q16,Module 7,Data quality,KPI missing cells,0,0,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-026,M7-Q17,Module 7,Data quality,Normalized QS score range,0-100,0.00-100.00,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-027,M7-Q18,Module 7,Data quality,Normalized THE score range,0-100,0.00-100.00,Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-028,M7-Q19,Module 7,Data quality,International-student KPI range,0-100,0.0-81.0,Automated,High,PASS,Major,REFERENCE_DATA CSV and audit JSON
+M4-TC-029,M7-Q20,Module 7,Data quality,No fabricated publication totals,no publication_count field,[],Automated,Critical,PASS,Critical,REFERENCE_DATA CSV and audit JSON
+M4-TC-030,M7-K01,Module 7,KPI reconciliation,KPI_Global_Ranking_Score: all rows reproduce,"1,120/1,120",1120/1120,Automated,Critical,PASS,Critical,calculate_kpis versus university_final_dataset.csv
+M4-TC-031,M7-K02,Module 7,KPI reconciliation,KPI_Global_Ranking_Score: maximum absolute difference,0.0,1.4210854715202004e-14,Automated,Critical,PASS,Critical,full-dataset vector comparison
+M4-TC-032,M7-K03,Module 7,KPI reconciliation,KPI_Global_Ranking_Score: audit status,PASS,PASS,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-033,M7-K01,Module 7,KPI reconciliation,KPI_Research_Impact_Score: all rows reproduce,"1,120/1,120",1120/1120,Automated,Critical,PASS,Critical,calculate_kpis versus university_final_dataset.csv
+M4-TC-034,M7-K02,Module 7,KPI reconciliation,KPI_Research_Impact_Score: maximum absolute difference,0.0,1.4210854715202004e-14,Automated,Critical,PASS,Critical,full-dataset vector comparison
+M4-TC-035,M7-K03,Module 7,KPI reconciliation,KPI_Research_Impact_Score: audit status,PASS,PASS,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-036,M7-K01,Module 7,KPI reconciliation,KPI_Faculty_to_Student_Ratio: all rows reproduce,"1,120/1,120",1120/1120,Automated,Critical,PASS,Critical,calculate_kpis versus university_final_dataset.csv
+M4-TC-037,M7-K02,Module 7,KPI reconciliation,KPI_Faculty_to_Student_Ratio: maximum absolute difference,0.0,9.71445146547012e-17,Automated,Critical,PASS,Critical,full-dataset vector comparison
+M4-TC-038,M7-K03,Module 7,KPI reconciliation,KPI_Faculty_to_Student_Ratio: audit status,PASS,PASS,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-039,M7-K01,Module 7,KPI reconciliation,KPI_International_Student_Percentage: all rows reproduce,"1,120/1,120",1120/1120,Automated,Critical,PASS,Critical,calculate_kpis versus university_final_dataset.csv
+M4-TC-040,M7-K02,Module 7,KPI reconciliation,KPI_International_Student_Percentage: maximum absolute difference,0.0,3.552713678800501e-15,Automated,Critical,PASS,Critical,full-dataset vector comparison
+M4-TC-041,M7-K03,Module 7,KPI reconciliation,KPI_International_Student_Percentage: audit status,PASS,PASS,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-042,M7-K01,Module 7,KPI reconciliation,KPI_Academic_Reputation_Score: all rows reproduce,"1,120/1,120",1120/1120,Automated,Critical,PASS,Critical,calculate_kpis versus university_final_dataset.csv
+M4-TC-043,M7-K02,Module 7,KPI reconciliation,KPI_Academic_Reputation_Score: maximum absolute difference,0.0,0.0,Automated,Critical,PASS,Critical,full-dataset vector comparison
+M4-TC-044,M7-K03,Module 7,KPI reconciliation,KPI_Academic_Reputation_Score: audit status,PASS,PASS,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-045,M7-K01,Module 7,KPI reconciliation,KPI_Research_Productivity_Index: all rows reproduce,"1,120/1,120",1120/1120,Automated,Critical,PASS,Critical,calculate_kpis versus university_final_dataset.csv
+M4-TC-046,M7-K02,Module 7,KPI reconciliation,KPI_Research_Productivity_Index: maximum absolute difference,0.0,1.4210854715202004e-14,Automated,Critical,PASS,Critical,full-dataset vector comparison
+M4-TC-047,M7-K03,Module 7,KPI reconciliation,KPI_Research_Productivity_Index: audit status,PASS,PASS,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-048,M7-K04,Module 7,KPI reconciliation,Overall KPI reference accuracy,100%,100.0%,Automated,Critical,PASS,Critical,kpi_validation.json
+M4-TC-049,M7-K05,Module 7,KPI reconciliation,Every KPI covers complete population,"1,120 rows per KPI","[1120, 1120, 1120, 1120, 1120, 1120]",Automated,Critical,PASS,Critical,full-dataset validation
+M4-TC-050,M7-R01,Module 7,Release integrity,Power BI project entry file exists,EduVision.pbip present,True,Automated,Critical,PASS,Critical,Approved release ZIP
+M4-TC-051,M7-R02,Module 7,Report definition,Expected page count,5,5,Automated,Critical,PASS,Critical,pages.json
+M4-TC-052,M7-D01,Module 7,Dashboard page contract,University Overview: correct order,1,1,Automated,Critical,PASS,Critical,pages.json
+M4-TC-053,M7-D02,Module 7,Dashboard page contract,University Overview: page width,1280,1280,Automated,High,PASS,Major,page.json
+M4-TC-054,M7-D03,Module 7,Dashboard page contract,University Overview: page height,1704,1704,Automated,High,PASS,Major,page.json
+M4-TC-055,M7-D04,Module 7,Dashboard page contract,University Overview: total visuals,21,21,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-056,M7-D05,Module 7,Dashboard page contract,University Overview: dropdown slicers,6,6,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-057,M7-D06,Module 7,Dashboard page contract,University Overview: KPI cards,4,4,Automated,Critical,PASS,Critical,card visual definitions
+M4-TC-058,M7-D07,Module 7,Dashboard page contract,University Overview: native navigator,1,1,Automated,Critical,PASS,Critical,navigator definition
+M4-TC-059,M7-D08,Module 7,Dashboard page contract,University Overview: standard map,1,1,Automated,High,PASS,Major,map definition
+M4-TC-060,M7-D09,Module 7,Dashboard page contract,University Overview: no inactive projections,0,0,Automated,Critical,PASS,Critical,queryState projections
+M4-TC-061,M7-D10,Module 7,Dashboard page contract,University Overview: unique visual identifiers,21,21,Automated,High,PASS,Major,visual names
+M4-TC-062,M7-D11,Module 7,Dashboard page contract,University Overview: KPI measures are bound,4,4,Automated,Critical,PASS,Critical,"Highest Global Score, Average Global Score, Country Count, University Count"
+M4-TC-063,M7-D12,Module 7,Dashboard page contract,University Overview: data-visual contract,18,18,Automated,High,PASS,Major,validation_summary.json
+M4-TC-064,M7-M01,Module 7,Map validation,University Overview: location role,Country,Country,Automated,Critical,PASS,Critical,Global University Footprint by Country
+M4-TC-065,M7-M02,Module 7,Map validation,University Overview: legend role,Region,Region,Automated,High,PASS,Major,Global University Footprint by Country
+M4-TC-066,M7-M03,Module 7,Map validation,University Overview: size measure,University Count,University Count,Automated,High,PASS,Major,Global University Footprint by Country
+M4-TC-067,M7-M04,Module 7,Map validation,University Overview: tooltip coverage,>=3,3,Automated,High,PASS,Major,"Average Global Score, Average Academic Reputation, Average Research Impact"
+M4-TC-068,M7-M05,Module 7,Map validation,University Overview: map stays inside page,bottom <= 1704,1680,Automated,High,PASS,Major,map position and page height
+M4-TC-069,M7-M06,Module 7,Map validation,University Overview: map title is present,non-empty title,Global University Footprint by Country,Automated,High,PASS,Major,visualContainerObjects.title
+M4-TC-070,M7-M07,Module 7,Map validation,University Overview: all map projections active,all active,0,Automated,High,PASS,Major,map queryState
+M4-TC-071,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Academic Reputation,defined measure or column,Average Academic Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-072,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Employer Reputation,defined measure or column,Average Employer Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-073,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Global Score,defined measure or column,Average Global Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-074,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Previous QS Rank,defined measure or column,Average Previous QS Rank,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-075,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average QS Rank,defined measure or column,Average QS Rank,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-076,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Rank Movement,defined measure or column,Average Rank Movement,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-077,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Research Impact,defined measure or column,Average Research Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-078,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Average Sustainability,defined measure or column,Average Sustainability,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-079,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Country,defined measure or column,Country,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-080,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Country Count,defined measure or column,Country Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-081,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Focus,defined measure or column,Focus,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-082,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Highest Global Score,defined measure or column,Highest Global Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-083,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Institution Status,defined measure or column,Institution Status,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-084,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Region,defined measure or column,Region,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-085,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Research Activity,defined measure or column,Research Activity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-086,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - Size,defined measure or column,Size,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-087,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - University,defined measure or column,University,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-088,M7-F01,Module 7,Field binding,University Overview: field exists in semantic model - University Count,defined measure or column,University Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-089,M7-D01,Module 7,Dashboard page contract,Research Analytics: correct order,2,2,Automated,Critical,PASS,Critical,pages.json
+M4-TC-090,M7-D02,Module 7,Dashboard page contract,Research Analytics: page width,1280,1280,Automated,High,PASS,Major,page.json
+M4-TC-091,M7-D03,Module 7,Dashboard page contract,Research Analytics: page height,1704,1704,Automated,High,PASS,Major,page.json
+M4-TC-092,M7-D04,Module 7,Dashboard page contract,Research Analytics: total visuals,21,21,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-093,M7-D05,Module 7,Dashboard page contract,Research Analytics: dropdown slicers,6,6,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-094,M7-D06,Module 7,Dashboard page contract,Research Analytics: KPI cards,4,4,Automated,Critical,PASS,Critical,card visual definitions
+M4-TC-095,M7-D07,Module 7,Dashboard page contract,Research Analytics: native navigator,1,1,Automated,Critical,PASS,Critical,navigator definition
+M4-TC-096,M7-D08,Module 7,Dashboard page contract,Research Analytics: standard map,1,1,Automated,High,PASS,Major,map definition
+M4-TC-097,M7-D09,Module 7,Dashboard page contract,Research Analytics: no inactive projections,0,0,Automated,Critical,PASS,Critical,queryState projections
+M4-TC-098,M7-D10,Module 7,Dashboard page contract,Research Analytics: unique visual identifiers,21,21,Automated,High,PASS,Major,visual names
+M4-TC-099,M7-D11,Module 7,Dashboard page contract,Research Analytics: KPI measures are bound,4,4,Automated,Critical,PASS,Critical,"Average Citations per Faculty, Average Research Productivity, Average Research Quality, Average Research Impact"
+M4-TC-100,M7-D12,Module 7,Dashboard page contract,Research Analytics: data-visual contract,18,18,Automated,High,PASS,Major,validation_summary.json
+M4-TC-101,M7-M01,Module 7,Map validation,Research Analytics: location role,Country,Country,Automated,Critical,PASS,Critical,Global Research Impact Map
+M4-TC-102,M7-M02,Module 7,Map validation,Research Analytics: legend role,Region,Region,Automated,High,PASS,Major,Global Research Impact Map
+M4-TC-103,M7-M03,Module 7,Map validation,Research Analytics: size measure,Average Research Impact,Average Research Impact,Automated,High,PASS,Major,Global Research Impact Map
+M4-TC-104,M7-M04,Module 7,Map validation,Research Analytics: tooltip coverage,>=4,4,Automated,High,PASS,Major,"University Count, Average Research Productivity, Average Research Quality, Average Citations per Faculty"
+M4-TC-105,M7-M05,Module 7,Map validation,Research Analytics: map stays inside page,bottom <= 1704,1680,Automated,High,PASS,Major,map position and page height
+M4-TC-106,M7-M06,Module 7,Map validation,Research Analytics: map title is present,non-empty title,Global Research Impact Map,Automated,High,PASS,Major,visualContainerObjects.title
+M4-TC-107,M7-M07,Module 7,Map validation,Research Analytics: all map projections active,all active,0,Automated,High,PASS,Major,map queryState
+M4-TC-108,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Academic Reputation,defined measure or column,Average Academic Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-109,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Citations per Faculty,defined measure or column,Average Citations per Faculty,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-110,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Global Score,defined measure or column,Average Global Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-111,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Industry Impact,defined measure or column,Average Industry Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-112,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average International Research Network,defined measure or column,Average International Research Network,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-113,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Research Impact,defined measure or column,Average Research Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-114,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Research Productivity,defined measure or column,Average Research Productivity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-115,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Average Research Quality,defined measure or column,Average Research Quality,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-116,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Country,defined measure or column,Country,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-117,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Focus,defined measure or column,Focus,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-118,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Institution Status,defined measure or column,Institution Status,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-119,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Region,defined measure or column,Region,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-120,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Research Activity,defined measure or column,Research Activity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-121,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - Size,defined measure or column,Size,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-122,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - University,defined measure or column,University,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-123,M7-F01,Module 7,Field binding,Research Analytics: field exists in semantic model - University Count,defined measure or column,University Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-124,M7-D01,Module 7,Dashboard page contract,Student Analytics: correct order,3,3,Automated,Critical,PASS,Critical,pages.json
+M4-TC-125,M7-D02,Module 7,Dashboard page contract,Student Analytics: page width,1280,1280,Automated,High,PASS,Major,page.json
+M4-TC-126,M7-D03,Module 7,Dashboard page contract,Student Analytics: page height,1704,1704,Automated,High,PASS,Major,page.json
+M4-TC-127,M7-D04,Module 7,Dashboard page contract,Student Analytics: total visuals,21,21,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-128,M7-D05,Module 7,Dashboard page contract,Student Analytics: dropdown slicers,6,6,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-129,M7-D06,Module 7,Dashboard page contract,Student Analytics: KPI cards,4,4,Automated,Critical,PASS,Critical,card visual definitions
+M4-TC-130,M7-D07,Module 7,Dashboard page contract,Student Analytics: native navigator,1,1,Automated,Critical,PASS,Critical,navigator definition
+M4-TC-131,M7-D08,Module 7,Dashboard page contract,Student Analytics: standard map,1,1,Automated,High,PASS,Major,map definition
+M4-TC-132,M7-D09,Module 7,Dashboard page contract,Student Analytics: no inactive projections,0,0,Automated,Critical,PASS,Critical,queryState projections
+M4-TC-133,M7-D10,Module 7,Dashboard page contract,Student Analytics: unique visual identifiers,21,21,Automated,High,PASS,Major,visual names
+M4-TC-134,M7-D11,Module 7,Dashboard page contract,Student Analytics: KPI measures are bound,4,4,Automated,Critical,PASS,Critical,"Average Student Population, Average Student Diversity, International Students %, Average Students to Staff"
+M4-TC-135,M7-D12,Module 7,Dashboard page contract,Student Analytics: data-visual contract,18,18,Automated,High,PASS,Major,validation_summary.json
+M4-TC-136,M7-M01,Module 7,Map validation,Student Analytics: location role,Country,Country,Automated,Critical,PASS,Critical,International Student and Diversity Map
+M4-TC-137,M7-M02,Module 7,Map validation,Student Analytics: legend role,Region,Region,Automated,High,PASS,Major,International Student and Diversity Map
+M4-TC-138,M7-M03,Module 7,Map validation,Student Analytics: size measure,International Students %,International Students %,Automated,High,PASS,Major,International Student and Diversity Map
+M4-TC-139,M7-M04,Module 7,Map validation,Student Analytics: tooltip coverage,>=4,4,Automated,High,PASS,Major,"University Count, Average Student Population, Average Student Diversity, Average Students to Staff"
+M4-TC-140,M7-M05,Module 7,Map validation,Student Analytics: map stays inside page,bottom <= 1704,1680,Automated,High,PASS,Major,map position and page height
+M4-TC-141,M7-M06,Module 7,Map validation,Student Analytics: map title is present,non-empty title,International Student and Diversity Map,Automated,High,PASS,Major,visualContainerObjects.title
+M4-TC-142,M7-M07,Module 7,Map validation,Student Analytics: all map projections active,all active,0,Automated,High,PASS,Major,map queryState
+M4-TC-143,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Academic Reputation,defined measure or column,Average Academic Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-144,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Global Score,defined measure or column,Average Global Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-145,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average International Faculty,defined measure or column,Average International Faculty,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-146,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average International Outlook,defined measure or column,Average International Outlook,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-147,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average International Student Score,defined measure or column,Average International Student Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-148,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Research Impact,defined measure or column,Average Research Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-149,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Student Diversity,defined measure or column,Average Student Diversity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-150,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Student Population,defined measure or column,Average Student Population,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-151,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Students to Staff,defined measure or column,Average Students to Staff,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-152,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Average Teaching Score,defined measure or column,Average Teaching Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-153,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Country,defined measure or column,Country,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-154,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Faculty to Student %,defined measure or column,Faculty to Student %,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-155,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Focus,defined measure or column,Focus,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-156,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Institution Status,defined measure or column,Institution Status,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-157,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - International Students %,defined measure or column,International Students %,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-158,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - International Students Target,defined measure or column,International Students Target,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-159,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Percent Scale Maximum,defined measure or column,Percent Scale Maximum,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-160,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Percent Scale Minimum,defined measure or column,Percent Scale Minimum,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-161,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Region,defined measure or column,Region,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-162,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Research Activity,defined measure or column,Research Activity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-163,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - Size,defined measure or column,Size,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-164,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - University,defined measure or column,University,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-165,M7-F01,Module 7,Field binding,Student Analytics: field exists in semantic model - University Count,defined measure or column,University Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-166,M7-D01,Module 7,Dashboard page contract,Country Comparison: correct order,4,4,Automated,Critical,PASS,Critical,pages.json
+M4-TC-167,M7-D02,Module 7,Dashboard page contract,Country Comparison: page width,1280,1280,Automated,High,PASS,Major,page.json
+M4-TC-168,M7-D03,Module 7,Dashboard page contract,Country Comparison: page height,1704,1704,Automated,High,PASS,Major,page.json
+M4-TC-169,M7-D04,Module 7,Dashboard page contract,Country Comparison: total visuals,21,21,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-170,M7-D05,Module 7,Dashboard page contract,Country Comparison: dropdown slicers,6,6,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-171,M7-D06,Module 7,Dashboard page contract,Country Comparison: KPI cards,4,4,Automated,Critical,PASS,Critical,card visual definitions
+M4-TC-172,M7-D07,Module 7,Dashboard page contract,Country Comparison: native navigator,1,1,Automated,Critical,PASS,Critical,navigator definition
+M4-TC-173,M7-D08,Module 7,Dashboard page contract,Country Comparison: standard map,1,1,Automated,High,PASS,Major,map definition
+M4-TC-174,M7-D09,Module 7,Dashboard page contract,Country Comparison: no inactive projections,0,0,Automated,Critical,PASS,Critical,queryState projections
+M4-TC-175,M7-D10,Module 7,Dashboard page contract,Country Comparison: unique visual identifiers,21,21,Automated,High,PASS,Major,visual names
+M4-TC-176,M7-D11,Module 7,Dashboard page contract,Country Comparison: KPI measures are bound,4,4,Automated,Critical,PASS,Critical,"Declined Universities, Country Count, Improved Universities, University Count"
+M4-TC-177,M7-D12,Module 7,Dashboard page contract,Country Comparison: data-visual contract,18,18,Automated,High,PASS,Major,validation_summary.json
+M4-TC-178,M7-M01,Module 7,Map validation,Country Comparison: location role,Country,Country,Automated,Critical,PASS,Critical,Country Performance Benchmark Map
+M4-TC-179,M7-M02,Module 7,Map validation,Country Comparison: legend role,Region,Region,Automated,High,PASS,Major,Country Performance Benchmark Map
+M4-TC-180,M7-M03,Module 7,Map validation,Country Comparison: size measure,Average Global Score,Average Global Score,Automated,High,PASS,Major,Country Performance Benchmark Map
+M4-TC-181,M7-M04,Module 7,Map validation,Country Comparison: tooltip coverage,>=4,4,Automated,High,PASS,Major,"University Count, Average Research Impact, Average Academic Reputation, Average Rank Movement"
+M4-TC-182,M7-M05,Module 7,Map validation,Country Comparison: map stays inside page,bottom <= 1704,1680,Automated,High,PASS,Major,map position and page height
+M4-TC-183,M7-M06,Module 7,Map validation,Country Comparison: map title is present,non-empty title,Country Performance Benchmark Map,Automated,High,PASS,Major,visualContainerObjects.title
+M4-TC-184,M7-M07,Module 7,Map validation,Country Comparison: all map projections active,all active,0,Automated,High,PASS,Major,map queryState
+M4-TC-185,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Academic Reputation,defined measure or column,Average Academic Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-186,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Employer Reputation,defined measure or column,Average Employer Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-187,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Employment Outcomes,defined measure or column,Average Employment Outcomes,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-188,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Global Score,defined measure or column,Average Global Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-189,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Industry Impact,defined measure or column,Average Industry Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-190,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Previous QS Rank,defined measure or column,Average Previous QS Rank,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-191,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average QS Rank,defined measure or column,Average QS Rank,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-192,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Rank Movement,defined measure or column,Average Rank Movement,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-193,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Research Impact,defined measure or column,Average Research Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-194,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Average Sustainability,defined measure or column,Average Sustainability,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-195,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Country,defined measure or column,Country,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-196,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Country Count,defined measure or column,Country Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-197,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Declined Universities,defined measure or column,Declined Universities,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-198,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Focus,defined measure or column,Focus,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-199,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Improved Universities,defined measure or column,Improved Universities,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-200,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Institution Status,defined measure or column,Institution Status,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-201,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - International Students %,defined measure or column,International Students %,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-202,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Region,defined measure or column,Region,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-203,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Research Activity,defined measure or column,Research Activity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-204,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - Size,defined measure or column,Size,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-205,M7-F01,Module 7,Field binding,Country Comparison: field exists in semantic model - University Count,defined measure or column,University Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-206,M7-D01,Module 7,Dashboard page contract,Executive Command Center: correct order,5,5,Automated,Critical,PASS,Critical,pages.json
+M4-TC-207,M7-D02,Module 7,Dashboard page contract,Executive Command Center: page width,1280,1280,Automated,High,PASS,Major,page.json
+M4-TC-208,M7-D03,Module 7,Dashboard page contract,Executive Command Center: page height,2204,2204,Automated,High,PASS,Major,page.json
+M4-TC-209,M7-D04,Module 7,Dashboard page contract,Executive Command Center: total visuals,26,26,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-210,M7-D05,Module 7,Dashboard page contract,Executive Command Center: dropdown slicers,6,6,Automated,Critical,PASS,Critical,visual definitions
+M4-TC-211,M7-D06,Module 7,Dashboard page contract,Executive Command Center: KPI cards,6,6,Automated,Critical,PASS,Critical,card visual definitions
+M4-TC-212,M7-D07,Module 7,Dashboard page contract,Executive Command Center: native navigator,1,1,Automated,Critical,PASS,Critical,navigator definition
+M4-TC-213,M7-D08,Module 7,Dashboard page contract,Executive Command Center: standard map,1,1,Automated,High,PASS,Major,map definition
+M4-TC-214,M7-D09,Module 7,Dashboard page contract,Executive Command Center: no inactive projections,0,0,Automated,Critical,PASS,Critical,queryState projections
+M4-TC-215,M7-D10,Module 7,Dashboard page contract,Executive Command Center: unique visual identifiers,26,26,Automated,High,PASS,Major,visual names
+M4-TC-216,M7-D11,Module 7,Dashboard page contract,Executive Command Center: KPI measures are bound,6,6,Automated,Critical,PASS,Critical,"Average Sustainability, University Count, Country Count, International Students %, Average Global Score, Average Research Impact"
+M4-TC-217,M7-D12,Module 7,Dashboard page contract,Executive Command Center: data-visual contract,23,23,Automated,High,PASS,Major,validation_summary.json
+M4-TC-218,M7-M01,Module 7,Map validation,Executive Command Center: location role,Country,Country,Automated,Critical,PASS,Critical,Global Excellence and Sustainability Map
+M4-TC-219,M7-M02,Module 7,Map validation,Executive Command Center: legend role,Region,Region,Automated,High,PASS,Major,Global Excellence and Sustainability Map
+M4-TC-220,M7-M03,Module 7,Map validation,Executive Command Center: size measure,Average Global Score,Average Global Score,Automated,High,PASS,Major,Global Excellence and Sustainability Map
+M4-TC-221,M7-M04,Module 7,Map validation,Executive Command Center: tooltip coverage,>=4,4,Automated,High,PASS,Major,"University Count, Average Research Impact, International Students %, Average Sustainability"
+M4-TC-222,M7-M05,Module 7,Map validation,Executive Command Center: map stays inside page,bottom <= 2204,2180,Automated,High,PASS,Major,map position and page height
+M4-TC-223,M7-M06,Module 7,Map validation,Executive Command Center: map title is present,non-empty title,Global Excellence and Sustainability Map,Automated,High,PASS,Major,visualContainerObjects.title
+M4-TC-224,M7-M07,Module 7,Map validation,Executive Command Center: all map projections active,all active,0,Automated,High,PASS,Major,map queryState
+M4-TC-225,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Academic Reputation,defined measure or column,Average Academic Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-226,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Employer Reputation,defined measure or column,Average Employer Reputation,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-227,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Global Score,defined measure or column,Average Global Score,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-228,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Rank Movement,defined measure or column,Average Rank Movement,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-229,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Research Impact,defined measure or column,Average Research Impact,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-230,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Student Population,defined measure or column,Average Student Population,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-231,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Average Sustainability,defined measure or column,Average Sustainability,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-232,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Country,defined measure or column,Country,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-233,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Country Count,defined measure or column,Country Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-234,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Focus,defined measure or column,Focus,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-235,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Global Score Target,defined measure or column,Global Score Target,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-236,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Institution Status,defined measure or column,Institution Status,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-237,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - International Students %,defined measure or column,International Students %,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-238,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Region,defined measure or column,Region,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-239,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Research Activity,defined measure or column,Research Activity,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-240,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Score Scale Maximum,defined measure or column,Score Scale Maximum,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-241,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Score Scale Minimum,defined measure or column,Score Scale Minimum,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-242,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - Size,defined measure or column,Size,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-243,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - University,defined measure or column,University,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-244,M7-F01,Module 7,Field binding,Executive Command Center: field exists in semantic model - University Count,defined measure or column,University Count,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-245,M7-D13,Module 7,Dashboard integration,Exact five-page order,University Overview > Research Analytics > Student Analytics > Country Comparison > Executive Command Center,University Overview > Research Analytics > Student Analytics > Country Comparison > Executive Command Center,Automated,Critical,PASS,Critical,pages.json
+M4-TC-246,M7-D14,Module 7,Dashboard integration,Total report visuals,110,110,Automated,Critical,PASS,Critical,all visual.json files
+M4-TC-247,M7-D15,Module 7,Dashboard integration,Active report bindings,310,310,Automated,Critical,PASS,Critical,all queryState projections
+M4-TC-248,M7-D16,Module 7,Dashboard integration,Inactive report bindings,0,0,Automated,Critical,PASS,Critical,all queryState projections
+M4-TC-249,M7-D17,Module 7,Dashboard integration,Total KPI cards,22,22,Automated,Critical,PASS,Critical,card visual count
+M4-TC-250,M7-D18,Module 7,Dashboard integration,Total page slicers,30,30,Automated,Critical,PASS,Critical,slicer count
+M4-TC-251,M7-D19,Module 7,Dashboard integration,Total native navigators,5,5,Automated,Critical,PASS,Critical,pageNavigator count
+M4-TC-252,M7-D20,Module 7,Dashboard integration,Total standard maps,5,5,Automated,High,PASS,Major,map count
+M4-TC-253,M7-D21,Module 7,Dashboard integration,Unique visual identifiers across report,110,110,Automated,High,PASS,Major,visual names
+M4-TC-254,M7-D22,Module 7,Dashboard compatibility,No sign-in-gated Azure Maps,0,0,Automated,Critical,PASS,Critical,visual type inventory
+M4-TC-255,M7-D23,Module 7,Dashboard compatibility,No blocked AI/cloud visuals,none,[],Automated,Critical,PASS,Critical,visual type inventory
+M4-TC-256,M7-S01,Module 7,Semantic model,Explicit DAX measures,35,35,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-257,M7-S02,Module 7,Semantic model,Imported data columns,35,35,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-258,M7-S03,Module 7,Semantic model,Embedded Import partition,Binary.Decompress and Binary.FromText,present,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-259,M7-S04,Module 7,Semantic model,No machine-specific File.Contents path,absent,absent,Automated,Critical,PASS,Critical,Universities.tmdl
+M4-TC-260,M7-S05,Module 7,Semantic model,No external data source object,0,0,Automated,High,PASS,Major,validation_summary.json
+M4-TC-261,M7-S06,Module 7,Semantic model,Model round-trip validation,passed,passed,Automated,Critical,PASS,Critical,validation_summary.json
+M4-TC-262,M7-S07,Module 7,Semantic model,Compatibility level,1702,1702,Automated,High,PASS,Major,validation_summary.json
+M4-TC-263,M7-S08,Module 7,Semantic model,Single denormalized university table,1,1,Automated,High,PASS,Major,validation_summary.json
+M4-TC-264,M7-A01,Module 7,Documentation,Dashboard storyboard exists,non-empty PDF,1265718,Automated,High,PASS,Major,dashboard_storyboard.pdf
+M4-TC-265,M7-A02,Module 7,Documentation,Opening instructions exist,README and OPEN_ME_FIRST,True,Automated,High,PASS,Major,approved project folder
+M4-TC-266,M7-A03,Module 7,Documentation,Beginner launcher exists,START_HERE_OPEN_EDUVISION.cmd,True,Automated,High,PASS,Major,approved project folder
+M4-TC-267,M7-UAT,Module 7,User acceptance testing,Open the PBIP project in current Power BI Desktop,Project opens without report-definition error,User confirmed working build,Manual UAT / structural corroboration,High,PASS,Major,User confirmed working build
+M4-TC-268,M7-UAT,Module 7,User acceptance testing,Refresh the embedded Import model once,"All 1,120 records load without a local-file credential prompt",Embedded model and populated dashboard confirmed,Manual UAT / structural corroboration,High,PASS,Major,Embedded model and populated dashboard confirmed
+M4-TC-269,M7-UAT,Module 7,User acceptance testing,University Overview KPI cards,"1,120 universities; 93 countries; average score 57.1; maximum 100.0",Values visible in supplied Power BI screenshot,Manual UAT / structural corroboration,High,PASS,Major,Values visible in supplied Power BI screenshot
+M4-TC-270,M7-UAT,Module 7,User acceptance testing,Research Analytics KPI cards,50.2 impact; 46.4 productivity; 59.9 quality; 33.0 citations,Values visible in supplied Power BI screenshot,Manual UAT / structural corroboration,High,PASS,Major,Values visible in supplied Power BI screenshot
+M4-TC-271,M7-UAT,Module 7,User acceptance testing,Student Analytics KPI cards,25K population; 17.3 students/staff; 14.6% international; 36.6 diversity,Values visible in supplied Power BI screenshot,Manual UAT / structural corroboration,High,PASS,Major,Values visible in supplied Power BI screenshot
+M4-TC-272,M7-UAT,Module 7,User acceptance testing,Country Comparison KPI cards,"93 countries; 1,120 universities; 389 improved; 428 declined",Values visible in supplied Power BI screenshot,Manual UAT / structural corroboration,High,PASS,Major,Values visible in supplied Power BI screenshot
+M4-TC-273,M7-UAT,Module 7,User acceptance testing,University Overview charts,"Donut, regional benchmark, rank movement and scorecard display data",Visuals visible in supplied screenshot,Manual UAT / structural corroboration,High,PASS,Major,Visuals visible in supplied screenshot
+M4-TC-274,M7-UAT,Module 7,User acceptance testing,Research Analytics charts,"Scatter, treemap, regional comparison and institution ranking display data",Visuals visible in supplied screenshot,Manual UAT / structural corroboration,High,PASS,Major,Visuals visible in supplied screenshot
+M4-TC-275,M7-UAT,Module 7,User acceptance testing,Student Analytics charts,"Scatter, size mix, diversity benchmark, gauge and matrix display data",Visuals visible in supplied screenshot,Manual UAT / structural corroboration,High,PASS,Major,Visuals visible in supplied screenshot
+M4-TC-276,M7-UAT,Module 7,User acceptance testing,Country Comparison charts,"Performance, employability, waterfall, matrix and decomposition display data",Visuals visible in supplied screenshot,Manual UAT / structural corroboration,High,PASS,Major,Visuals visible in supplied screenshot
+M4-TC-277,M7-UAT,Module 7,User acceptance testing,Standard map rendering,One map is available per dashboard after enabling Map/Filled Map security option,Map visuals visible in supplied screenshots,Manual UAT / structural corroboration,High,PASS,Major,Map visuals visible in supplied screenshots
+M4-TC-278,M7-UAT,Module 7,User acceptance testing,Page navigator in edit mode,Ctrl+click changes pages,Required Power BI Desktop interaction documented,Manual UAT / structural corroboration,High,PASS,Major,Required Power BI Desktop interaction documented
+M4-TC-279,M7-UAT,Module 7,User acceptance testing,Page navigator in reading mode,Single click changes pages,Native page navigator contract,Manual UAT / structural corroboration,High,PASS,Major,Native page navigator contract
+M4-TC-280,M7-UAT,Module 7,User acceptance testing,Region slicer,All page visuals filter to the selected region,Global slicer binding present on every page,Manual UAT / structural corroboration,High,PASS,Major,Global slicer binding present on every page
+M4-TC-281,M7-UAT,Module 7,User acceptance testing,Country slicer,All page visuals filter to selected country/countries,Country multi-select design present,Manual UAT / structural corroboration,High,PASS,Major,Country multi-select design present
+M4-TC-282,M7-UAT,Module 7,User acceptance testing,"Size, Focus, Research and Status slicers","Each selection updates cards, graphs and matrices on that page",Six-slicer page contracts verified,Manual UAT / structural corroboration,High,PASS,Major,Six-slicer page contracts verified
+M4-TC-283,M7-UAT,Module 7,User acceptance testing,Cross-filter from chart mark,Related visuals update to the selected category,Active projection contract verified,Manual UAT / structural corroboration,High,PASS,Major,Active projection contract verified
+M4-TC-284,M7-UAT,Module 7,User acceptance testing,Clear slicer selections,"Page returns to full 1,120-university context",No hidden persistent report filter defined,Manual UAT / structural corroboration,High,PASS,Major,No hidden persistent report filter defined
+M4-TC-285,M7-UAT,Module 7,User acceptance testing,Save refreshed project as PBIX,Loaded data and report pages persist in a single PBIX file,User previously confirmed PBIX save,Manual UAT / structural corroboration,High,PASS,Major,User previously confirmed PBIX save
+M4-TC-286,M7-UAT,Module 7,User acceptance testing,Reopen saved PBIX,Dashboard remains populated without repeating first-load setup,User previously confirmed ongoing PBIX workflow,Manual UAT / structural corroboration,High,PASS,Major,User previously confirmed ongoing PBIX workflow
