@@ -561,7 +561,9 @@ The four-dashboard architecture enables users to move from institution-level per
 👩‍💻 Author
 
 Developed by Aishwarya Todkari
+
 Computer Engineering Student
+
 Project: EduVision DV — Higher Education Performance Dashboard
 
 🙏 Thank You
