@@ -1,0 +1,26 @@
+{
+  "module_2": {
+    "rows_before": 747,
+    "rows_after": 747,
+    "completeness_percent": 98.3965,
+    "missing_rate_less_than_2_percent": true,
+    "duplicate_university_names": 0
+  },
+  "module_3": {
+    "6_plus_kpis_present": true,
+    "all_required_kpis_present": true,
+    "overall_kpi_formula_valid": true,
+    "kpi_missing_cells": 0
+  },
+  "module_4_6": {
+    "required_dashboards_found": {
+      "University Overview": true,
+      "Research Analytics": true,
+      "Student Analytics": true,
+      "Country Comparison": true
+    },
+    "all_four_dashboards_present": true,
+    "dashboard_count": 4,
+    "worksheet_count": 49
+  }
+}
