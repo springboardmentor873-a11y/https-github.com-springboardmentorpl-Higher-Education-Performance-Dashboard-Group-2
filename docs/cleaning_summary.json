@@ -1,0 +1,12 @@
+{
+  "rows_before": 747,
+  "duplicates_removed": 0,
+  "rows_dropped_missing_rank": 0,
+  "rows_after": 747,
+  "columns_after": 46,
+  "missing_cells": 551,
+  "missing_rate_percent": 1.6035,
+  "completeness_percent": 98.3965,
+  "module_2_target_met": true,
+  "duplicate_name_count_after": 0
+}
