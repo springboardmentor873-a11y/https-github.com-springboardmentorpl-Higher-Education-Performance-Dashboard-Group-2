@@ -1,0 +1,30 @@
+# Field Reference Report
+
+Datasource fields: 23
+
+- OK: [Academic_Excellence_Score] (1 references)
+- OK: [Academic_Reputation_KPI] (3 references)
+- OK: [Country] (65 references)
+- OK: [Enrollment Bin Label] (1 references)
+- OK: [Faculty_to_Student_Ratio] (4 references)
+- OK: [Global_Ranking_Score] (18 references)
+- OK: [Global_Ranking_Score (bin)] (1 references)
+- OK: [International_Student_Percentage] (7 references)
+- OK: [Number of Records] (3 references)
+- OK: [Region Coverage] (2 references)
+- OK: [Research_Impact_Score] (13 references)
+- OK: [Research_Productivity_Index] (4 references)
+- OK: [Top Country by Average Global Score] (2 references)
+- OK: [University] (52 references)
+- OK: [female_percentage] (1 references)
+- OK: [male_percentage] (1 references)
+- OK: [scores_citations] (4 references)
+- OK: [scores_research] (2 references)
+- OK: [scores_research (bin)] (1 references)
+- OK: [stats_number_students] (8 references)
+- OK: [stats_number_students (log)] (8 references)
+
+Missing referenced fields: 0
+
+## Reference Samples
+

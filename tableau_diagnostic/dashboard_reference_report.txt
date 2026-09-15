@@ -1,0 +1,45 @@
+# Dashboard Reference Report
+
+## University Overview
+- OK: zone 1 -> 'University Overview - Top 10 universities'; x=0 y=0 w=580 h=320
+- OK: zone 2 -> 'University Overview - Global score distribution'; x=600 y=0 w=580 h=320
+- OK: zone 3 -> 'University Overview - Reputation vs. ranking'; x=0 y=360 w=580 h=320
+- OK: zone 4 -> 'University Overview - Global score histogram'; x=600 y=400 w=580 h=320
+- OK: zone 5 -> 'University Overview - University comparison'; x=0 y=440 w=580 h=320
+- OK: zone 100 -> 'University Overview - KPI - Total Universities'; x=0 y=-120 w=280 h=100
+- OK: zone 101 -> 'University Overview - KPI - Average Global Score'; x=290 y=-120 w=280 h=100
+- OK: zone 102 -> 'University Overview - KPI - Countries Represented'; x=580 y=-120 w=280 h=100
+- OK: zone 103 -> 'University Overview - KPI - Region Coverage'; x=870 y=-120 w=280 h=100
+
+## Research Analytics
+- OK: zone 1 -> 'Research Analytics - Top research institutions'; x=0 y=0 w=580 h=320
+- OK: zone 2 -> 'Research Analytics - Productivity profile'; x=600 y=0 w=580 h=320
+- OK: zone 3 -> 'Research Analytics - Citations by institution'; x=0 y=360 w=580 h=320
+- OK: zone 4 -> 'Research Analytics - Research score distribution'; x=600 y=400 w=580 h=320
+- OK: zone 5 -> 'Research Analytics - Research benchmark table'; x=0 y=440 w=580 h=320
+- OK: zone 100 -> 'Research Analytics - KPI - Research Impact'; x=0 y=-120 w=280 h=100
+- OK: zone 101 -> 'Research Analytics - KPI - Productivity Index'; x=290 y=-120 w=280 h=100
+- OK: zone 102 -> 'Research Analytics - KPI - Citations'; x=580 y=-120 w=280 h=100
+- OK: zone 103 -> 'Research Analytics - KPI - Research Score'; x=870 y=-120 w=280 h=100
+
+## Student Analytics
+- OK: zone 1 -> 'Student Analytics - International student reach'; x=0 y=0 w=580 h=320
+- OK: zone 2 -> 'Student Analytics - Enrollment vs. faculty ratio'; x=600 y=0 w=580 h=320
+- OK: zone 3 -> 'Student Analytics - Gender composition'; x=0 y=360 w=580 h=320
+- OK: zone 4 -> 'Student Analytics - Enrollment distribution'; x=600 y=400 w=580 h=320
+- OK: zone 5 -> 'Student Analytics - Student profile table'; x=0 y=440 w=580 h=320
+- OK: zone 100 -> 'Student Analytics - KPI - Average International Students'; x=0 y=-120 w=280 h=100
+- OK: zone 101 -> 'Student Analytics - KPI - Average Faculty-to-Student Ratio'; x=290 y=-120 w=280 h=100
+- OK: zone 102 -> 'Student Analytics - KPI - Total Enrolled Students'; x=580 y=-120 w=280 h=100
+- OK: zone 103 -> 'Student Analytics - KPI - Universities with Enrollment'; x=870 y=-120 w=280 h=100
+
+## Country Comparison
+- OK: zone 1 -> 'Country Comparison - Country ranking comparison'; x=0 y=0 w=580 h=320
+- OK: zone 2 -> 'Country Comparison - Benchmark profile'; x=600 y=0 w=580 h=320
+- OK: zone 3 -> 'Country Comparison - Country KPI comparison'; x=0 y=360 w=580 h=320
+- OK: zone 4 -> 'Country Comparison - Country distribution'; x=600 y=400 w=580 h=320
+- OK: zone 5 -> 'Country Comparison - Benchmark detail'; x=0 y=440 w=580 h=320
+- OK: zone 100 -> 'Country Comparison - KPI - Total Countries'; x=0 y=-120 w=280 h=100
+- OK: zone 101 -> 'Country Comparison - KPI - Top Country by Global Score'; x=290 y=-120 w=280 h=100
+- OK: zone 102 -> 'Country Comparison - KPI - Average Global Score'; x=580 y=-120 w=280 h=100
+- OK: zone 103 -> 'Country Comparison - KPI - Average Research Impact'; x=870 y=-120 w=280 h=100

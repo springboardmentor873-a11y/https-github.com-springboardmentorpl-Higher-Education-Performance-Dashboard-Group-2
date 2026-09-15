@@ -1,0 +1,6 @@
+# Previous Repairs Report
+
+The preserved package and the current workbook are byte-identical.
+No prior XML modifications are observable in this workspace.
+
+The user-supplied fixed_final and other repair variants are absent, so their changes cannot be reconstructed.

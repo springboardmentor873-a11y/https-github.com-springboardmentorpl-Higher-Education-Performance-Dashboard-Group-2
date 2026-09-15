@@ -1,0 +1,429 @@
+# Workbook Inventory
+
+## Package
+
+- package entries: 2
+- TWB present: True
+- Excel datasource present: True
+
+## Workbook
+
+- root attributes: original-version='2024.2' source-build='2024.2.0' source-platform='win' version='18.1' {http://www.w3.org/XML/1998/namespace}base='http://tableau.com/xml/workbook'
+- child order: document-format-change-manifest, repository-location, preferences, datasources, worksheets, dashboards, windows
+
+- manifest: empty
+- repository-location: derived-from='http://localhost' id='EduVision' path='/workbooks/EduVision' revision='1.0'
+
+## Datasources
+
+- federated.0 caption='University Data' version='18.1' inline='true'
+  - connection: access_mode='readonly' authentication='auth-none' author-locale='en_US' class='excel-direct' filename='university_final_dataset_all_kpis.xlsx' sslmode=''
+  - relation: name='University_Data' table='[University_Data$]' type='table'
+  - field [University]: datatype='string' datatype-customized='true' name='[University]' role='dimension' type='nominal'
+  - field [Country]: datatype='string' datatype-customized='true' name='[Country]' role='dimension' type='nominal'
+  - field [Global_Ranking_Score]: datatype='real' datatype-customized='true' name='[Global_Ranking_Score]' role='measure' type='quantitative'
+  - field [Academic_Excellence_Score]: datatype='real' datatype-customized='true' name='[Academic_Excellence_Score]' role='measure' type='quantitative'
+  - field [Research_Impact_Score]: datatype='real' datatype-customized='true' name='[Research_Impact_Score]' role='measure' type='quantitative'
+  - field [Faculty_to_Student_Ratio]: datatype='real' datatype-customized='true' name='[Faculty_to_Student_Ratio]' role='measure' type='quantitative'
+  - field [International_Student_Percentage]: datatype='real' datatype-customized='true' name='[International_Student_Percentage]' role='measure' type='quantitative'
+  - field [Academic_Reputation_KPI]: datatype='real' datatype-customized='true' name='[Academic_Reputation_KPI]' role='measure' type='quantitative'
+  - field [Research_Productivity_Index]: datatype='real' datatype-customized='true' name='[Research_Productivity_Index]' role='measure' type='quantitative'
+  - field [scores_research]: datatype='real' datatype-customized='true' name='[scores_research]' role='measure' type='quantitative'
+  - field [scores_citations]: datatype='real' datatype-customized='true' name='[scores_citations]' role='measure' type='quantitative'
+  - field [stats_number_students]: datatype='real' datatype-customized='true' name='[stats_number_students]' role='measure' type='quantitative'
+  - field [female_percentage]: datatype='real' datatype-customized='true' name='[female_percentage]' role='measure' type='quantitative'
+  - field [male_percentage]: datatype='real' datatype-customized='true' name='[male_percentage]' role='measure' type='quantitative'
+  - field [Overall_QS]: datatype='real' datatype-customized='true' name='[Overall_QS]' role='measure' type='quantitative'
+  - field [Overall_THE]: datatype='real' datatype-customized='true' name='[Overall_THE]' role='measure' type='quantitative'
+  - field [Global_Ranking_Score (bin)]: datatype='real' datatype-customized='true' name='[Global_Ranking_Score (bin)]' role='measure' type='quantitative'
+  - field [scores_research (bin)]: datatype='real' datatype-customized='true' name='[scores_research (bin)]' role='measure' type='quantitative'
+  - field [Number of Records]: datatype='real' datatype-customized='true' name='[Number of Records]' role='measure' type='quantitative'
+  - field [Top Country by Average Global Score]: caption='Top Country by Average Global Score' datatype='string' name='[Top Country by Average Global Score]' role='dimension' type='nominal' calculation='IF RANK(AVG([Global_Ranking_Score])) = 1 THEN [Country] END'
+  - field [Region Coverage]: caption='Region Coverage' datatype='string' name='[Region Coverage]' role='dimension' type='nominal' calculation='"N/A (no Region column)"'
+  - field [stats_number_students (log)]: caption='Log Enrollment' datatype='real' name='[stats_number_students (log)]' role='measure' type='quantitative' calculation='LOG([stats_number_students])'
+  - field [Enrollment Bin Label]: caption='Enrollment Bin Label' datatype='string' name='[Enrollment Bin Label]' role='dimension' type='nominal' calculation='IF [stats_number_students (log)] < LOG(10000) THEN "< 10,000" ELSEIF [stats_number_students (log)] < LOG(25000) THEN "10,000-25,000" ELSEIF [stats_number_students (log)] < LOG(50000) THEN "25,000-50,000" ELSEIF [stats_number_students (log)] < LOG(100000) THEN "50,000-100,000" ELSE "100,000+" END'
+
+## Worksheets
+
+- University Overview - Top 10 universities
+  - worksheet attrs: name='University Overview - Top 10 universities'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:University:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=2 sorts=1 calculations=0 encodings=1
+- University Overview - Global score distribution
+  - worksheet attrs: name='University Overview - Global score distribution'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- University Overview - Reputation vs. ranking
+  - worksheet attrs: name='University Overview - Reputation vs. ranking'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Academic_Reputation_KPI:qk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Circle'}]
+  - filters=1 sorts=0 calculations=0 encodings=2
+- University Overview - Global score histogram
+  - worksheet attrs: name='University Overview - Global score histogram'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Global_Ranking_Score (bin):qk]' cols='[none:Number of Records:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- University Overview - University comparison
+  - worksheet attrs: name='University Overview - University comparison'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, filter
+  - pane order: view, mark, encodings
+  - rows='[none:University:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=2 sorts=0 calculations=0 encodings=3
+- Research Analytics - Top research institutions
+  - worksheet attrs: name='Research Analytics - Top research institutions'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:University:nk]' cols='[none:Research_Impact_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=2 sorts=1 calculations=0 encodings=1
+- Research Analytics - Productivity profile
+  - worksheet attrs: name='Research Analytics - Productivity profile'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Research_Productivity_Index:qk]' cols='[none:Research_Impact_Score:qk]'
+  - marks=[{'class': 'Circle'}]
+  - filters=1 sorts=0 calculations=0 encodings=2
+- Research Analytics - Citations by institution
+  - worksheet attrs: name='Research Analytics - Citations by institution'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:University:nk]' cols='[none:scores_citations:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=2 sorts=1 calculations=0 encodings=1
+- Research Analytics - Research score distribution
+  - worksheet attrs: name='Research Analytics - Research score distribution'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:scores_research (bin):qk]' cols='[none:Number of Records:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Research Analytics - Research benchmark table
+  - worksheet attrs: name='Research Analytics - Research benchmark table'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Research_Impact_Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=2
+- Student Analytics - International student reach
+  - worksheet attrs: name='Student Analytics - International student reach'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:International_Student_Percentage:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=1 calculations=0 encodings=1
+- Student Analytics - Enrollment vs. faculty ratio
+  - worksheet attrs: name='Student Analytics - Enrollment vs. faculty ratio'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:stats_number_students:qk]' cols='[none:Faculty_to_Student_Ratio:qk]'
+  - marks=[{'class': 'Circle'}]
+  - filters=1 sorts=0 calculations=0 encodings=2
+- Student Analytics - Gender composition
+  - worksheet attrs: name='Student Analytics - Gender composition'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:female_percentage:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=0 calculations=0 encodings=2
+- Student Analytics - Enrollment distribution
+  - worksheet attrs: name='Student Analytics - Enrollment distribution'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Enrollment Bin Label:nk]' cols='[none:Number of Records:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Student Analytics - Student profile table
+  - worksheet attrs: name='Student Analytics - Student profile table'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:University:nk]' cols='[none:International_Student_Percentage:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=3
+- Country Comparison - Country ranking comparison
+  - worksheet attrs: name='Country Comparison - Country ranking comparison'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=1 calculations=0 encodings=1
+- Country Comparison - Benchmark profile
+  - worksheet attrs: name='Country Comparison - Benchmark profile'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=1 calculations=0 encodings=3
+- Country Comparison - Country KPI comparison
+  - worksheet attrs: name='Country Comparison - Country KPI comparison'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, sort
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Bar'}]
+  - filters=1 sorts=1 calculations=0 encodings=1
+- Country Comparison - Country distribution
+  - worksheet attrs: name='Country Comparison - Country distribution'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Research_Impact_Score:qk]'
+  - marks=[{'class': 'Map'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Country Comparison - Benchmark detail
+  - worksheet attrs: name='Country Comparison - Benchmark detail'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='[none:Country:nk]' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=3
+- University Overview - KPI - Total Universities
+  - worksheet attrs: name='University Overview - KPI - Total Universities'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:University:nk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- University Overview - KPI - Average Global Score
+  - worksheet attrs: name='University Overview - KPI - Average Global Score'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- University Overview - KPI - Countries Represented
+  - worksheet attrs: name='University Overview - KPI - Countries Represented'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Country:nk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- University Overview - KPI - Region Coverage
+  - worksheet attrs: name='University Overview - KPI - Region Coverage'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Region Coverage:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Research Analytics - KPI - Research Impact
+  - worksheet attrs: name='Research Analytics - KPI - Research Impact'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Research_Impact_Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Research Analytics - KPI - Productivity Index
+  - worksheet attrs: name='Research Analytics - KPI - Productivity Index'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Research_Productivity_Index:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Research Analytics - KPI - Citations
+  - worksheet attrs: name='Research Analytics - KPI - Citations'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:scores_citations:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Research Analytics - KPI - Research Score
+  - worksheet attrs: name='Research Analytics - KPI - Research Score'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:scores_research:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Student Analytics - KPI - Average International Students
+  - worksheet attrs: name='Student Analytics - KPI - Average International Students'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:International_Student_Percentage:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Student Analytics - KPI - Average Faculty-to-Student Ratio
+  - worksheet attrs: name='Student Analytics - KPI - Average Faculty-to-Student Ratio'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Faculty_to_Student_Ratio:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Student Analytics - KPI - Total Enrolled Students
+  - worksheet attrs: name='Student Analytics - KPI - Total Enrolled Students'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:stats_number_students:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Student Analytics - KPI - Universities with Enrollment
+  - worksheet attrs: name='Student Analytics - KPI - Universities with Enrollment'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:stats_number_students:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Country Comparison - KPI - Total Countries
+  - worksheet attrs: name='Country Comparison - KPI - Total Countries'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Country:nk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Country Comparison - KPI - Top Country by Global Score
+  - worksheet attrs: name='Country Comparison - KPI - Top Country by Global Score'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Top Country by Average Global Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Country Comparison - KPI - Average Global Score
+  - worksheet attrs: name='Country Comparison - KPI - Average Global Score'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Global_Ranking_Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+- Country Comparison - KPI - Average Research Impact
+  - worksheet attrs: name='Country Comparison - KPI - Average Research Impact'
+  - table order: view, style, panes, rows, cols
+  - view order: datasources, datasource-dependencies, filter, aggregation
+  - pane order: view, mark, encodings
+  - rows='' cols='[none:Research_Impact_Score:qk]'
+  - marks=[{'class': 'Text'}]
+  - filters=1 sorts=0 calculations=0 encodings=1
+
+## Dashboards
+
+- University Overview: child order=repository-location,style,size,zones zones=9
+  - zone h='320' id='1' name='University Overview - Top 10 universities' show-title='true' type-v2='worksheet' w='580' x='0' y='0'
+  - zone h='320' id='2' name='University Overview - Global score distribution' show-title='true' type-v2='worksheet' w='580' x='600' y='0'
+  - zone h='320' id='3' name='University Overview - Reputation vs. ranking' show-title='true' type-v2='worksheet' w='580' x='0' y='360'
+  - zone h='320' id='4' name='University Overview - Global score histogram' show-title='true' type-v2='worksheet' w='580' x='600' y='400'
+  - zone h='320' id='5' name='University Overview - University comparison' show-title='true' type-v2='worksheet' w='580' x='0' y='440'
+  - zone h='100' id='100' name='University Overview - KPI - Total Universities' show-title='true' type-v2='worksheet' w='280' x='0' y='-120'
+  - zone h='100' id='101' name='University Overview - KPI - Average Global Score' show-title='true' type-v2='worksheet' w='280' x='290' y='-120'
+  - zone h='100' id='102' name='University Overview - KPI - Countries Represented' show-title='true' type-v2='worksheet' w='280' x='580' y='-120'
+  - zone h='100' id='103' name='University Overview - KPI - Region Coverage' show-title='true' type-v2='worksheet' w='280' x='870' y='-120'
+- Research Analytics: child order=repository-location,style,size,zones zones=9
+  - zone h='320' id='1' name='Research Analytics - Top research institutions' show-title='true' type-v2='worksheet' w='580' x='0' y='0'
+  - zone h='320' id='2' name='Research Analytics - Productivity profile' show-title='true' type-v2='worksheet' w='580' x='600' y='0'
+  - zone h='320' id='3' name='Research Analytics - Citations by institution' show-title='true' type-v2='worksheet' w='580' x='0' y='360'
+  - zone h='320' id='4' name='Research Analytics - Research score distribution' show-title='true' type-v2='worksheet' w='580' x='600' y='400'
+  - zone h='320' id='5' name='Research Analytics - Research benchmark table' show-title='true' type-v2='worksheet' w='580' x='0' y='440'
+  - zone h='100' id='100' name='Research Analytics - KPI - Research Impact' show-title='true' type-v2='worksheet' w='280' x='0' y='-120'
+  - zone h='100' id='101' name='Research Analytics - KPI - Productivity Index' show-title='true' type-v2='worksheet' w='280' x='290' y='-120'
+  - zone h='100' id='102' name='Research Analytics - KPI - Citations' show-title='true' type-v2='worksheet' w='280' x='580' y='-120'
+  - zone h='100' id='103' name='Research Analytics - KPI - Research Score' show-title='true' type-v2='worksheet' w='280' x='870' y='-120'
+- Student Analytics: child order=repository-location,style,size,zones zones=9
+  - zone h='320' id='1' name='Student Analytics - International student reach' show-title='true' type-v2='worksheet' w='580' x='0' y='0'
+  - zone h='320' id='2' name='Student Analytics - Enrollment vs. faculty ratio' show-title='true' type-v2='worksheet' w='580' x='600' y='0'
+  - zone h='320' id='3' name='Student Analytics - Gender composition' show-title='true' type-v2='worksheet' w='580' x='0' y='360'
+  - zone h='320' id='4' name='Student Analytics - Enrollment distribution' show-title='true' type-v2='worksheet' w='580' x='600' y='400'
+  - zone h='320' id='5' name='Student Analytics - Student profile table' show-title='true' type-v2='worksheet' w='580' x='0' y='440'
+  - zone h='100' id='100' name='Student Analytics - KPI - Average International Students' show-title='true' type-v2='worksheet' w='280' x='0' y='-120'
+  - zone h='100' id='101' name='Student Analytics - KPI - Average Faculty-to-Student Ratio' show-title='true' type-v2='worksheet' w='280' x='290' y='-120'
+  - zone h='100' id='102' name='Student Analytics - KPI - Total Enrolled Students' show-title='true' type-v2='worksheet' w='280' x='580' y='-120'
+  - zone h='100' id='103' name='Student Analytics - KPI - Universities with Enrollment' show-title='true' type-v2='worksheet' w='280' x='870' y='-120'
+- Country Comparison: child order=repository-location,style,size,zones zones=9
+  - zone h='320' id='1' name='Country Comparison - Country ranking comparison' show-title='true' type-v2='worksheet' w='580' x='0' y='0'
+  - zone h='320' id='2' name='Country Comparison - Benchmark profile' show-title='true' type-v2='worksheet' w='580' x='600' y='0'
+  - zone h='320' id='3' name='Country Comparison - Country KPI comparison' show-title='true' type-v2='worksheet' w='580' x='0' y='360'
+  - zone h='320' id='4' name='Country Comparison - Country distribution' show-title='true' type-v2='worksheet' w='580' x='600' y='400'
+  - zone h='320' id='5' name='Country Comparison - Benchmark detail' show-title='true' type-v2='worksheet' w='580' x='0' y='440'
+  - zone h='100' id='100' name='Country Comparison - KPI - Total Countries' show-title='true' type-v2='worksheet' w='280' x='0' y='-120'
+  - zone h='100' id='101' name='Country Comparison - KPI - Top Country by Global Score' show-title='true' type-v2='worksheet' w='280' x='290' y='-120'
+  - zone h='100' id='102' name='Country Comparison - KPI - Average Global Score' show-title='true' type-v2='worksheet' w='280' x='580' y='-120'
+  - zone h='100' id='103' name='Country Comparison - KPI - Average Research Impact' show-title='true' type-v2='worksheet' w='280' x='870' y='-120'
+
+## Other Structures
+
+- windows:  children=['window']
+- window count: 1
+- actions: 0
+- stories: 0
+- parameters: 0
+- sets: 0
+- bins: 0
+- aliases: 0
+- simple-id elements: 0
+
+## Element Counts
+
+- aggregation: 15
+- breakdown: 36
+- calculation: 4
+- cards: 1
+- cols: 36
+- column: 107
+- connection: 1
+- dashboard: 4
+- dashboards: 1
+- datasource: 37
+- datasource-dependencies: 36
+- datasources: 37
+- document-format-change-manifest: 1
+- encoding: 49
+- encodings: 36
+- filter: 40
+- groupfilter: 38
+- mark: 36
+- pane: 36
+- panes: 36
+- preferences: 1
+- relation: 1
+- repository-location: 41
+- rows: 36
+- size: 4
+- sort: 7
+- style: 40
+- table: 36
+- view: 72
+- window: 1
+- windows: 1
+- workbook: 1
+- worksheet: 36
+- worksheets: 1
+- zone: 36
+- zones: 4
