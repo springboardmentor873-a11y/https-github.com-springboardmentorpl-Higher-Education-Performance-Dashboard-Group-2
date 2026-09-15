@@ -28,17 +28,17 @@ The final project consists of four interconnected dashboards:
 # 🔄 Project Workflow
 
 -📥 Data Collection
-        ↓
+-        ↓
 -🧹 Data Cleaning & Transformation
-        ↓
+-        ↓
 -📊 KPI Engineering
-        ↓
+-        ↓
 -📝 Dashboard Planning
-        ↓
+-        ↓
 -📈 Dashboard Development
-        ↓
+-        ↓
 -🧪 Testing & Validation
-        ↓
+-        ↓
 -📚 Documentation & Delivery
 
 ---
