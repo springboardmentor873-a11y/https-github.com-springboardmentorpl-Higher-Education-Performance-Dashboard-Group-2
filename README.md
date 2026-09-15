@@ -27,21 +27,19 @@ The final project consists of four interconnected dashboards:
 
 # 🔄 Project Workflow
 
-Data Collection
-↓
-Data Cleaning & Transformation
-↓
-KPI Engineering
-↓
-Dashboard Planning
-↓
-Dashboard Development
-↓
-Dashboard Integration
-↓
-Testing & Validation
-↓
-Documentation & Delivery
+-📥 Data Collection
+        ↓
+-🧹 Data Cleaning & Transformation
+        ↓
+-📊 KPI Engineering
+        ↓
+-📝 Dashboard Planning
+        ↓
+-📈 Dashboard Development
+        ↓
+-🧪 Testing & Validation
+        ↓
+-📚 Documentation & Delivery
 
 ---
 
@@ -58,8 +56,9 @@ Documentation & Delivery
 
 ### Deliverables
 
-- `university_raw_data.csv`
-- `data_collection.py`
+- `2026 QS World University Rankings.csv`
+- `THE World University Rankings 2016-2026`
+  
 
 ### Outcome
 
