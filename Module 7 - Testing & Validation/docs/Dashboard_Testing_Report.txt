@@ -1,0 +1,140 @@
+EDUVISION – MODULE 7 DASHBOARD TESTING REPORT
+
+Project: Higher Education Performance Dashboard
+Module: 7 – Testing & Validation
+Testing Scope: KPI validation, ranking validation, dashboard functionality, filters, interactions, and tooltips
+
+1. OBJECTIVE
+
+The purpose of Module 7 testing was to validate the accuracy and functionality of the EduVision dashboard before final project delivery.
+
+Testing covered:
+
+* KPI dataset validation
+* KPI value validation
+* Ranking-related field validation
+* Integrated Tableau workbook validation
+* Dashboard loading
+* Filters
+* KPI metric display
+* Chart interactions
+* Comparison interactions
+* Tooltips
+
+2. AUTOMATED VALIDATION
+
+The automated validation script tested the final KPI dataset and integrated Tableau workbook.
+
+Automated validation results:
+
+Total automated checks: 13
+Passed: 13
+Failed: 0
+
+The following areas were validated:
+
+* Final KPI dataset exists
+* Final KPI dataset contains 1008 rows
+* No duplicate university names
+* All six required KPI columns are present
+* Global Ranking Score validation
+* Research Impact Score validation
+* Faculty-to-Student Ratio validation
+* International Student Percentage validation
+* Academic Reputation Score validation
+* Research Productivity Index validation
+* Ranking-related fields are available
+* Integrated EduVision Tableau workbook exists
+* Four expected dashboards are present
+
+Automated Validation Status: PASS
+
+3. MANUAL DASHBOARD TESTING
+
+All four dashboards were manually tested.
+
+3.1 Overview Dashboard
+
+Tests performed:
+
+* Dashboard loads correctly
+* Filters work correctly
+* KPI metrics display correctly
+* Chart interactions work correctly
+* Tooltips display correctly
+
+Result: 5/5 PASS
+
+3.2 Research Dashboard
+
+Tests performed:
+
+* Dashboard loads correctly
+* Filters work correctly
+* KPI metrics display correctly
+* Chart interactions work correctly
+* Tooltips display correctly
+
+Result: 5/5 PASS
+
+3.3 Student analysis Dashboard
+
+Tests performed:
+
+* Dashboard loads correctly
+* Filters work correctly
+* KPI metrics display correctly
+* Chart interactions work correctly
+* Tooltips display correctly
+
+Result: 5/5 PASS
+
+3.4 Comparison Dashboard
+
+Tests performed:
+
+* Dashboard loads correctly
+* Filters work correctly
+* KPI metrics display correctly
+* Chart comparison interactions work correctly
+* Tooltips display correctly
+
+Result: 5/5 PASS
+
+4. TESTING SUMMARY
+
+Automated Tests: 13
+Automated Passed: 13
+Automated Failed: 0
+
+Manual Tests: 20
+Manual Passed: 20
+Manual Failed: 0
+
+Total Validation Checks: 33
+Total Passed: 33
+Total Failed: 0
+
+Dashboards Tested: 4/4
+
+Overall Testing Status: PASS
+
+5. ISSUES IDENTIFIED
+
+No major issues were identified during the final automated and manual validation.
+
+All tested dashboard functions, KPI displays, filters, chart interactions, comparison interactions, and tooltips operated as expected.
+
+6. CONCLUSION
+
+The EduVision dashboard successfully passed the Module 7 testing and validation process.
+
+The final KPI dataset, ranking-related fields, integrated Tableau workbook, dashboard structure, and tested dashboard interactions were validated successfully.
+
+Final Validation Result:
+
+33/33 checks passed
+0 failures
+4/4 dashboards tested successfully
+
+Module 7 Testing & Validation Status: COMPLETE
