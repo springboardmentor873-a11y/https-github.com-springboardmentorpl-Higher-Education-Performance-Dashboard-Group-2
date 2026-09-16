@@ -42,6 +42,6 @@ The final output is a unified Tableau workbook consisting of four interconnected
 
 ## 📄 Project Documents & References
 The following foundational documents were referenced and utilized to build the project scope, layouts, and logic:
-*   `EduVision_Presentation (1).pptx`: Project pitch and high-level architectural overview.
+*   `EduVision_Presentation.pptx`: Project pitch and high-level architectural overview.
 *   `HEP.pdf`: Detailed project statement, milestones, evaluation criteria, and technical stack.
 *   `dashboard_storyboard.pdf`: Initial wireframes and layout designs for the Tableau dashboards.
