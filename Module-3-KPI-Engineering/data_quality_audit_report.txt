@@ -1,0 +1,31 @@
+DATA QUALITY AUDIT COMPLETED
+Rows: 1008
+Columns: 61
+Duplicate rows: 0
+
+Missing values:
+                                   missing_count  missing_percent
+qs_SUS RANK                                  888            88.10
+qs_Previous Rank                             549            54.46
+qs_ER RANK                                   497            49.31
+qs_AR RANK                                   484            48.02
+qs_2026 Rank                                 484            48.02
+qs_overall_score                             484            48.02
+qs_FSR RANK                                  477            47.32
+qs_ISR RANK                                  440            43.65
+qs_EO RANK                                   434            43.06
+qs_ISD RANK                                  430            42.66
+qs_IFR RANK                                  430            42.66
+qs_CPF RANK                                  425            42.16
+qs_IRN RANK                                  422            41.87
+the_female_to_male_ratio_clean                63             6.25
+the_female_to_male_ratio_original             53             5.26
+the_Female to Male Ratio                      53             5.26
+qs_IFR SCORE                                  41             4.07
+qs_Status                                     24             2.38
+qs_ISD SCORE                                  19             1.88
+qs_ISR SCORE                                  19             1.88
+qs_SUS SCORE                                   2             0.20
+
+Final status:
+PASS - No critical data-quality issues detected.
