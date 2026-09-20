@@ -26,6 +26,10 @@ The project is modularized into a standard Data Science folder structure for max
 │   └── eduvision_dashboard_v1.twb
 ├── module_06/                            # Tableau Packaged Workbook
 │   └── EduVision_DV.twbx
+├── module_07/                            # Tableau Packaged Workbook
+│   └── EduVision_DV.twbx
+├── module_08/                            # Dashboard Presentation
+│   └── EduVision_Dashboard_Presentation.pptx
 ├── requirements.txt                      # Python dependencies
 └── README.md                             # Project documentation
 ```
@@ -57,10 +61,11 @@ Generates actionable metrics for dashboard visualization.
 - Exports the final metrics to `module_03/university_final_dataset.xlsx`.
 
 ### Dashboard & Visualization
-The root directory includes the visualization deliverables built on top of the final dataset:
-- **`eduvision_dashboard_v1.twb`**: Tableau Workbook containing the dashboard layout and sheets.
-- **`EduVision_DV.twbx`**: Tableau Packaged Workbook containing the dashboard along with the extracted dataset.
-- **`dashboard_storyboard.pdf`**: Exported PDF of the dashboard storyboard for presentations and quick viewing.
+The visualization deliverables built on top of the final dataset are stored in their respective module directories:
+- **`module_04/dashboard_storyboard.pdf`**: Exported PDF of the dashboard storyboard for presentations and quick viewing.
+- **`module_05/eduvision_dashboard_v1.twb`**: Tableau Workbook containing the dashboard layout and sheets.
+- **`module_06/EduVision_DV.twbx`** & **`module_07/EduVision_DV.twbx`**: Tableau Packaged Workbooks containing the dashboard along with the extracted dataset.
+- **`module_08/EduVision_Dashboard_Presentation.pptx`**: PowerPoint presentation summarizing the insights.
 
 ## 🛠️ Setup & Installation
 
